@@ -251,6 +251,13 @@
                 "immagine": "dati/immaginiProdotti/vitamina.jpg",
                 "sconto": "10%",
                 "prezzo originale": "18.99"
+            },  {
+                "nome": "Bagnodoccia Detossinante",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della persona sconti",
+                "immagine": "dati/immaginiProdotti/vitamina.jpg",
+                "sconto": "10%",
+                "prezzo originale": "18.99"
             }
     ]
 }
