@@ -137,9 +137,6 @@
             "prezzo": "18.99",
             "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
         },{
-<<<<<<< HEAD
-            "nome": "Carbone ",
-=======
             "nome": "Carbone Vegetale Attivo",
             "categoria": "integratori alimentari",
             "microcategoria": "Make-up naturale",
@@ -149,7 +146,6 @@
             "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto.Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
         },{
             "nome": "Carbone Vegetale Attivo",
->>>>>>> af0feb2cb3313dc9e57725afb5399d2cdf0e1120
             "categoria": "integratori alimentari",
             "microcategoria": "Make-up naturale",
             "immagine": "dati/immaginiProdotti/carbone.jpg",
