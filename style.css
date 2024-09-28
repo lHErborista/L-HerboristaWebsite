@@ -160,10 +160,10 @@ html, body {
 
 
 
+
+
 /* SEZIONI */
 main{
-   /*  display: flex;
-    flex-direction: column; */
     padding-top: 5rem;
     width: 100vw;
     position: relative;
@@ -183,18 +183,20 @@ section{
 /* Home Section */
 #Home{ 
     position: absolute;
+    background-color: yellow;
     top: 0;
     left: 0;
-    height: 59.375rem;
+    height: 60rem;
     width: 100%;
     background-color: var(--bg-color);
 }
 .home-container{
     position: absolute;
-    top: -1%;
+    top: 0;
     left: -1%;
     width: 102%;
     height: 100%;
+    overflow: hidden;
 }
 .Home_Image{
     width: 100%;
@@ -207,7 +209,6 @@ section{
     background-size: cover;
     background-position:top;
     filter: blur(6px);
-    overflow: hidden;
 }
 #backdropHome{
     position: absolute;
@@ -329,11 +330,10 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
 .carousel{
-    margin-top: -1.5rem;
-    width: 102%;
-    margin-left: -1rem;
+    width: 100%;
 }
 .prodotti-consigliati{
     height: 550px;
@@ -347,7 +347,7 @@ section{
     font-style: italic;
 }
 .prodotti-consigliat-container{
-    height: 85%;
+    height: 80%;
     display: flex;
     justify-content: space-between;
     width: 94%;
@@ -356,7 +356,7 @@ section{
 .item-consigliato{
     background-color: var(--bg-color-primo-livello);
     width: 22rem;
-    height:30rem;
+    height: 100%;
     margin: 0px 1px;
     position: relative;
     z-index: 1;
@@ -365,7 +365,7 @@ section{
 }
 .item-consigliato img{
     width: 100%;
-    height: 24rem;
+    height: 80%;
     border-radius: 4px;
 }
 .item-consigliato-description{
@@ -377,7 +377,7 @@ section{
     z-index: 4;
     top: 75%; 
     overflow: hidden;
-    height: 3.6rem;
+    height: 3rem;
     transition: top 0.2s ease-out, height 0.2s ease-out;
 }
 .item-consigliato h3{
@@ -385,6 +385,7 @@ section{
     font-style: italic;
     text-align: center;
     margin-top: 1rem;
+    font-size: 22px;
 }
 .item-consigliato .categoria{
     color: var(--lighter-color);
@@ -406,24 +407,29 @@ section{
     background-color: rgb(253, 93, 93);
 }
 .footerProducts{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     display: flex;
-    height: 6rem;
-    position: relative;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
 }
 .footerProducts p{
     color: var(--lighter-color);
-    position: absolute;
-    right: 2rem;
+    width: 40%;
     font-size: 22px;
-    bottom: 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ordina-btn{
-    width: 13rem;
-    margin-top: 3rem;
-    margin-left: 1rem;
-    text-align: center;
-    border-radius: 10px;
+    width: 60%;
     position: relative;
+    text-align: center;
+    margin-left: 1rem;
+    border-radius: 10px;
     overflow: hidden;
     height: 2rem;
     font-size: 20px;
@@ -464,7 +470,7 @@ section{
 } 
 .hover-img:hover + .item-consigliato-description,
 .item-consigliato-description:hover {
-    top: 30%; 
+    top: 28%; 
     height: 15rem;  
 }
 .hover-img:hover + #backdropProductsOfferte,
@@ -493,7 +499,7 @@ section{
     margin-bottom: 1rem;
     text-align: center;
     color: var(--contrast-color);
-    font-size: 20px;
+    font-size: 22px;
 }
 .etichetta{
     position: absolute; 
@@ -538,10 +544,14 @@ section{
 .categorieDescription{
     z-index: 12;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 10%;
     height: 10rem;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .categorieDescription h3{
     font-style: italic;
@@ -550,9 +560,7 @@ section{
     height: 3rem;
 }
 .categorieDescription button{
-    width: 13rem;
-    margin-left: 1.5rem;
-    margin-top: 1rem;
+    width: 10rem;
     text-align: center;
     border-radius: 10px;
     position: relative;
@@ -589,27 +597,80 @@ section{
     margin-top: 1.5rem;
 }
 .prodotti-scontati-container{
-    height: 85%;
+    height: 80%;
     display: flex;
     justify-content: space-between;
     width: 94%;
     margin: 0px 3%;
 } 
-.prezzo-sale{
-    width: 10rem;
+.item-scontato{
+    background-color: white;
+    width: 22rem;
+    height: 100%;
     position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.item-scontato img{
+    width: 100%;
+    height: 80%;
+    border-radius: 4px;
+}
+.item-scontato-description{
+    background-color: white;
+    width: 100%;
+    height: 15rem;
+    margin: auto;
+    position: absolute;  
+    z-index: 4;
+    top: 75%; 
+    overflow: hidden;
+    height: 3rem;
+    transition: top 0.2s ease-out, height 0.2s ease-out;
+}
+.item-scontato h3{
+    color: var(--contrast-color);
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+}
+.item-scontato .categoria{
+    color: var(--lighter-color);
+}
+.item-scontato-description p{
+    text-align: center;
+    color: gray;
+}
+.item-scontato .footerProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+}
+.prezzo-sale{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #prezzo-originale{
-    font-size: 15px;    
-    position: absolute;
-    top: 2.2rem;
-    left: 1rem;
-    color: grey;
+    margin-top: -0.5rem;
+    width: 100%;
+    margin-left: -3rem;
+    font-size: 14px;    
+    color: var(--lighter-color);
     text-decoration: line-through;
 }
 #prezzo-scontato{
-    font-size: 24px;   
-    margin: -4px auto 8px auto;
+    color: var(--text-color);
+    border-radius: 4px;
+    background-color: var(--sconti-bg);
+    font-size: 22px; 
+    margin-top: -1rem;
+    width: 80%;
 }
 .scopri-div{
     position: absolute;
@@ -649,45 +710,7 @@ section{
     color: var(--text-color); 
     cursor: pointer;
 }
-.item-scontato{
-    background-color: white;
-    width: 22rem;
-    height: 30rem;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    border-radius: 4px;
-}
-.item-scontato img{
-    width: 100%;
-    height: 24rem;
-    border-radius: 4px;
-}
-.item-scontato-description{
-    background-color: white;
-    width: 100%;
-    height: 15rem;
-    margin: auto;
-    position: absolute;  
-    z-index: 4;
-    top: 75%; 
-    overflow: hidden;
-    height: 3.6rem;
-    transition: top 0.2s ease-out, height 0.2s ease-out;
-}
-.item-scontato h3{
-    color: var(--contrast-color);
-    font-style: italic;
-    text-align: center;
-    margin-top: 1rem;
-}
-.item-scontato .categoria{
-    color: var(--lighter-color);
-}
-.item-scontato-description p{
-    text-align: center;
-    color: gray;
-}
+
 
 
 
@@ -753,7 +776,7 @@ section{
     top: 0;
     left: 13%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 76%;
     height: 100%;  
@@ -816,6 +839,9 @@ section{
     align-items: center;
     position: relative;
 }
+.macroCategorie-div button span{
+    color: var(--lighter-color);
+}
 .macroCategorie-div button.active{
     background-color: var(--bg-color-secondo-levello);
 }
@@ -844,7 +870,6 @@ section{
     background-color: var(--bg-color-secondo-levello);
     color: var(--dark-color);
 }
-
 .microCategorie:hover{
     color: var(--lighter-color);
 }
@@ -879,7 +904,6 @@ section{
 .microCategorie-container.active {
     display: grid; 
 }
-
 .macroCategorie{
     background-color: var(--bg-color-primo-livello);
 }
@@ -923,7 +947,7 @@ span{
     top: 0;
     left: 0;
     z-index: 10;
-    background-color: rgb(236, 236, 236);
+    background-color: var(--bg-color-primo-livello);
     width: 100%;
     height: 100%;
     display: none;
@@ -940,6 +964,7 @@ span{
     transform: translate(-50%);
     padding: 20px;
     border-radius: 10px;
+    background-color: var(--bg-color-secondo-levello);
 }
 .close-search-modal{
     position: absolute;
@@ -949,7 +974,7 @@ span{
     height: 2.5rem;
     border: none;
     font-size: 28px;
-    background-color: rgb(236, 236, 236);
+    background-color: var(--bg-color-primo-livello);
 }
 .close-search-modal:hover{
     transform: scale(1.2);
@@ -957,9 +982,9 @@ span{
 .search-btn-modal{
     border: none;
     position: absolute;
-    left: 27%;
+    left: 1rem;
     top: 1.8rem;
-    background-color: rgb(236, 236, 236);
+    background-color: var(--bg-color-primo-livello);
 }
 .search-btn-modal img{
     width: 25px;
@@ -1663,9 +1688,7 @@ footer p a{
         margin: 0;
         padding: 0;
     }
-    .home-container{
-        width: 103%;
-    }
+
     .Home_Description{
         width: 90%;
         height: 25rem;
@@ -1874,6 +1897,7 @@ footer p a{
     }
     .footerProducts{
         height: 3rem;
+        margin-top: -0.5rem;
         position: absolute;
         top: 55%;
         width: 100%;
@@ -1896,20 +1920,19 @@ footer p a{
         height: 6rem;  
     }
     .prezzo-sale{
+        margin-top: 1rem;
         width: 5rem;
     }
     #prezzo-originale{
         font-size: 12px;
-        position: absolute;
-        top: 0.2rem;
-        left: 0.5rem;
+        margin-left: -1rem;
+
     }
     #prezzo-scontato{
         font-size: 16px;
-        position: absolute;
-        top: 1.5rem;
-        right: 0.5rem;
     }
+
+
     .prodotti-scontatiContainer h3{
         margin-bottom: 0.5rem;
     }
@@ -2387,11 +2410,6 @@ footer p a{
         height: 1rem;
     }
 }
-
-
-
-
-
 /* TABLET MEDIA QUERY */
 @media(min-width: 31rem) and (max-width: 60rem){
     .mobile__nav_items{
@@ -2426,23 +2444,20 @@ footer p a{
         padding: 0;
         height: 75rem;
     }
-    .home-container{
-        width: 103%;
-    }
     .Home_Description{
         width: 90%;
         height: 25rem;
-        top: 35%;
+        top: 30%;
     }
     .logo{
         width: 30rem;
     }
     .Home_Description h3{
         font-size: 26px;
-        width: 80%;
+        width: 50%;
     }
     .Home_Description_btn{
-        width: 60%;
+        width: 50%;
         margin-top: 2rem;
     }
     .button-type{
@@ -2533,13 +2548,8 @@ footer p a{
         top: 1.5rem;
         right: 0.5rem;
     }
-    .ordina-btn{
-        width: 12rem;
-        height: 2rem;
-        font-size: 16px;    
-        position: absolute;
-        top: 1rem;
-        margin-left: 0.5rem;
+    .footerProducts p{
+        margin-top: 1.5rem;
     }
     .hover-img:hover + .item-consigliato-description,
     .item-consigliato-description:hover {
@@ -2660,7 +2670,6 @@ footer p a{
         display: flex;
         position: relative;
     }
-    
     .ordina-btn{
         width: 5rem;
         height: 2rem;
@@ -2675,20 +2684,19 @@ footer p a{
     }
     .prezzo-sale{
         width: 5rem;
-        position: absolute;
-        top: 0;
-        right: 0;
     }
     #prezzo-originale{
         font-size: 12px;
-        margin-top: -1rem;
-        margin-left: -1.5rem;
+        margin-top: 1.5rem;
+        margin-left: -1rem;
     }
     #prezzo-scontato{
         font-size: 18px;
-        position: absolute;
-        top: 2.3rem;
-        right: 1rem;
+        width: 100%;
+        margin-left:1rem;  
+    }
+    .item-scontato .ordina-btn{
+        margin-left: -0.5rem;
     }
     .prodotti-scontatiContainer h3{
         margin-bottom: 0.5rem;
@@ -2726,7 +2734,7 @@ footer p a{
         display: none;
     }
     .nav-bar-products-mobile{
-        margin-top: -0.4rem;
+        margin-top: -2.8rem;
         width: 100%;
         height: 3rem;
         background-color: var(--bg-color-primo-livello);
@@ -2736,8 +2744,8 @@ footer p a{
     }
     #categoria-attivaMobile{
         color: var(--dark-color);
-        font-size: 18px;
-        width: 15rem;
+        font-size: 14px;
+        width: 10rem;
         margin-top: 0.5rem;
         padding: 5px;
     }
@@ -2811,7 +2819,7 @@ footer p a{
         margin: 0;
         padding: 0;
     }
-    .macrocategoriaContainerMobile{
+    .macrocategoriaContainer{
         position: absolute;
         top: 100%;
         left: 0;
@@ -3187,17 +3195,244 @@ footer p a{
 
 
 
-/* 
-@media (min-width: 61rem) {
+
+@media(min-width: 960px) and (max-width: 1300px){
+    .item-scontato img,
+    .item-consigliato img{
+        height: 70%;
+    }
+    .item-consigliato,
+    .item-scontato{
+        height: 90%;
+    }
+}
+
+
+/* Laptop Media query */
+@media(min-width: 960px) and (max-width: 1900px){
+    
+    
+    /* Nav Bar */
     .hamburger {
         display: none !important;
     }
     .nav__items{
         display: flex;
     }
-    #Offerte{
-        background-color: cyan;
+    .navBar{
+        height: 3.5rem;
+    }
+    .nav__title a{
+        font-size: 28px;
+    }
+    .nav__items li a{
+        font-size: 18px;
+    }
+    .nav__items li{
+        margin: 0.8rem;
+    }
+    .VieniATrovarci{
+        font-size: 18px;
+        height: 2.2rem;
+        padding: 4px;
     }
 
+
+    /* Home */
+    .Home_Description{
+        height: 30rem;
+        width: 40rem;
+        top: 40%;
+    }
+    .logo{
+        width: 550px;
+    }
+    .Home_Description h3{
+        font-size: 30px;
+        width: 60%;
+        top: 55%;
+    }
+    .Home_Description_btn{
+        width: 50%;
+        top: 65%;
+    }
+    .button-type{
+        font-size: 18px;
+        height: 2.5rem;
+    }
+
+
+    /* Offerte */
+    #Offerte{
+        height: 130rem;
+    }
+    #Offerte h1{
+        margin-top: -1.5rem;
+        height: 2.8rem;
+        font-size: 18px;   
+    }
+    .prodotti-consigliati{
+        height: 500px;
+    }
+    .prodotti-consigliati h2{
+        font-size: 22px;
+    }
+    .item-consigliato img{
+        width: 100%;
+    }
+    .item-consigliato-description{
+        top: 70%;  
+    }
+    .item-consigliato h3{
+        font-size: 20px
+    }
+    .tag{
+        left: 1.5rem;
+        width: 4.5rem;
+        font-size: 16px;
+    }
+    .footerProducts p{
+        font-size: 18px;
+    }
+    .ordina-btn{
+        font-size: 18px;
+    }
+    .prodotti-scontati{
+        height: 950px;
+        margin-top: -2rem;
+    }
+    .prodotti-scontati h2{
+        font-size: 22px;
+        padding: 15px;
+    }
+    .prodotti-scontati h3{
+        font-size: 18px;
+        margin-top: -1rem;
+    }
+    .etichetta{
+        right: 3rem;
+        top: 3.4rem;
+        width: 18rem;
+    }
+    .categorie-container{
+        height: 300px; 
+    }
+    .categorieContainer{
+        height: 15rem;
+    }
+    .categorieDescription h3{
+        font-size: 18px;
+    }
+    .categorieDescription button{
+        font-size: 18px
+    }
+    .prodotti-scontatiContainer{
+        height: 500px;
+        margin-top: 2rem;
+    }   
+    .item-scontato{
+        width: 22rem;
+        height: 100%;  
+        margin: 1px;
+    }
+    .item-scontato .footerProducts{
+        height: 3rem;
+    }
+    .item-scontato .ordina-btn{
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    } 
+    #prezzo-originale{
+        margin-top: 0rem;
+        margin-left: -2rem;
+        font-size: 12px;    
+    }
+    #prezzo-scontato{
+        font-size: 18px; 
+        margin-top: -1rem;
+        width: 100%;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .hover-img:hover + .item-consigliato-description,
+    .item-consigliato-description:hover {
+        top: 28%; 
+        height: 12rem;  
+    }
+    .scopri-div{
+        top: 90%;
+    }
+
+
+
+    /* Prodotti Style */
+
+    #Prodotti{
+        top: 188rem;
+    }
+    .prodotti-title{
+        margin-top: -1.5rem;
+        height: 2.8rem;
+        font-size: 18px;   
+    }
+    .barra-prodotti{
+        margin-bottom: 2.7rem;
+    }
+    #categoria-attiva{
+        width: 13%;
+        font-size: 14px;
+        left: -1rem;
+    }
+    .categorie-nav-bar-container{
+        left: 13%;
+        width: 80%;  
+    }
+    .macroCategorie-div{
+        height: 100%;
+        width: 20%;
+    }
+    .search-bar{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 5%;
+    }
+    .search-btn{
+        right: 0.5rem;
+    }
+    .macroCategorie-div button span{
+        max-width: 60%;
+    }
+    .macroCategorie
+    #tradDiv{
+        width: 15rem;
+        font-size: 16px;
+    }
+    #ideeDiv{
+        width: 15rem;
+        font-size: 16px;
+    }
+    #aliDiv{
+        width: 15rem;
+        font-size: 16px;
+    }
+    #inteDiv{
+        width: 15rem;
+        font-size: 16px;
+    }
+    #cosmDiv{
+        width: 18rem;
+        font-size: 16px;
+    }
+    #outDiv{
+        width: 15rem;
+        font-size: 16px;
+    }
+    .prodotti-container {
+        grid-template-columns: repeat(5, 19%);
+        grid-template-rows: repeat(3, 34%);
+    }
+
+
 }
- */

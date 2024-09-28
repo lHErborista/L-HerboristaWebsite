@@ -176,6 +176,13 @@
             "descrizione": "tisane",
             "microcategoria": "Energia e stanchezza",
             "immagine": "dati/immaginiProdotti/vitamina.jpg"
+        },{
+            "nome": "vitamida b",
+            "microcategoria": "Oli e burri alimentari",
+            "immagine": "dati/immaginiProdotti/vitamina.jpg",
+            "promo": "",
+            "prezzo": "18.99",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
         }
     ],
     "Integratori Naturali":[
