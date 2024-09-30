@@ -219,6 +219,8 @@ let productsPerPage = 0;
 
 if (screenWidth <= 480){
     productsPerPage = 10;
+}if(screenWidth >= 960 || screenWidth <= 1900){
+    productsPerPage = 15
 }  else{
     productsPerPage = 18;
 }
@@ -510,7 +512,9 @@ let itemsPerMicroCatPage = 0;
 
 if (screenWidth <= 480){
     itemsPerMicroCatPage = 10;
-}  else{
+}if(screenWidth >= 960 || screenWidth <= 1900){
+    productsPerPage = 15
+} else{
     itemsPerMicroCatPage = 18;
 }
 
@@ -803,6 +807,8 @@ let itemsPerSearchPage = 0;
 
 if (screenWidth <= 480){
     itemsPerSearchPage = 10;
+}if(screenWidth >= 960 || screenWidth <= 1900){
+    productsPerPage = 15
 }  else{
     itemsPerSearchPage = 18;
 }

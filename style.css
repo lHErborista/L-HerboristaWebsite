@@ -3281,7 +3281,8 @@ footer p a{
         width: 100%;
     }
     .item-consigliato-description{
-        top: 70%;  
+        top: 70%; 
+        height: 3rem; 
     }
     .item-consigliato h3{
         font-size: 20px
@@ -3335,6 +3336,9 @@ footer p a{
         height: 100%;  
         margin: 1px;
     }
+    .item-scontato .item-consigliato-description h3{
+        margin-top: 1rem
+    }
     .item-scontato .footerProducts{
         height: 3rem;
     }
@@ -3365,8 +3369,9 @@ footer p a{
 
 
 
-    /* Prodotti Style */
 
+
+    /* Prodotti Style */
     #Prodotti{
         top: 188rem;
     }
@@ -3430,9 +3435,29 @@ footer p a{
         font-size: 16px;
     }
     .prodotti-container {
-        grid-template-columns: repeat(5, 19%);
+        grid-template-columns: repeat(5,19%);
         grid-template-rows: repeat(3, 34%);
     }
+
+
+    /* Chi Siamo style */
+    #ChiSiamo{
+        position: absolute;
+        top: 288rem;
+        height: 62.5rem; 
+    }
+    .chi-siamo-title{
+        margin-top: -1.5rem;
+        height: 2.8rem;
+        font-size: 18px;
+    }
+
+
+    /* Vieni a trovarci style */
+    #VieniATrovarci{
+        top: 350rem;
+    }
+
 
 
 }
