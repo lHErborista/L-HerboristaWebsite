@@ -37,9 +37,6 @@ OpenMenuBtn.addEventListener('click', open);
 CloseMenuBtn.addEventListener('click', close);
 
 
-
-
-
 /* Mobile Nav bar for products */
 const allOpenModalProductsNavbar = document.querySelectorAll('.openMicro');
 
@@ -216,12 +213,16 @@ const paginationContainer = document.getElementById('pagination');
 const screenWidth = window.innerWidth;
 let productsPerPage = 0;
 
+console.log(screenWidth)
+console.log(window.innerHeight)
 
 if (screenWidth <= 480){
     productsPerPage = 10;
-}if(screenWidth >= 960 || screenWidth <= 1900){
+}else if(screenWidth >= 960 && screenWidth <= 1900){
     productsPerPage = 15
-}  else{
+}  else if(screenWidth >= 2560){
+    productsPerPage = 21;
+}else{
     productsPerPage = 18;
 }
 
@@ -512,7 +513,7 @@ let itemsPerMicroCatPage = 0;
 
 if (screenWidth <= 480){
     itemsPerMicroCatPage = 10;
-}if(screenWidth >= 960 || screenWidth <= 1900){
+}else if(screenWidth >= 960 && screenWidth <= 1900){
     productsPerPage = 15
 } else{
     itemsPerMicroCatPage = 18;
@@ -807,7 +808,7 @@ let itemsPerSearchPage = 0;
 
 if (screenWidth <= 480){
     itemsPerSearchPage = 10;
-}if(screenWidth >= 960 || screenWidth <= 1900){
+}else if(screenWidth >= 960 && screenWidth <= 1900){
     productsPerPage = 15
 }  else{
     itemsPerSearchPage = 18;
