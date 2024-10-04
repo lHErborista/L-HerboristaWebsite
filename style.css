@@ -3727,37 +3727,38 @@ footer p a{
         footer{
             height: 5rem;
         }
-}
 
-@media(min-height: 1100px){
-    #Home{ 
-        height: 100rem;
-    }
-    #Offerte{
-        top: 94rem;
-        height: 200rem;
-    }
-    #Prodotti{
-        top: 260rem;
-        height: 150rem;
-    }
-    .prodotti-scontati{
-        height: 1250px;
-    }
-    #ChiSiamo{
-        top: 364rem;
-        height: 100rem; 
-    }
-    #VieniATrovarci{
-        position: absolute;
-        top: 456rem;
-        height: 75rem;
-    }
-    .logo-container img{
-        width: 400px;
-        height: 200px;
-    }
-    .a-container-recensioni a{
-        font-size: 25px;
-    }
+
+        @media(min-height: 1100px){
+            #Home{ 
+                height: 100rem;
+            }
+            #Offerte{
+                top: 94rem;
+                height: 200rem;
+            }
+            #Prodotti{
+                top: 260rem;
+                height: 150rem;
+            }
+            .prodotti-scontati{
+                height: 1250px;
+            }
+            #ChiSiamo{
+                top: 364rem;
+                height: 100rem; 
+            }
+            #VieniATrovarci{
+                position: absolute;
+                top: 456rem;
+                height: 75rem;
+            }
+            .logo-container img{
+                width: 400px;
+                height: 200px;
+            }
+            .a-container-recensioni a{
+                font-size: 25px;
+            }
+        }
 }
