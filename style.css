@@ -1800,6 +1800,7 @@ footer p a{
         height: 6rem;  
     }
     .prodotti-scontati{
+        margin-top: 1rem;
         height: 1580px;
     }
     .prodotti-scontati h2{
@@ -1949,7 +1950,7 @@ footer p a{
 
     /* Prodotti Section */
     #Prodotti{
-        top: 192rem;
+        top: 196rem;
         height: 90rem;
     }
     .prodotti-title{
@@ -2212,7 +2213,7 @@ footer p a{
     /* Chi siamo Section */
     #ChiSiamo{
         position: absolute;
-        top: 280rem;
+        top: 283rem;
         height: 62.5rem; 
     }
     .chi-siamo-title{
@@ -2246,7 +2247,7 @@ footer p a{
 
     /*  Vieni A trovarci section */
     #VieniATrovarci{
-        height: 1150px;
+        height: 1350px;
         top: 344rem;
     }
     .negozio-information-container{
@@ -2255,7 +2256,7 @@ footer p a{
     }
     .dove-siamo-container{
         width: 100%;
-        height: 20%;
+        height: 23%;
     }
     .dove-siamo-container h3{
         font-size: 20px;
@@ -2272,19 +2273,21 @@ footer p a{
     }
     .info-container{
         width: 100%;
-        height: 80%;
+        height: 77%;
         position: absolute;
-        top: 20%;
+        top: 23%;
     }
     .info-container h3{
         height: 3rem;
-        margin: 1rem auto -1rem auto;
         font-size: 20px;
+    }
+    .orari{
+        height: 20%;
     }
     .orari-container{
         width: 95%;
-        margin: -1rem auto 0rem auto;
-        height: 70%;
+        height: 80%;
+        margin-top: -2rem;
     }
     .day-title{
         display: none;
@@ -2303,9 +2306,6 @@ footer p a{
     .day-container:last-of-type{
         display: none;
     }
-    .orari{
-        height: 20%;
-    }
     .Orari{
         display: none;
     }
@@ -2321,9 +2321,9 @@ footer p a{
 
     .info-container__grid-container{
         height: 80%;
-        top: 21%;
+        top: 20%;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 20% 20% 30% 30%;
         justify-content: center;
         align-items: center;
     }
@@ -2358,26 +2358,34 @@ footer p a{
         height: 25px;
     }
     .recensioni-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 2rem;
     }
     .logo-container{
-        margin: 0rem 1rem 0.5rem -1rem;
         justify-content: center;
         align-items: center;
     }
     .logo-container img{
-        width: 180px;
-        height: 100px;
+        width: 200px;
+        height: 120px;
     }
     .recensioni-container{
-        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
     }
     .img-container-recensioni{
-        margin-left: 0rem;
+        margin-top: 0.8rem;
     }
     .a-container-recensioni{
         margin-top: 0rem;
         margin-left: 0rem;
+        text-align: center;
     }
     .a-container-recensioni a{
         font-size: 16px;
