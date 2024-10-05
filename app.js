@@ -213,14 +213,11 @@ const paginationContainer = document.getElementById('pagination');
 const screenWidth = window.innerWidth;
 let productsPerPage = 0;
 
-console.log(screenWidth)
-console.log(window.innerHeight)
-
 if (screenWidth <= 480){
     productsPerPage = 10;
 }else if(screenWidth >= 960 && screenWidth <= 1900){
     productsPerPage = 15
-}  else if(screenWidth >= 2560){
+}else if(screenWidth >= 2560){
     productsPerPage = 21;
 }else{
     productsPerPage = 18;
@@ -256,7 +253,7 @@ function rendereCategoria() {
             <div class="prodotti-backdrop"></div>
             <p class="sconto-prodotto">Sconto del ${prodotti[i]['sconto']}</p>
             <img src="${prodotti[i]['immagine']}" alt="">
-            <div class="products-description">
+            <div class="products-description outlet-version">
                 <h3>${prodotti[i]['nome']}</h3> 
 
                 <p class="categoria-prodotto">${prodotti[i]['categoria']}</p>
@@ -445,13 +442,13 @@ outletCategoria.addEventListener('click', () => {
     currentCategory = 'Prodotti in sconto'; 
     currentPage = 1;  
     rendereCategoria(); 
-    categoriaAttiva.innerHTML = "> " + currentCategory + "<span>sconti</span>";
+    categoriaAttiva.innerHTML = "> " + currentCategory;
 });
 outletNavBar.addEventListener('click', () => {
     currentCategory = 'Prodotti in sconto'; 
     currentPage = 1;  
     rendereCategoria(); 
-    categoriaAttiva.innerHTML = "> " + currentCategory + "<span>sconti</span>";
+    categoriaAttiva.innerHTML = "> " + currentCategory;
 });
 prodottiNavBar.addEventListener('click', () => {
     currentCategory = 'Tradizione erboristica'; 
@@ -521,28 +518,13 @@ if (screenWidth <= 480){
 
 function renderCheck(){
     
-
     ProdottiContainer.innerHTML = "";
-
-    if(microCurrentCategory.includes("sconti")){
-        
-        let updatedword = microCurrentCategory.replace("sconti", " ")
-        
-        if(screenWidth <= 960){
-            categoriaAttivaMobile.innerHTML = "> " + updatedword + "<span>sconti</span>";
-        }else{
-            categoriaAttiva.innerHTML = "> " + updatedword + "<span>sconti</span>";
-        }
+    if(screenWidth <= 960){
+        categoriaAttivaMobile.textContent = "> " + microCurrentCategory;
+    }else{
+        categoriaAttiva.textContent = "> " + microCurrentCategory;
     }
-    else{
-        if(screenWidth <= 960){
-            categoriaAttivaMobile.textContent = "> " + microCurrentCategory;
-        }else{
-            categoriaAttiva.textContent = "> " + microCurrentCategory;
-            console.log('okay')
-        }
-    }
-
+    
     const filteredProducts = [];
     
     for (const macro of listOfMacro) {
@@ -576,7 +558,7 @@ function renderCheck(){
             <div class="prodotti-backdrop"></div>
             <p class="sconto-prodotto">Sconto del ${prodotto['sconto']}</p>
             <img src="${prodotto['immagine']}" alt="">
-            <div class="products-description">
+            <div class="products-description outlet-version">
                 <h3>${prodotto['nome']}</h3> 
 
                 <p class="categoria-prodotto">${prodotto['categoria']}</p>

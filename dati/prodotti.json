@@ -221,9 +221,9 @@
     "Prodotti in sconto":[
             {
                 "nome": "vitamida b",
-                "descrizione": "oggettistica",
+                "descrizione": "oggettistica test test test test test test test test test test oggettistica test test test test test test test test test test",
                 "microcategoria": "Tradizione erboristica sconti",
-                "immagine": "dati/immaginiProdotti/vitamina.jpg",
+                "immagine": "dati/immaginiProdotti/carbone.jpg",
                 "sconto": "10%",
                 "prezzo originale": "18.99"
             }, {

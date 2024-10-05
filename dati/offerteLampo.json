@@ -4,7 +4,7 @@
             "nome": "carbone",
             "immagine": "dati/immaginiOfferte/carbone.jpg",
             "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
+            "descrizione" : "piccola descrizione test test test test test test test test test test test test test test test test piccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test test",
             "prezzo": "18.99"
         },
         {
@@ -41,7 +41,7 @@
             "nome": "carbone",
             "immagine": "dati/immaginiOfferte/carbone.jpg",
             "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
+            "descrizione" : "piccola descrizione test test test test test test test test test test test test test test test test piccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test test",
             "prezzo": "18.99",
             "sconto": "10%"
         },
