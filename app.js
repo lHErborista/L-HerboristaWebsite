@@ -18,6 +18,10 @@ linkMobile.forEach(link => {
   });
 });
 
+
+
+
+// MOBILE NAV BAR 
 /* Mobile Nav Bar */
 function open(){
     BackDrop.style.display = 'block';
@@ -80,7 +84,7 @@ closeMacroNabar.addEventListener('click', ()=>{
 
 
 
-
+// RENDERING OFFERTE STAGIONALI
 
 // Prodotti Consigliati Section
 let datiProdottiConsigliati = {};
@@ -176,6 +180,21 @@ function  renderProdottiScontati(){
 
         ProdottiScontatiContainer.appendChild(productDiv);
     }
+    document.querySelectorAll('.ordina-btn').forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            event.stopPropagation(); 
+    
+            const whatsappNumber = this.getAttribute('data-whatsapp-number');
+            const message = this.getAttribute('data-prefill-message');
+            
+            const encodedMessage = encodeURIComponent(message);
+            
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+            
+            window.location.href = whatsappLink;
+        });
+    });
 }
 function caricaDatiOfferteLampo() {
     fetch('./dati/offerteLampo.json') 
@@ -203,7 +222,7 @@ caricaDatiOfferteLampo()
 
 
 
-// Prodotti Section
+// RENDERING PRODOTTI SECTION
 
 // CATEGORIE
 // Renderizzare i prodotti di default 
@@ -230,9 +249,7 @@ const categoriaAttiva = document.getElementById('categoria-attiva');
 
 
 
-
-
-// Function to render products for the current category
+// render products for category
 function rendereCategoria() {
     ProdottiContainer.innerHTML = "";  
 
@@ -285,7 +302,7 @@ function rendereCategoria() {
     
                 <div class="prezzo-container-div">
                     <p class="prezzo">prezzo: <span class="prezzo-detail">${prodotti[i]['prezzo']}€</span></p>
-                    <button class="prodotto-btn" data-whatsapp-number="393402122842" 
+                    <button class="prodotto-btn" data-whatsapp-number="393914393426" 
                             data-prefill-message="Salve, vorrei ordinare il prodotto: ${prodotti[i]['nome']}">
                         ordina
                     </button>
@@ -499,6 +516,7 @@ allMacro.forEach(element => {
 
 
 // MICROCATEGORIE
+ 
 const microCategorieList = document.querySelectorAll('.microCategorie');
 var datiProdottiForMicroCat = {};
 const listOfMacro = ['Tradizione erboristica','Idee regalo ed oggettistica', 'Alimentazione naturale','Integratori Naturali','Cosmetici e cura della persona', 'Prodotti in sconto']
@@ -588,7 +606,12 @@ function renderCheck(){
                 <p class="prodotto-descrizione">${prodotto['descrizione']}</p>
                 <div class="prezzo-container-div">
                     <p class="prezzo">prezzo: <span class="prezzo-detail">${prodotto['prezzo']}€</span></p>
-                    <button class="prodotto-btn" refer="${prodotto['nome']}">ordina</button>
+            
+                    <button class="prodotto-btn" data-whatsapp-number="393914393426" 
+                            data-prefill-message="Salve, vorrei ordinare il prodotto: ${prodotto['nome']}">
+                        ordina
+                    </button>
+
                 </div>
             </div>
         `;
@@ -598,6 +621,25 @@ function renderCheck(){
 
         ProdottiContainer.appendChild(productDiv);
     }
+
+
+    document.querySelectorAll('.prodotto-btn').forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            event.stopPropagation(); 
+    
+            const whatsappNumber = this.getAttribute('data-whatsapp-number');
+            const message = this.getAttribute('data-prefill-message');
+            
+            const encodedMessage = encodeURIComponent(message);
+            
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+            
+            window.location.href = whatsappLink;
+        });
+    });
+
+
     setupMicroPagination(filteredProducts.length);  
 }
 function setupMicroPagination(totalItems) {
@@ -681,19 +723,24 @@ function caricaDatiMicroCat() {
         console.error('Errore:', error);
       });
 }
-microCategorieList.forEach(microCatBtn => {
+/* microCategorieList.forEach(microCatBtn => {
     microCatBtn.addEventListener('click', function () {
 
-        microCurrentCategory = microCatBtn.textContent;
-    
+        microCurrentCategory = microCatBtn.textContent;   
+
         caricaDatiMicroCat();
     });
 });
+ */
+
+
+
+
 
 // Show modal Micro Categorie
 const modalBtns = document.querySelectorAll('.modal-btn');
 let activeModalMicro = null; 
-let activeModalBtn = null;  
+let activeModalBtn = null; 
 
 modalBtns.forEach(modalBtn => {
     var categoria = modalBtn.getAttribute('refer');
@@ -723,6 +770,27 @@ modalBtns.forEach(modalBtn => {
             activeModalMicro = null;
             activeModalBtn = null;
         });
+
+        const modalbtn = document.querySelectorAll(".microCategorie");
+        modalbtn.forEach(btn =>{
+            btn.addEventListener('click', ()=>{
+                modalMicro.classList.remove('active');
+                modal.classList.remove('active');
+                activeModalMicro = null;
+                activeModalBtn = null;
+
+                microCurrentCategory = btn.textContent;   
+
+                if(screenWidth < 960){
+                    
+                    // Da finire 
+
+                }
+
+                caricaDatiMicroCat();
+            })
+        })
+
     }
 
     modalBtn.addEventListener('mouseover', openModal);
@@ -947,7 +1015,6 @@ function searchProducts() {
                 </div>
             `;
         } else {
-            // Non-sconti product rendering
             productDiv.innerHTML = `
                 <div class="prodotti-backdrop"></div>
                 <img src="${prodotto['immagine']}" alt="">
@@ -957,7 +1024,10 @@ function searchProducts() {
                     <p class="prodotto-descrizione">${prodotto['descrizione']}</p>
                     <div class="prezzo-container-div">
                         <p class="prezzo">prezzo: <span class="prezzo-detail">${prodotto['prezzo']}€</span></p>
-                        <button class="prodotto-btn" refer="${prodotto['nome']}">ordina</button>
+                        <button class="prodotto-btn" data-whatsapp-number="393914393426" 
+                                data-prefill-message="Salve, vorrei ordinare il prodotto: ${prodotto['nome']}">
+                            ordina
+                        </button>
                     </div>
                 </div>
             `;
@@ -965,6 +1035,23 @@ function searchProducts() {
 
         ProdottiContainer.appendChild(productDiv);
     }
+
+
+    document.querySelectorAll('.prodotto-btn').forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            event.stopPropagation(); 
+    
+            const whatsappNumber = this.getAttribute('data-whatsapp-number');
+            const message = this.getAttribute('data-prefill-message');
+            
+            const encodedMessage = encodeURIComponent(message);
+            
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+            
+            window.location.href = whatsappLink;
+        });
+    });
 
     setupSearchPagination(filteredProducts.length);
 }

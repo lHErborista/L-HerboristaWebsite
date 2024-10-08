@@ -182,6 +182,55 @@ section{
 
 
 /* Home Section */
+.contatti-nav{
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    z-index: 20;
+    height: 2rem;
+    left: 0;
+    background-color: var(--lighter-color);
+}
+.contatti-telefono{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 11rem;
+    padding: 5px;
+    height: 100%;
+}
+.contatti-nav img{
+    height: 25px;
+    width: 25px;
+    margin-right: 0.5rem;
+}
+.contatti-email{
+    position: absolute;
+    left: 14rem;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    padding: 4px;
+    height: 100%;
+}
+.social-nav{
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+
+
 .whatsapp{
     position: fixed;
     bottom: 0.5rem;
@@ -203,6 +252,8 @@ section{
 .whatsapp:hover{
     transform: scale(1.1);
 }
+
+
 
 #Home{ 
     position: absolute;
@@ -1737,6 +1788,48 @@ footer p a{
     }   
 
     /* Home Style */
+    .contatti-nav{
+        top: 3rem;
+        height: 3.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contatti-telefono{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 5px;
+        font-size: 14px;
+    }
+    .contatti-nav img{
+        height: 25px;
+        width: 25px;
+        margin-right: 0.5rem;
+        margin-top: -0.2rem;
+    }
+    .contatti-email{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 14px;
+        height: 50%;
+        left: 0;
+        pad: 5px;
+    }
+    .social-nav{
+        display: none;
+    }
+
+
+
+
     #Home {
         top: 0;
         left: 0;
@@ -2558,6 +2651,12 @@ footer p a{
     }   
 
     /* Home Style */
+    .contatti-nav{
+        top: 3rem;
+    } 
+        
+
+
     #Home {
         top: 0;
         left: 0;
@@ -3415,6 +3514,13 @@ footer p a{
 
 
     /* Home */
+
+    .contatti-nav{
+        top: 3.5rem;
+    } 
+       
+
+
     .Home_Description{
         height: 30rem;
         width: 40rem;
@@ -3729,7 +3835,10 @@ footer p a{
             font-size: 25px;
         }
 
-
+        .contatti-nav{
+            top: 5rem;
+        } 
+           
     
 
 
