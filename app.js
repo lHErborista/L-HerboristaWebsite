@@ -62,7 +62,6 @@ allOpenModalProductsNavbar.forEach((openBtnProducts) => {
         referCloseBtn.style.display= 'none';    
         openBtnProducts.style.display= 'block';       
     });
-
 });
 
 
@@ -505,7 +504,16 @@ const allMacro = document.querySelectorAll('.Mobile');
 allMacro.forEach(element => {
     let refer = element.getAttribute('refer');
 
+ 
+
     element.addEventListener('click', () => {
+
+        if (element && element.classList.contains('Mobile')) {
+            macroCategorieContainerMobile.style.display = 'none';
+            hamburgerMobielProducts.style.display = 'block';
+            closeMacroNabar.style.display = 'none';
+        }
+
         currentCategory = refer; 
         currentPage = 1;  
         rendereCategoria(); 
@@ -516,7 +524,6 @@ allMacro.forEach(element => {
 
 
 // MICROCATEGORIE
- 
 const microCategorieList = document.querySelectorAll('.microCategorie');
 var datiProdottiForMicroCat = {};
 const listOfMacro = ['Tradizione erboristica','Idee regalo ed oggettistica', 'Alimentazione naturale','Integratori Naturali','Cosmetici e cura della persona', 'Prodotti in sconto']
@@ -723,15 +730,19 @@ function caricaDatiMicroCat() {
         console.error('Errore:', error);
       });
 }
-/* microCategorieList.forEach(microCatBtn => {
+microCategorieList.forEach(microCatBtn => {
     microCatBtn.addEventListener('click', function () {
 
         microCurrentCategory = microCatBtn.textContent;   
 
         caricaDatiMicroCat();
+
+        macroCategorieContainerMobile.style.display = 'none';
+        hamburgerMobielProducts.style.display = 'block';
+        closeMacroNabar.style.display = 'none';
     });
 });
- */
+
 
 
 
@@ -780,12 +791,6 @@ modalBtns.forEach(modalBtn => {
                 activeModalBtn = null;
 
                 microCurrentCategory = btn.textContent;   
-
-                if(screenWidth < 960){
-                    
-                    // Da finire 
-
-                }
 
                 caricaDatiMicroCat();
             })
@@ -1135,9 +1140,10 @@ function showModalMobile(){
         
         searchModalMobile.style.display = "none";
         currentCategory = 'Tradizione erboristica';  
+    
         currentPage = 1; 
         rendereCategoria();  
-        categoriaAttiva.textContent = "> " + currentCategory;
+        categoriaAttivaMobile.textContent = "> " + currentCategory;
     });
 
     const searchBtnModalMobile = document.getElementById('search-btn-modalMobile');
