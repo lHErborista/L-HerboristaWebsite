@@ -328,8 +328,9 @@ section{
     width: 50%;
     text-align: center;
     color: var(--contrast-dark-color);
-    font-weight: bold;
+    font-weight: 900;
     font-family: serif;
+    letter-spacing: 1px;
     position: absolute;
     top: 60%;
     left: 50%;
