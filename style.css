@@ -33,6 +33,59 @@ html, body {
 }
 
 
+
+/* :root Generic Button */
+.button-style{
+    text-align: center;
+    width: 10rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    background: none;
+    color: var(--contrast-color);
+    border: 1px solid var(--contrast-color);
+    transition: color 0.4s ease;
+    z-index: 1;
+}
+.button-style::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+    background-color: var(--contrast-color);
+    z-index: -1;
+    transition: width 0.4s ease;
+}
+.button-style:hover::before {
+    width: 100%; 
+}
+.button-style:hover{
+    color: var(--bg-color); 
+    font-weight: bold
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* NAV BAR */
 .navBar{
     height: 4rem;
@@ -1527,11 +1580,8 @@ span{
     height: 90%;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 55% 45%;
     grid-template-rows: 1fr 1fr;
-
-   /*  justify-content: center;
-    align-items: center;  */
     gap: 10px;
 }
 .posizione{
@@ -1539,20 +1589,34 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    height: 80%;
+    margin: auto;
+    width: 80%;
+}
+.posizione:first-of-type{
+    margin-bottom: 1.5rem;
+}
+.posizione:last-of-type{
+    margin-top: -1rem;
 }
 .orari{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: left;
     text-align: left;
     grid-column: 2;
     grid-row: 1 / 3;
-    height: 80%;
+    height: 72%;
+    margin: auto;
 }
-
-
+.social-container{
+    padding: 20px 20px;
+}
+.social-container a img:hover{
+    transform: scale(1.1);
+}
 
 
 
@@ -1587,14 +1651,6 @@ span{
 .orari h3{
     padding-bottom: 10px;
 }
-
-
-
-
-
-
-
-
 .lunedi-container{
     padding: 0px 20px 20px 20px;
 }
@@ -1614,46 +1670,39 @@ span{
 
 
 
-.button-type{
-    text-decoration: none;
-    padding: 5px;
+.button-style{
     text-align: center;
-    width: 49%;
+    width: 10rem;
+    margin-left: 1rem;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    height: 50px;
+    height: 2.5rem;
     font-size: 1.5rem;
-    border: none;
     background: none;
     color: var(--contrast-color);
     border: 1px solid var(--contrast-color);
-    transition: color 0.4s ease; 
-    animation: fade-in 4s;
+    transition: color 0.4s ease;
+    z-index: 1;
 }
-.button-type:first-of-type{
-    animation: fade-in 3s;
-}
-.button-type::before {
+.button-style::before{
     content: '';
-    position: absolute;
-    top: 0;
-    left: -100%; 
-    width: 100%;
+    width: 0%;
     height: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
     background-color: var(--contrast-color);
-    transition: left 0.4s ease; 
-    z-index: -1; 
+    z-index: -1;
+    transition: width 0.4s ease;
 }
-.button-type:hover::before {
-    left: 0; 
+.button-style:hover::before {
+    width: 100%; 
 }
-.button-type:hover {
-    color: var(--text-color); 
-    cursor: pointer;
+.button-style:hover{
+    color: var(--bg-color); 
+    font-weight: bold
 }
-
-
 
 
 
@@ -1853,10 +1902,10 @@ span{
 
 
 
-
-
-
 /* 
+
+
+
 
 
 footer ul {
@@ -1958,7 +2007,54 @@ footer ul {
   height: 2px;
   width: 50px;
   background: var(--contrast-dark-color);
-} */
+}  */
+
+
+.footer-contacts{
+    height: 5rem;
+    width: 60%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+}
+.telefono,
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.telefono-description,
+.email-description{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.telefono-description h3,
+.email-description h3{
+    color: var(--contrast-dark-color);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.telefono-description p,
+.email-description p{
+    letter-spacing: 1px;
+}
+
+
+hr{
+    color:  white;
+}
+
+
+
+
 
 
 footer ul {
@@ -2039,13 +2135,6 @@ footer ul {
     color: var(--text-color);
     text-transform: capitalize;
 }
-
-
-
-
-
-
-
 
 
 
