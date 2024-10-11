@@ -1335,7 +1335,6 @@ span{
 .nav-bar-products-mobile{
     display: none;
 }
-
 .outlet-version{
     height: 16rem;
     top: 70%;
@@ -1397,6 +1396,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -0.1rem;
 }
 .imagePresentationContainer{
     height: 100%;
@@ -1419,7 +1419,7 @@ span{
     height: 100%;
     background-color: rgba(0,0,0,0.5);
     position: absolute;
-    top: -0.1rem;
+    top: 0rem;
     left: 0;
     backdrop-filter: blur(6px);
 }  
@@ -1489,48 +1489,197 @@ span{
 /* Vieni A trovarci Section*/
 #VieniATrovarci{
     position: absolute;
-    top: 373rem;
-    height: 850px;
+    top: 374.2rem;
+    height: 800px;
 }
 .negozio-information-container{
-    width: 98%;
-    margin-top: -1.5rem;
-    margin-left: 1%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     position: relative; 
     display: flex;
 }
 .dove-siamo-container{
     width: 50%;
-    height: 95%;
+    height: 100%;
 }
-.dove-siamo-container h3{
+/* .dove-siamo-container h3{
     width: 50%;
     height: 3rem;
     margin: 1rem auto -1.5rem auto;
     text-align: center;
     color: var(--contrast-dark-color);
     font-style: italic;
-}
+} */
 #map{
-    height: 600px;
-    width: 70%;
-    margin: 2rem auto;
+    height: 90%;
+    width: 100%;
     z-index: 1;
 }
+
+
+
+
+
+
 .info-container{
-    width: 45%;
-    height: 95%;
+    background-color: rgba(59, 139, 91, 0.8);
+    width: 50%;
+    height: 90%;
     position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+   /*  justify-content: center;
+    align-items: center;  */
+    gap: 10px;
 }
-.info-container h3{
+.posizione{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orari{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    grid-column: 2;
+    grid-row: 1 / 3;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.posizione h3,
+.orari h3{
+    padding: 20px;
+    color: var(--contrast-dark-color);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.posizione h4{
+    color: var(--text-color);
+    padding: 0px 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-shadow:  1px 1px 1px 1px rgba(0,0,0,1);
+}
+.posizione p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0px 20px;
+    color: rgb(216, 216, 216);
+    text-shadow:  1px 1px 1px 1px rgba(0,0,0,1);
+}
+.orari h3{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.lunedi-container{
+    padding: 0px 20px 20px 20px;
+}
+.lunedi-container p{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    color: rgb(216, 216, 216);
+    font-size: 18px;
+}
+.day{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}   
+
+
+
+.button-type{
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    width: 49%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    color: var(--contrast-color);
+    border: 1px solid var(--contrast-color);
+    transition: color 0.4s ease; 
+    animation: fade-in 4s;
+}
+.button-type:first-of-type{
+    animation: fade-in 3s;
+}
+.button-type::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: var(--contrast-color);
+    transition: left 0.4s ease; 
+    z-index: -1; 
+}
+.button-type:hover::before {
+    left: 0; 
+}
+.button-type:hover {
+    color: var(--text-color); 
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .info-container h3{
     height: 3rem;
     margin: 1rem auto -1.5rem auto;
     text-align: center;
     color: var(--contrast-dark-color);
     font-style: italic;
-}
-.orari{
+} */
+/* .orari{
     position: absolute;
     left: 0rem;
     height: 38%;
@@ -1570,10 +1719,10 @@ span{
     width: 14%;
     border: 1px solid var(--lighter-color)
 }
+ */
 
 
-
-
+/* 
 .info-container__grid-container{
     height: 62%;
     position: absolute;
@@ -1581,9 +1730,9 @@ span{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-}
+} */
 /* Place style */
-.place h3{
+/* .place h3{
     margin-bottom: 0.5rem;
 }
 .place p{
@@ -1595,10 +1744,10 @@ span{
 .via{
     font-weight: bold;
 }
-
+ */
 
 /* Contatti Style */
-.contatti h3{
+/* .contatti h3{
     margin-bottom: 0.5rem;
 }
 .information-container{
@@ -1617,9 +1766,9 @@ span{
     font-size: 18px;
 }
 
-
+ */
 /* Social style */
-.social p{
+/* .social p{
     color: rgb(154, 154, 154);
     text-align: center;
     font-size: 18px;
@@ -1642,11 +1791,11 @@ span{
 }
 .social-container img:hover{
     transform: scale(1.1);
-}
+} */
 
 
 /* Recensioni container */
-.recensioni-flex{
+/* .recensioni-flex{
         display: flex;
         height: 80%;
         margin-top: 0.5rem;
@@ -1688,6 +1837,22 @@ span{
 .a-container-recensioni a:hover{
     color: var(--lighter-color);
 }
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
