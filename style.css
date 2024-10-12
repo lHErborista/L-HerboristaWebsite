@@ -285,21 +285,27 @@ section{
 
 
 
-
-
-.whatsapp{
+.whatsapp-fixed-modal{
+    background-color: var(--footer);
     position: fixed;
-    bottom: 0.5rem;
-    border-radius: 50%;
-    right: 0.5rem;
-    width: 4rem;
-    height: 4rem;
-    background-color: var(--lighter-color);
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    right: 0rem;
+    bottom: 1rem;
     z-index: 20;
+    width: 5rem;
+    height: 4rem;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    border-radius: 8px 0px 0px 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-fixed-modal .content{
+    display: none;
+}
+.whatsapp{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .whatsapp img{
     width: 50px;
@@ -308,6 +314,17 @@ section{
 .whatsapp:hover{
     transform: scale(1.1);
 }
+
+.whatsapp-fixed-modal:hover {
+    width: 15rem;     
+}
+.whatsapp-fixed-modal:hover .content {
+    display: block;
+}
+
+
+
+
 
 
 
@@ -2046,8 +2063,6 @@ footer ul {
 .email-description p{
     letter-spacing: 1px;
 }
-
-
 hr{
     color:  white;
 }
