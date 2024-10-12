@@ -10,13 +10,27 @@
 
 
 :root{
+    
     --bg-color:  white;
+    --bg-color-contrast: whitesmoke;
+
+
+    --verde-scala-3: #1f6742;
+    --verde-scala-2: rgb(68, 156, 103) ;
+    --verde-scala-1: #A8BBA1;
+
+
+
+
+
+
+
+
+
+
     --bg-color-primo-livello: white;
     --bg-color-secondo-levello: rgb(227, 227, 227);
 
-
-    --dark-color: #1f6742;
-    --lighter-color: rgb(68, 156, 103) ;
 
 
     --contrast-dark-color: rgb(68, 156, 103);
@@ -28,7 +42,6 @@
     --sconti-bg:  rgb(68, 156, 103) ;
     --footer: #3b8b5b;
     --over-prdotti:   #f0f0f0;
-
 }
 
 
@@ -95,11 +108,29 @@ html, body {
 
 
 
-
-
-
-
-
+/* :root Generic a tag */
+.a-style{
+    text-decoration: none;
+    color: var(--bg-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.a-style::before{
+    content: ' ';
+    position: absolute;
+    top: 90%;
+    left: 0;
+    background-color: var(--verde-scala-1);
+    width: 0%;
+    height: 5px;
+    z-index: -1;
+    transition: width 0.3s ease;
+}
+.a-style:hover::before{
+    width: 100%;
+}
 
 
 
@@ -119,7 +150,8 @@ html, body {
     align-items: center;
     justify-content: space-between;
     z-index: 22;
-    background: var(--dark-color);
+    background: var(--verde-scala-3);
+    animation: fade-in 1s;
 }
 .nav__title a{
     text-decoration: none;
@@ -127,9 +159,6 @@ html, body {
     font-family: "Dancing Script", cursive;
     color: var(--bg-color);
     margin-left: 14px;
-}
-.nav__title span{
-    color: var(--contrast-color);
 }
 .nav__items{
     display: flex;
@@ -147,35 +176,63 @@ html, body {
 .nav__items li a,
 .mobile__nav_items li a{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--bg-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
 }
-.nav__items li:hover,
-.mobile__nav_items li:hover{
-    border-bottom: 10px solid var(--contrast-color);
-    cursor: pointer;
+.nav__items li a::before{
+    content: ' ';
+    position: absolute;
+    top: 90%;
+    left: 0;
+    background-color: var(--verde-scala-1);
+    width: 0%;
+    height: 5px;
+    z-index: -1;
+    transition: width 0.3s ease;
+}
+.nav__items li a:hover::before{
+    width: 100%;
 }
 .VieniATrovarci{
     margin-right: 1rem;
-    background-color: var(--contrast-dark-color);
+    background-color: var(--verde-scala-2);
     border-radius: 0.31rem;
     height: 2.5rem;
     width: 10rem;
     text-align: center;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--bg-color);
     font-size: 20px;
     padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
-.VieniATrovarci:hover,
-.VieniATrovarci:active{
-    background-color: var(--bg-color);
-    color: var(--dark-color);
-    border: 1px solid var(--contrast-dark-color);
-    cursor: pointer;
+.VieniATrovarci::before{
+    content: ' ';
+    background-color: var(--verde-scala-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: width 0.4s ease;
 }
+.VieniATrovarci:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 /* Mobile Nav Bar */
@@ -262,6 +319,9 @@ section{
 
 
 /* Home Section */
+
+
+/* Sotto Nav Bar style */
 .contatti-nav{
     position: absolute;
     top: 4rem;
@@ -270,6 +330,7 @@ section{
     height: 2rem;
     left: 0;
     background-color: var(--footer);
+    animation: fade-in 2s;
 }
 .contatti-telefono{
     position: absolute;
@@ -302,13 +363,16 @@ section{
     top: 0;
     padding: 4px;
 }
+.social-nav a img:hover{
+    transform: scale(1.1)
+}
 
 
 
 
 
 
-
+/* Whatsap Chat Fixed Style */
 .whatsapp-fixed-modal{
     background-color: var(--footer);
     position: fixed;
@@ -323,7 +387,6 @@ section{
     border-radius: 8px 0px 0px 8px;
     transition: all 0.3s ease-in-out;
 }
-
 .whatsapp-fixed-modal .content{
     display: none;
 }
@@ -338,13 +401,14 @@ section{
 .whatsapp:hover{
     transform: scale(1.1);
 }
-
 .whatsapp-fixed-modal:hover {
     width: 15rem;     
 }
 .whatsapp-fixed-modal:hover .content {
     display: block;
 }
+
+
 
 
 
@@ -378,18 +442,16 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top;
-
-   
 }
 #backdropHome{
     position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(5, 5, 5, 0.5);
-    z-index: 3;
     width: 100%;
     height: 100%;
     backdrop-filter: blur(6px);
+    z-index: 3;
 }
 .Home_Description{
     width: 60rem;
@@ -411,17 +473,14 @@ section{
     transform: translate(-50%);
     z-index: 3;
     animation: fade-in 1s;
-}
-@keyframes fade-in {
-    from {opacity: 0;}
-    to {top: 1;}
+    opacity: 0.8;
 }
 .Home_Description h3{
     font-size: 45px;
     margin: 12px auto;
     width: 50%;
     text-align: center;
-    color: var(--contrast-dark-color);
+    color: var(--verde-scala-2);
     font-weight: 900;
     font-family: serif;
     letter-spacing: 1px;
@@ -430,56 +489,59 @@ section{
     left: 50%;
     transform: translate(-50%);
     animation: fade-in 2s;
+    text-shadow: 1px 1px 1px 1px rgba(5, 5, 5, 0.5);
 }
 .Home_Description_btn{
-    height: 3rem;
+    height: 6rem;
     width: 40%;
     margin: 3rem auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%);
 }
-.button-type{
+.button-type {
     text-decoration: none;
     padding: 5px;
     text-align: center;
     width: 49%;
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
     height: 50px;
     font-size: 1.5rem;
-    border: none;
-    background: none;
-    color: var(--contrast-color);
-    border: 1px solid var(--contrast-color);
-    transition: color 0.4s ease; 
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
+    border: 1px solid var(--verde-scala-1);
+    transition: width 0.4s ease;
     animation: fade-in 4s;
-}
-.button-type:first-of-type{
-    animation: fade-in 3s;
+    z-index: 1;
+    overflow: hidden;
 }
 .button-type::before {
-    content: '';
+    content: ' ';
     position: absolute;
     top: 0;
-    left: -100%; 
-    width: 100%;
+    left: 0;
+    background-color: var(--verde-scala-1);
+    width: 0%;
     height: 100%;
-    background-color: var(--contrast-color);
-    transition: left 0.4s ease; 
-    z-index: -1; 
+    z-index: -1;
+    transition: width 0.4s ease;
 }
 .button-type:hover::before {
-    left: 0; 
+    width: 100%;
 }
-.button-type:hover {
-    color: var(--text-color); 
-    cursor: pointer;
-}
+
+
+
+
+
+
+
 
 
 
@@ -496,7 +558,7 @@ section{
 #Offerte h1{
     margin-top: -1rem;
     height: 3.2rem;
-    background-color: var(--lighter-color);
+    background-color: var(--verde-scala-2);
     text-align: center;
     color: var(--bg-color);
     font-style: italic;
@@ -509,20 +571,24 @@ section{
 .carousel{
     width: 100%;
 }
-.prodotti-consigliati{
-    height: 550px;
-    background-color: #A8BBA1;
-}
-.prodotti-consigliati h2{
-    font-size: 26px;
-    text-align: center;
-    margin: 1rem 1rem;
-    color: var(--bg-color);
+
+#Offerte h2{
+    padding: 20px;
+    color: var(--verde-scala-3);
     font-weight: bold;
     font-style: italic;
+    font-size: 26px;
+    text-align: center;
+}
+.prodotti-consigliati{
+    height: 500px;
+    background-color: var(--verde-scala-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .prodotti-consigliat-container{
-    height: 80%;
+    height: 90%;
     display: flex;
     justify-content: space-between;
     width: 94%;
@@ -556,14 +622,14 @@ section{
     transition: top 0.2s ease-out, height 0.2s ease-out;
 }
 .item-consigliato h3{
-    color: var(--contrast-color);
+    color: var(--verde-scala-3);
     font-style: italic;
     text-align: center;
     margin-top: 1rem;
     font-size: 22px;
 }
 .item-consigliato .categoria{
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
 }
 .item-consigliato-description p{
     text-align: center;
@@ -586,7 +652,7 @@ section{
     border-radius: 0px 0px 4px 4px;
     padding: 5px;
     text-align: center;
-    background-color: var(--lighter-color);
+    background-color: var(--verde-scala-2);
 }
 .footerProducts{
     position: absolute;
@@ -598,7 +664,7 @@ section{
     align-items: center;
 }
 .footerProducts p{
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
     width: 40%;
     font-size: 22px;
     margin-top: 1rem;
@@ -615,9 +681,10 @@ section{
     overflow: hidden;
     height: 2rem;
     font-size: 20px;
-    background: none;
-    color: var(--lighter-color);
-    border: 1px solid var(--lighter-color);
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
+    border: 1px solid var(--verde-scala-1);
+    z-index: 1;
     transition: color 0.4s ease; 
 }
 .ordina-btn::before {
@@ -627,7 +694,7 @@ section{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--lighter-color);
+    background-color: var(--verde-scala-1);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
@@ -635,7 +702,7 @@ section{
     left: 0; 
 }
 .ordina-btn:hover {
-    color: var(--text-color); 
+    color: var(--bg-color); 
     cursor: pointer;
 }
 #backdropProductsOfferte{
@@ -660,8 +727,20 @@ section{
     display: block;
     opacity: 1; 
 }
+
+
+
+
+
+
+
+
+
+
+
 .prodotti-scontati{
-    height: 1200px;
+    padding: 40px 0px;
+    height: 1300px;
     width: 100%;
     margin: auto;
     position: relative;
@@ -671,16 +750,16 @@ section{
     font-style: italic;
     font-size: 26px;
     text-align: center;
-    color: var(--contrast-dark-color);
+    color: var(--verde-scala-3);
     font-weight: bold;
-    padding: 20px;
+    padding: 40px;
     z-index: 10;
 }
 .prodotti-scontati h3{
     margin-top: -0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     text-align: center;
-    color: var(--contrast-color);
+    color: var(--verde-scala-2);
     font-size: 22px;
 }
 .etichetta{
@@ -693,16 +772,15 @@ section{
     background-color: var(--sconti-bg);
     width: 20rem;
     z-index: 10;
-    color: white;
+    color: var(--bg-color);
     text-align: center;
 }
 .sconti-tittle{
-    background-color: var(--sconti-bg);
-    color: var(--text-color);
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
     font-size: 18px;
     padding: 4px;
     border-radius: 4px;
-
 }
 .categorie-container{
     width: 94%;
@@ -710,7 +788,6 @@ section{
     display: flex;
     height: 400px;
     border-radius: 4px;
-
 }
 .categorieContainer{
     position: relative;
@@ -723,7 +800,7 @@ section{
     height: 100%;
 }
 .backdropCategorieImg{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -745,7 +822,7 @@ section{
 }
 .categorieDescription h3{
     font-style: italic;
-    color: var(--contrast-color);
+    color: var(--verde-scala-1);
     font-size: 22px;
     height: 3rem;
 }
@@ -757,10 +834,11 @@ section{
     overflow: hidden;
     height: 2rem;
     font-size: 20px;
-    background: none;
-    color: var(--lighter-color);
-    border: 1px solid var(--lighter-color);
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
+    border: 1px solid var(--verde-scala-1);
     transition: color 0.4s ease; 
+    z-index: 1;
 }
 .categorieDescription button::before {
     content: '';
@@ -769,7 +847,7 @@ section{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--lighter-color);
+    background-color: var(--verde-scala-1);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
@@ -780,14 +858,28 @@ section{
     color: var(--text-color); 
     cursor: pointer;
 }
+
+
+#best-save{
+    font-size: 26px;
+    font-style: italic;
+    color: var(--verde-scala-3);
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+}
 .prodotti-scontatiContainer{
-    height: 550px;
+    height: 500px;
+    background-color: var(--verde-scala-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .prodotti-scontatiContainer h3{
     margin-top: 1.5rem;
 }
 .prodotti-scontati-container{
-    height: 80%;
+    height: 90%;
     display: flex;
     justify-content: space-between;
     width: 94%;
@@ -820,13 +912,13 @@ section{
     transition: top 0.2s ease-out, height 0.2s ease-out;
 }
 .item-scontato h3{
-    color: var(--contrast-color);
+    color: var(--verde-scala-3);
     font-style: italic;
     text-align: center;
     margin-top: 1rem;
 }
 .item-scontato .categoria{
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
 }
 .item-scontato-description p{
     text-align: center;
@@ -851,20 +943,20 @@ section{
     width: 100%;
     margin-left: -3rem;
     font-size: 14px;    
-    color: var(--lighter-color);
+    color: var(--verde-scala-1);
     text-decoration: line-through;
 }
 #prezzo-scontato{
-    color: var(--text-color);
+    color: var(--verde-scala-2);
     border-radius: 4px;
-    background-color: var(--sconti-bg);
+    border: 1px solid var(--verde-scala-2);
     font-size: 22px; 
     margin-top: -1rem;
     width: 80%;
 }
 .scopri-div{
     position: absolute;
-    top: 92%;
+    top: 90%;
     left: 50%;
     height: 3rem;
     transform: translate(-50%);
@@ -878,9 +970,10 @@ section{
     height: 3rem;
     font-size: 20px;
     background: none;
-    color: var(--lighter-color);
-    border: 1px solid var(--lighter-color);
+    color: var(--verde-scala-2);
+    border: 1px solid var(--verde-scala-2);
     transition: color 0.4s ease; 
+    z-index: 1;
 }
 .scopri::before {
     content: '';
@@ -889,7 +982,7 @@ section{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--lighter-color);
+    background-color: var(--verde-scala-2);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
@@ -916,7 +1009,7 @@ section{
 /* Sezione Prodotti */
 #Prodotti{
     position: absolute;
-    top: 210rem;
+    top: 216rem;
     height: 103.125rem;
     background-color: var(--bg-color);
 }
@@ -926,7 +1019,7 @@ section{
     text-align: center;
     font-size: 20px;
     height: 3.2rem;
-    background-color: var(--lighter-color);
+    background-color: var(--verde-scala-2);
     margin-top: -1rem;
     display: flex;
     justify-content: center;
@@ -958,7 +1051,7 @@ section{
     display: flex;
     margin-left: 1.5rem;
     align-items: center;
-    color: var(--dark-color);
+    color: var(--verde-scala-3);
     font-weight: bold;
 }
 .categorie-nav-bar-container{
@@ -984,7 +1077,7 @@ section{
     position: absolute;
     right: 1.5rem;
     top: 1.2rem;
-    background-color: var(--bg-color-primo-livello);
+    background-color: var(--bg-color);
 }
 .search-btn:hover{
     transform: scale(1.1);
@@ -1016,24 +1109,24 @@ section{
     width: 13rem;
 }
 #Outlet{
-    color: var(--sconti-bg);
+    color: var(--verde-scala-3);
 }
 .macroCategorie-div button{
     width: 100%;
     height: 100%;
     border: none;
     background-color: var(--bg-color-primo-livello);
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 .macroCategorie-div button span{
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
 }
 .macroCategorie-div button.active{
-   background-color: var(--over-prdotti);
+   background-color: var(--bg-color-contrast);
    color: var(--text-color);
 }
 .macroCategorie-div p img{
@@ -1044,37 +1137,35 @@ section{
 } 
 .microCategorie-container{
     width: 100%;
-    background-color:  var(--over-prdotti);
+    background-color:  var(--bg-color-contrast);
     position: absolute;
     top: 5rem;
     display: none;
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px var(--lighter-color);
     z-index: 20;
 }
 .microCategorie{
     padding: 10px;
     margin: 1rem;
     border: none;
-    background-color: var(--over-prdotti);
-    color: var(--dark-color);
+    background-color: var(--bg-color-contrast);
+    color: var(--verde-scala-3);
     font-weight: bold;
     letter-spacing: 0.5px;
 }
 .microCategorie:hover{
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
 }
 .microMacroCategorie-container{
     width: 100%;
-    background-color: var(--over-prdotti);
+    background-color: var(--bg-color-contrast);
     position: absolute;
     top: 5rem;
     height: 35rem;
     display:  none;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px var(--lighter-color);
     z-index: 20;
 }
 .micro-macroCategoria{
@@ -1087,7 +1178,7 @@ section{
 .micro-macroCategoria h3{
     text-align: center;
     font-size: 20px;
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
     font-weight: bold;
 }
 .microMacroCategorie{
@@ -1098,7 +1189,7 @@ section{
     display: grid; 
 }
 .macroCategorie{
-    background-color: var(--bg-color-primo-livello);
+    background-color: var(--bg-color-contrast);
 }
 .microCategorie.active{
     display: grid;
@@ -1108,12 +1199,11 @@ section{
 }
 .microCategorie-outlet-container{
     width: 100%;
-    background-color: var(--over-prdotti);
+    background-color: var(--bg-color-contrast);
     position: absolute;
     top: 5rem;
     display: none;
     grid-template-rows: 1fr 1fr;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px var(--lighter-color);
     z-index: 20;
 }
 .microCategorie-outlet-container h3{
@@ -1121,7 +1211,7 @@ section{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
 }
 .microCategorie-outlet-container.active{
     display: grid;
@@ -1132,7 +1222,7 @@ section{
     grid-template-columns: 1fr 1fr 1fr;
 }
 span{
-    color: var(--sconti-bg);
+    color: var(--verde-scala-2);
     margin-left: 5px;
 }
 .search-modal{
@@ -1140,7 +1230,7 @@ span{
     top: 0;
     left: 0;
     z-index: 10;
-    background-color: var(--bg-color-primo-livello);
+    background-color: var(--bg-color);
     width: 100%;
     height: 100%;
     display: none;
@@ -1149,14 +1239,14 @@ span{
     width: 50rem;
     height: 2.5rem;
     border: none;
-    border-bottom: 2px solid var(--lighter-color);
+    border-bottom: 2px solid var(--verde-scala-2);
     outline: none;
     position: absolute;
     left: 50%;
     top: 1.5rem;
     transform: translate(-50%);
     padding: 20px;
-    background-color: var(--bg-color-primo-livello);
+    background-color: var(--bg-color);
 }
 .close-search-modal{
     position: absolute;
@@ -1166,7 +1256,7 @@ span{
     height: 2.5rem;
     border: none;
     font-size: 28px;
-    background-color: var(--bg-color-primo-livello);
+    background-color: var(--bg-color);
 }
 .close-search-modal:hover{
     transform: scale(1.2);
@@ -1176,7 +1266,7 @@ span{
     position: absolute;
     left: 1rem;
     top: 1.8rem;
-    background-color: var(--bg-color-primo-livello);
+    background-color: var(--bg-color);
 }
 .search-btn-modal img{
     width: 25px;
@@ -1201,7 +1291,7 @@ span{
     align-items: center;
 }
 .products {
-    background-color: var(--over-prdotti);
+    background-color: var(--bg-color-contrast);
     border-radius: 4px;
     width: 100%;
     height: 420px;
@@ -1234,13 +1324,13 @@ span{
     transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out, height 0.3s ease-in-out;
 }
 .products-description h3 {
-    color: var(--contrast-color);
+    color: var(--verde-scala-3);
     font-size: 22px;
     margin-bottom: 0.2rem;
     font-style: italic;
 }
 .categoria-prodotto {
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
 }
 .prodotto-descrizione{
     font-size: 18px;
@@ -1262,12 +1352,13 @@ span{
     overflow: hidden;
     height: 2rem;
     font-size: 1rem;
-    background: none;
-    color: var(--lighter-color);
-    border: 1px solid var(--lighter-color);
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
+    border: 1px solid var(--verde-scala-1);
     transition: color 0.4s ease; 
     animation: fade-in 4s;
     font-size: 20px;
+    z-index: 1;
 }
 .prodotto-btn::before {
     content: '';
@@ -1276,7 +1367,7 @@ span{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--lighter-color);
+    background-color: var(--verde-scala-1);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
@@ -1284,12 +1375,12 @@ span{
     left: 0; 
 }
 .prodotto-btn:hover {
-    color: var(--text-color); 
+    color: var(--bg-color); 
     cursor: pointer;
 }
 .prezzo-detail{
     margin: 0;
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
     font-size: 20px;
 }
 .prezzo {
@@ -1300,7 +1391,7 @@ span{
     color: gray;
 }
 .prezzo-scontato{
-    color: var(--lighter-color);
+    color: var(--verde-scala-2);
     font-size: 30px;
     margin-top: -1.5rem;
 }
@@ -1320,7 +1411,7 @@ span{
     top: 2rem;
     right: -2rem;
     width: 10rem;
-    background-color: var(--sconti-bg);
+    background-color: var(--verde-scala-2);
     z-index: 20;
     transform: rotate(42deg);
 }
@@ -1340,7 +1431,7 @@ span{
     margin-top: 0;
     top: 25%;
     left: 0;
-    background-color: var(--bg-color-primo-livello);
+    background-color: var(--bg-color-contrast);
     z-index: 12;
     height: 21rem;
 }
@@ -1374,23 +1465,23 @@ span{
 .pagination button {
     padding: 10px;
     margin: 5px;
-    border: none;
-    color: var(--lighter-color);
-    border: 1px solid var(--lighter-color);
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
+    border: 1px solid var(--verde-scala-2);
     cursor: pointer;
     border-radius: 4px;
 }
 .pagination button.active {
-    background-color: var(--dark-color);
+    background-color: var(--verde-scala-1);
     color: white;
 }
 .pagination button:hover {
-    background-color: lightviolet;
+    background-color: var(--verde-scala-1);
 }
 .pagination .dots {
     margin: 0 10px;
     font-size: 18px;
-    color: white;
+    color: var(--bg-color);
 }
 .custom-alert {
     display: none;  
@@ -1415,7 +1506,7 @@ span{
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 .close-alert {
-    background-color: #4CAF50;
+    background-color: var(--verde-scala-2);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -1424,7 +1515,7 @@ span{
     margin-top: 10px;
 }
 .close-alert:hover {
-    background-color: #45a049;
+    background-color: var(--verde-scala-1);
 }
 #alertMessage{
     color: grey;
@@ -1479,7 +1570,7 @@ span{
 /* Chi siamo Section */
 #ChiSiamo{
     position: absolute;
-    top: 310rem;
+    top: 316rem;
     height: 62.5rem; 
 }
 .chi-siamo-title{
@@ -1488,12 +1579,12 @@ span{
     text-align: center;
     font-size: 20px;
     height: 3.2rem;
-    background-color: var(--lighter-color);
+    background-color: var(--verde-scala-2);
     margin-top: -1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -0.1rem;
+    margin-bottom: 0.4rem;
 }
 .imagePresentationContainer{
     height: 100%;
@@ -1530,7 +1621,7 @@ span{
 .ChiSiamoDescription h3{
     font-size: 35px;
     font-style: italic;
-    color: var(--contrast-dark-color);
+    color: var(--verde-scala-2);
 }
 .ChiSiamoDescription p{
     margin-top: 1rem;
@@ -1548,11 +1639,12 @@ span{
     height: 2.8rem;
     font-size: 1.5rem;
     border: none;
-    background: none;
-    color: var(--contrast-color);
-    border: 1px solid var(--contrast-color);
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
+    border: 1px solid var(--verde-scala-2);
     transition: color 0.4s ease; 
     animation: fade-in 4s;
+    z-index: 1;
 }
 .ChiSiamoDescription button::before {
     content: '';
@@ -1561,7 +1653,7 @@ span{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--contrast-color);
+    background-color: var(--verde-scala-1);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
@@ -1569,7 +1661,7 @@ span{
     left: 0; 
 }
 .ChiSiamoDescription button:hover {
-    color: var(--text-color); 
+    color: var(--bg-color); 
     cursor: pointer;
 }
 
@@ -1619,7 +1711,7 @@ span{
 
 
 .info-container{
-    background-color: rgba(59, 139, 91, 0.8);
+    background-color: var(--verde-scala-1);
     width: 50%;
     height: 90%;
     position: relative;
@@ -1673,13 +1765,13 @@ span{
 .posizione h3,
 .orari h3{
     padding: 20px;
-    color: var(--contrast-dark-color);
+    color: var(--verde-scala-3);
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 30px;
 }
 .posizione h4{
-    color: var(--text-color);
+    color: var(--bg-color);
     padding: 0px 20px;
     font-size: 20px;
     letter-spacing: 1px;
@@ -1689,7 +1781,7 @@ span{
     font-size: 20px;
     letter-spacing: 1px;
     padding: 0px 20px;
-    color: rgb(216, 216, 216);
+    color: var(--bg-color-contrast);
     text-shadow:  1px 1px 1px 1px rgba(0,0,0,1);
 }
 .orari h3{
@@ -1702,7 +1794,7 @@ span{
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
-    color: rgb(216, 216, 216);
+    color: var(--bg-color-contrast);
     font-size: 18px;
 }
 .day{
@@ -1723,9 +1815,9 @@ span{
     overflow: hidden;
     height: 2.5rem;
     font-size: 1.5rem;
-    background: none;
-    color: var(--contrast-color);
-    border: 1px solid var(--contrast-color);
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
+    border: 1px solid var(--verde-scala-2);
     transition: color 0.4s ease;
     z-index: 1;
 }
@@ -1736,7 +1828,7 @@ span{
     top: 0;
     position: absolute;
     left: 0;
-    background-color: var(--contrast-color);
+    background-color: var(--verde-scala-1);
     z-index: -1;
     transition: width 0.4s ease;
 }
@@ -2081,7 +2173,7 @@ footer ul {
 }
 .telefono-description h3,
 .email-description h3{
-    color: var(--contrast-dark-color);
+    color: var(--verde-scala-1);
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -2091,7 +2183,7 @@ footer ul {
     letter-spacing: 1px;
 }
 hr{
-    color:  white;
+    color:  var(--bg-color);
 }
 
 
@@ -2104,11 +2196,11 @@ footer ul {
     padding: 0px;
 }
 .footer-section {
-  background: rgba(59, 139, 91, 0.9);
+  background: rgb(60, 78, 78);
   position: relative;
 }
 .footer-widget-heading h3 {
-    color: var(--contrast-dark-color);
+    color: var(--verde-scala-1);
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -2121,7 +2213,7 @@ footer ul {
     bottom: -15px;
     height: 2px;
     width: 50px;
-    background: var(--contrast-dark-color);
+    background: var(--verde-scala-1);
 } 
 .contet-widget-row{
     height: 100px;
@@ -2171,7 +2263,7 @@ footer ul {
     margin-right: 0; 
 }
 .footer-widget ul li a:hover {
-    color: var(--contrast-dark-color);
+    color: var(--verde-scala-1);
 }
 .footer-widget ul li a {
     color: var(--text-color);
@@ -2184,7 +2276,7 @@ footer ul {
 
 
 .copyright-area{
-  background: var(--dark-color);
+  background: var(--verde-scala-3);
   padding: 25px 0;
 }
 .copyright-text p {
@@ -2246,7 +2338,10 @@ footer ul {
 
 
 
-
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {top: 1;}
+}
 
 
 
