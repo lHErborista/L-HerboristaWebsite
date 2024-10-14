@@ -4,11 +4,6 @@
     font-family: 'Raleway','Helvetica','sans-serif';
 }
 
-
-
-
-
-
 :root{
     
     --bg-color:  white;
@@ -16,22 +11,13 @@
 
 
     --verde-scala-3: #1f6742;
-    --verde-scala-2: rgb(68, 156, 103) ;
+    --verde-scala-2: #3b8b5b;
     --verde-scala-1: #A8BBA1;
 
 
-
-
-
-
-
-
-
-
+/* 
     --bg-color-primo-livello: white;
     --bg-color-secondo-levello: rgb(227, 227, 227);
-
-
 
     --contrast-dark-color: rgb(68, 156, 103);
     --contrast-color: #f3a7bf;
@@ -41,21 +27,8 @@
 
     --sconti-bg:  rgb(68, 156, 103) ;
     --footer: #3b8b5b;
-    --over-prdotti:   #f0f0f0;
+    --over-prdotti:   #f0f0f0; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -329,7 +302,7 @@ section{
     z-index: 20;
     height: 2rem;
     left: 0;
-    background-color: var(--footer);
+    background-color: var(--verde-scala-2);
     animation: fade-in 2s;
 }
 .contatti-telefono{
@@ -571,7 +544,6 @@ section{
 .carousel{
     width: 100%;
 }
-
 #Offerte h2{
     padding: 20px;
     color: var(--verde-scala-3);
@@ -610,12 +582,12 @@ section{
     border-radius: 4px;
 }
 .item-consigliato-description{
-    background-color: white;
+    background-color: var(--bg-color);
     width: 100%;
     height: 15rem;
     margin: auto;
     position: absolute;  
-    z-index: 4;
+    z-index: 3;
     top: 75%; 
     overflow: hidden;
     height: 3rem;
@@ -627,7 +599,22 @@ section{
     text-align: center;
     margin-top: 1rem;
     font-size: 22px;
+    position: relative;
 }
+.item-consigliato h3::before{
+    position: absolute;
+    content: url(includes/img/icone/frecciainsu.png);
+    top: 0;
+    right: 0.5rem;
+    padding: 5px;
+    cursor: pointer;
+    transition: content 0.2s ease;
+}
+.item-consigliato-description:hover h3::before {
+    content: url(includes/img/icone/frecciaingiu.png); 
+}
+
+
 .item-consigliato .categoria{
     color: var(--verde-scala-2);
 }
@@ -657,11 +644,13 @@ section{
 .footerProducts{
     position: absolute;
     bottom: 0;
+    z-index: 3;
     width: 100%;
     display: flex;
     height: 4rem;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--bg-color);
 }
 .footerProducts p{
     color: var(--verde-scala-2);
@@ -705,10 +694,9 @@ section{
     color: var(--bg-color); 
     cursor: pointer;
 }
-#backdropProductsOfferte{
-    background-color: rgba(0,0,0,0.5);
+#backdropOfferte{
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    display: none;
     top: 0;
     left: 0;
     width: 100%;
@@ -719,14 +707,14 @@ section{
 } 
 .hover-img:hover + .item-consigliato-description,
 .item-consigliato-description:hover {
-    top: 28%; 
+    top: 35%; 
     height: 15rem;  
 }
-.hover-img:hover + #backdropProductsOfferte,
-.item-consigliato-description:hover + #backdropProductsOfferte {
-    display: block;
-    opacity: 1; 
+.hover-img:hover + .item-consigliato-description + #backdropOfferte,
+.item-consigliato-description:hover + #backdropOfferte {
+    opacity: 1;
 }
+
 
 
 
@@ -916,9 +904,20 @@ section{
     font-style: italic;
     text-align: center;
     margin-top: 1rem;
+    position: relative;
+}
+.item-scontato h3::before{
+    position: absolute;
+    content: url(includes/img/icone/frecciainsu.png);
+    top: 0;
+    right: 0.5rem;
+    padding: 5px;
+    cursor: pointer;
+    transition: content 0.2s ease;
 }
 .item-scontato .categoria{
     color: var(--verde-scala-2);
+    margin-top: 0.2rem;
 }
 .item-scontato-description p{
     text-align: center;
@@ -948,8 +947,7 @@ section{
 }
 #prezzo-scontato{
     color: var(--verde-scala-2);
-    border-radius: 4px;
-    border: 1px solid var(--verde-scala-2);
+    border-bottom: 2px solid var(--verde-scala-2);
     font-size: 22px; 
     margin-top: -1rem;
     width: 80%;
@@ -990,7 +988,7 @@ section{
     left: 0; 
 }
 .scopri:hover {
-    color: var(--text-color); 
+    color: var(--bg-color); 
     cursor: pointer;
 }
 .overflow{
@@ -1303,7 +1301,7 @@ span{
     transition: box-shadow 0.3s ease-in-out;
     overflow: hidden;
     z-index: 10;
-
+    cursor: pointer;
 }
 .products img {
     width: 100%;

@@ -100,7 +100,7 @@ function  renderProdottiConsigliati(){
         productDiv.classList.add("item-consigliato");
 
         productDiv.innerHTML = `
-            <div id="backdrop"></div>
+           
             <p class="tag">New</p>
             <img class="hover-img" src="${datiProdottiConsigliati['prodottiConsigliati'][el]['immagine']}" alt="">
         
@@ -110,6 +110,7 @@ function  renderProdottiConsigliati(){
                 <p>${datiProdottiConsigliati['prodottiConsigliati'][el]['descrizione']}</p>
                 
             </div>
+            <div id="backdropOfferte"></div>
 
             <div class="footerProducts">
 
@@ -154,7 +155,7 @@ function  renderProdottiScontati(){
 
 
         productDiv.innerHTML = `
-            <div id="backdrop"></div>
+            
             <p class="tag">- ${datiProdottiConsigliati['prodottiScontati'][el]['sconto']}</p>
             <img class="hover-img" src="${datiProdottiConsigliati['prodottiScontati'][el]['immagine']}" alt="">
         
@@ -163,6 +164,8 @@ function  renderProdottiScontati(){
                 <p class="categoria">${datiProdottiConsigliati['prodottiScontati'][el]['categoria']}</p>
                 <p>${datiProdottiConsigliati['prodottiScontati'][el]['descrizione']}</p>
             </div>
+
+            <div id="backdropOfferte"></div>
 
             <div class="footerProducts">
                 <button class="ordina-btn" data-whatsapp-number="393914393426" 
