@@ -14,6 +14,8 @@
     --verde-scala-2: #3b8b5b;
     --verde-scala-1: #A8BBA1;
 
+    --footer: rgb(60, 78, 78);
+    --grey-verde-footer-dark: #5a6d63;
 
 /* 
     --bg-color-primo-livello: white;
@@ -258,11 +260,11 @@ html, body {
     transition: transform 0.8s ease-in-out;
 }
 .mobile__nav_items li a{
-    color: var(--dark-color);
+    color: var(--verde-scala-3);
     font-weight: bold;
 }
 .mobile__nav_items li:hover{
-    border-bottom: 0.5px solid var(--contrast-color);
+    border-bottom: 0.5px solid var(--verde-scala-1);
     transform: scale(1.1);
 }
 
@@ -280,7 +282,7 @@ main{
     position: relative;
 }
 main section p{
-    color: white;
+    color: var(--bg-color);
 }
 section{
     width: 100vw;
@@ -347,7 +349,7 @@ section{
 
 /* Whatsap Chat Fixed Style */
 .whatsapp-fixed-modal{
-    background-color: var(--footer);
+    background-color: var(--verde-scala-2);
     position: fixed;
     right: 0rem;
     bottom: 1rem;
@@ -567,7 +569,7 @@ section{
     margin: 0px 3%;
 }
 .item-consigliato{
-    background-color: var(--bg-color-primo-livello);
+    background-color: var(--bg-color);
     width: 22rem;
     height: 100%;
     margin: 0px 1px;
@@ -575,11 +577,14 @@ section{
     z-index: 1;
     overflow: hidden;
     border-radius: 4px;
+    border-left: 8px solid var(--bg-color);
+    border-right: 8px solid var(--bg-color);
 }
 .item-consigliato img{
     width: 100%;
     height: 80%;
     border-radius: 4px;
+    padding-top: 8px;
 }
 .item-consigliato-description{
     background-color: var(--bg-color);
@@ -632,7 +637,7 @@ section{
 .tag{
     position: absolute;
     top: 0;
-    left: 2rem;
+    left: 1rem;
     z-index: 10;
     width: 5rem;
     height: 2rem;
@@ -649,6 +654,7 @@ section{
     display: flex;
     height: 4rem;
     justify-content: space-between;
+    gap: 10px;
     align-items: center;
     background-color: var(--bg-color);
 }
@@ -697,7 +703,7 @@ section{
 #backdropOfferte{
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 0;
+    top: 8px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -714,13 +720,6 @@ section{
 .item-consigliato-description:hover + #backdropOfferte {
     opacity: 1;
 }
-
-
-
-
-
-
-
 
 
 
@@ -750,19 +749,7 @@ section{
     color: var(--verde-scala-2);
     font-size: 22px;
 }
-.etichetta{
-    position: absolute; 
-    right: 5rem;  
-    border-radius: 4px 4px 0px 0px; 
-    top: 5.2rem;
-    height: 2rem;
-    padding: 5px;
-    background-color: var(--sconti-bg);
-    width: 20rem;
-    z-index: 10;
-    color: var(--bg-color);
-    text-align: center;
-}
+
 .sconti-tittle{
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
@@ -812,7 +799,7 @@ section{
     font-style: italic;
     color: var(--verde-scala-1);
     font-size: 22px;
-    height: 3rem;
+    height: 4rem;
 }
 .categorieDescription button{
     width: 10rem;
@@ -881,11 +868,14 @@ section{
     z-index: 1;
     overflow: hidden;
     border-radius: 4px;
+    border-left: 8px solid var(--bg-color);
+    border-right: 8px solid var(--bg-color);
 }
 .item-scontato img{
     width: 100%;
     height: 80%;
     border-radius: 4px;
+    padding-top: 8px;
 }
 .item-scontato-description{
     background-color: white;
@@ -967,7 +957,7 @@ section{
     overflow: hidden;
     height: 3rem;
     font-size: 20px;
-    background: none;
+    background-color: var(--bg-color-contrast);
     color: var(--verde-scala-2);
     border: 1px solid var(--verde-scala-2);
     transition: color 0.4s ease; 
@@ -1105,6 +1095,7 @@ section{
 }
 #outDiv{
     width: 13rem;
+    z-index: 3;
 }
 #Outlet{
     color: var(--verde-scala-3);
@@ -1689,27 +1680,15 @@ span{
     width: 50%;
     height: 100%;
 }
-/* .dove-siamo-container h3{
-    width: 50%;
-    height: 3rem;
-    margin: 1rem auto -1.5rem auto;
-    text-align: center;
-    color: var(--contrast-dark-color);
-    font-style: italic;
-} */
 #map{
     height: 90%;
     width: 100%;
     z-index: 1;
 }
 
-
-
-
-
-
 .info-container{
-    background-color: var(--verde-scala-1);
+    background-color: var(--bg-color-contrast);
+    box-shadow: 1px 1px 1px 1px rgba(234, 234, 234, 0.5);
     width: 50%;
     height: 90%;
     position: relative;
@@ -1752,14 +1731,6 @@ span{
     transform: scale(1.1);
 }
 
-
-
-
-
-
-
-
-
 .posizione h3,
 .orari h3{
     padding: 20px;
@@ -1769,7 +1740,7 @@ span{
     font-size: 30px;
 }
 .posizione h4{
-    color: var(--bg-color);
+    color: var(--verde-scala-1);
     padding: 0px 20px;
     font-size: 20px;
     letter-spacing: 1px;
@@ -1779,30 +1750,28 @@ span{
     font-size: 20px;
     letter-spacing: 1px;
     padding: 0px 20px;
-    color: var(--bg-color-contrast);
+    color: grey;
     text-shadow:  1px 1px 1px 1px rgba(0,0,0,1);
 }
 .orari h3{
     padding-bottom: 10px;
 }
-.lunedi-container{
+.day-container{
     padding: 0px 20px 20px 20px;
 }
-.lunedi-container p{
+.day-container p{
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
-    color: var(--bg-color-contrast);
+    color: grey;
     font-size: 18px;
 }
-.day{
+.day-container .day{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
-    color: var(--text-color);
+    color: var(--verde-scala-1);
 }   
-
-
 
 .button-style{
     text-align: center;
@@ -1845,308 +1814,9 @@ span{
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* .info-container h3{
-    height: 3rem;
-    margin: 1rem auto -1.5rem auto;
-    text-align: center;
-    color: var(--contrast-dark-color);
-    font-style: italic;
-} */
-/* .orari{
-    position: absolute;
-    left: 0rem;
-    height: 38%;
-    width: 100%;
-}
-.orari-container{
-    width: 100%;
-    margin: 1rem auto;
-    display: flex;
-    height: 70%;
-    justify-content: center;
-    align-items: center;
-}
-.day-title{
-    color: var(--lighter-color);
-    font-size: 20px;
-    margin-bottom: 1rem
-}
-.day-container p{
-    color: rgb(154, 154, 154);
-}
-.responsive-day{
-    color: var(--lighter-color);
-    display: none;
-}
-.responsive-orari{
-    display: none;
-    color: rgb(154, 154, 154);
-}
-.day-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 80%;
-    width: 14%;
-    border: 1px solid var(--lighter-color)
-}
- */
-
-
-/* 
-.info-container__grid-container{
-    height: 62%;
-    position: absolute;
-    top: 38%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-} */
-/* Place style */
-/* .place h3{
-    margin-bottom: 0.5rem;
-}
-.place p{
-    margin: 0.5rem auto;
-    font-size: 18px;
-    color: rgb(154, 154, 154);
-    text-align: center;
-}
-.via{
-    font-weight: bold;
-}
- */
-
-/* Contatti Style */
-/* .contatti h3{
-    margin-bottom: 0.5rem;
-}
-.information-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.info-container img{
-    width: 25px;
-    height: 25px;
-    margin-top: -1rem;
-    margin-right: 0.8rem;
-}
-.info-container p{
-    color: rgb(154, 154, 154);
-    font-size: 18px;
-}
-
- */
-/* Social style */
-/* .social p{
-    color: rgb(154, 154, 154);
-    text-align: center;
-    font-size: 18px;
-    padding: 10px;
-    margin-top: 1rem;
-    font-weight: bold;
-}
-.social-container{
-    width: 50%;
-    height: 15%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -1rem;
-}
-.social-container img{
-    width: 40px;
-    height: 40px;
-}
-.social-container img:hover{
-    transform: scale(1.1);
-} */
-
-
-/* Recensioni container */
-/* .recensioni-flex{
-        display: flex;
-        height: 80%;
-        margin-top: 0.5rem;
-}
-.logo-container{
-    width: 60%;
-    height: 100%;
-    display: flex;
-}
-.logo-container img{
-    width: 250px;
-    height: 150px;
-    margin-left: 1.5rem;
-    margin-top: 0rem;
-}
-.recensioni-container{
-    width: 40%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.img-container-recensioni{
-    height: 50%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-left: 1rem;
-}
-.a-container-recensioni{
-    height: 50%;    
-    text-align: left;
-    margin-top: -1.5rem;
-    margin-left: 1rem;
-}
-.a-container-recensioni a{
-    text-decoration: none;
-    color: var(--dark-color);
-}
-.a-container-recensioni a:hover{
-    color: var(--lighter-color);
-}
-
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-
-
-
-
-footer ul {
-    margin: 0px;
-    padding: 0px;
-}
-.footer-section {
-  background: rgba(59, 139, 91, 0.9);
-  position: relative;
-}
-.footer-cta {
-  border-bottom: 1px solid #373636;
-}
-.single-cta i {
-  color: #ff5e14;
-  font-size: 30px;
-  float: left;
-  margin-top: 8px;
-}
-.cta-text {
-  padding-left: 15px;
-  display: inline-block;
-}
-.cta-text h4 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 2px;
-}
-.cta-text span {
-  color: #757575;
-  font-size: 15px;
-}
-.footer-content {
-  position: relative;
-  z-index: 2;
-}
-.footer-pattern img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 330px;
-  background-size: cover;
-  background-position: 100% 100%;
-}
-.footer-logo {
-  margin-bottom: 30px;
-}
-.footer-logo img {
-    max-width: 200px;
-}
-.footer-text p {
-  margin-bottom: 14px;
-  font-size: 14px;
-      color: #7e7e7e;
-  line-height: 28px;
-}
-.footer-social-icon span {
-  color: #fff;
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px;
-}
-.footer-social-icon a {
-  color: #fff;
-  font-size: 16px;
-  margin-right: 15px;
-}
-.footer-social-icon i {
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  line-height: 38px;
-  border-radius: 50%;
-}
-.facebook-bg{
-  background: #3B5998;
-}
-.twitter-bg{
-  background: #55ACEE;
-}
-.google-bg{
-  background: #DD4B39;
-}
-.footer-widget-heading h3 {
-  color: var(--contrast-dark-color);
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 40px;
-  position: relative;
-}
-.footer-widget-heading h3::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -15px;
-  height: 2px;
-  width: 50px;
-  background: var(--contrast-dark-color);
-}  */
-
-
 .footer-contacts{
     height: 5rem;
-    width: 90%;
+    width: 60%;
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -2194,7 +1864,7 @@ footer ul {
     padding: 0px;
 }
 .footer-section {
-  background: rgb(60, 78, 78);
+  background: var(--footer);
   position: relative;
 }
 .footer-widget-heading h3 {
@@ -2264,7 +1934,7 @@ footer ul {
     color: var(--verde-scala-1);
 }
 .footer-widget ul li a {
-    color: var(--text-color);
+    color: var(--bg-color);
     text-transform: capitalize;
 }
 
@@ -2280,21 +1950,21 @@ footer ul {
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: var(--text-color);
+  color: var(--bg-color);
 }
 .copyright-text p a{
-  color: var(--contrast-dark-color);
+  color: var(--verde-scala-1);
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: var(--contrast-dark-color);
+  color: var(--verde-scala-1);
 }
 .footer-menu li a {
   font-size: 14px;
-  color: var(--text-color);
+  color: var(--bg-color);
   letter-spacing: 0.5px;
 }
 
@@ -2418,9 +2088,6 @@ footer ul {
         display: none;
     }
 
-
-
-
     #Home {
         top: 0;
         left: 0;
@@ -2431,7 +2098,6 @@ footer ul {
         background-color: rgba(5, 5, 5, 0.3);
         backdrop-filter: blur(6px);
     }
-
     .Home_Description{
         width: 90%;
         height: 25rem;
@@ -2451,12 +2117,14 @@ footer ul {
     }
     .button-type{
         height: 2rem;
-        font-size: 15px;
+        font-size: 14px;
     }
   
+
+
     /* Offerte Section */
     #Offerte{
-        height: 138rem;
+        height: 150rem;
     }
     #Offerte h1{
         margin-top: 0rem;
@@ -2474,23 +2142,29 @@ footer ul {
     .carousel-item{
         height: 280px;
     }
-    .prodotti-consigliati{
-        position: absolute;
-        top: 22.75rem;
-        height: 300px;
-        width: 100vw;
-    }
-    .prodotti-consigliati h2{
+    #Offerte h2{
         font-size: 20px;
     }
+    #offerte-tittle-news{
+        position: absolute;
+        top: 22.75rem;
+        width: 100%;
+    }
+    .prodotti-consigliati{
+        position: absolute;
+        top:26.75rem;
+        height: 290px;
+        width: 100vw;
+    }
     .prodotti-consigliat-container {
-        height: 80%;
+        height: 90%;
         display: flex;
         width:  96%;
         margin: auto;
         overflow-x: auto; 
         overflow-y: hidden; 
         white-space: nowrap; 
+        gap: 5px;
     }
     .prodotti-consigliat-container > * {
         flex: 0 0 auto; 
@@ -2502,9 +2176,11 @@ footer ul {
         padding: 1px;
         font-size: 12px;
     }
+
+
     .item-consigliato{
         width: 10rem;
-        height: 20rem;   
+        height: 23.5rem;   
         position: relative; 
     }
     .item-consigliato img{
@@ -2520,8 +2196,13 @@ footer ul {
         margin-top: 0.5rem;
         margin-bottom: 1.5rem;
     }
+    .item-consigliato h3::before{
+        right: 0rem;
+        top: -0.4rem;
+    }
     .item-consigliato-description p{
         margin-top: -2rem;
+        padding-top: 1px;
     }
     .item-consigliato-description p:last-of-type{
         font-size: 14px;
@@ -2532,33 +2213,23 @@ footer ul {
         white-space: normal;  
         word-wrap: break-word; 
     }
-    
-    .footerProducts{
-        height: 3rem;
-        position: absolute;
-        top: 55%;
-        width: 100%;
-    }
     .footerProducts p{
         font-size: 16px;
-        right: 0.5rem;
-        top: 0.8rem;
+        margin-right: 0.2rem;
     }
-    .ordina-btn{
-        width: 5rem;
-        height: 2rem;
-        font-size: 16px;
-        margin-top: 0.5rem;
-        margin-left: 0.5rem;
+    .footerProducts .ordina-btn{
+        margin-left: 0.2rem;
+        margin-top: 0rem;
     }
     .hover-img:hover + .item-consigliato-description,
     .item-consigliato-description:hover {
         top: 20%; 
-        height: 6rem;  
+        height: 8rem;  
     }
+
     .prodotti-scontati{
-        margin-top: 1rem;
-        height: 1580px;
+        height: 1700px;
+        margin-top: 4rem;
     }
     .prodotti-scontati h2{
         font-size: 20px;
@@ -2567,15 +2238,10 @@ footer ul {
         margin-top: -1rem;
         font-size: 18px;
     }
-    .etichetta{
-        right: 1.6rem;  
-        border-radius: 4px;
-        top: 7.6rem;
-        font-size: 12px;
-        height: 1.5rem;
-        padding: 2px;
-        width: 6.5rem;
+    .sconti-tittle{
+        font-size: 14px;
     }
+
     .categorie-container{
         display: flex;
         flex-direction: column;        
@@ -2599,7 +2265,7 @@ footer ul {
     .categorieDescription h3{
         width: 100%;
         font-size: 18px;
-        height: 2rem;
+        height: 3rem;
     }
     .categorieDescription button{
         width: 80%;
@@ -2607,28 +2273,32 @@ footer ul {
         font-size: 16px;
         margin: 0;
     }
+    #best-save{
+        font-size: 20px;
+    }
     .prodotti-scontatiContainer{
         position: absolute;
-        top: 79%;
+        top: 76%;
         height: 300px;
         width: 100vw;
     } 
     .prodotti-scontati-container{
-        height: 80%;
+        height: 90%;
         display: flex;
         width:  96%;
         margin: auto;
         overflow-x: auto; 
         overflow-y: hidden; 
         white-space: nowrap; 
+        gap: 5px;
     } 
     .prodotti-scontati-container > * {
         flex: 0 0 auto; 
     }
+
     .item-scontato{
-        margin: 1px;
         width: 10rem;
-        height: 20rem;   
+        height: 23.5rem;   
         position: relative; 
     }
     .item-scontato img{
@@ -2644,9 +2314,12 @@ footer ul {
         margin-top: 0.5rem;
         margin-bottom: 1.5rem;
     }
-    .item-scontato-description p{
-        font-size: 14px;
-        margin-top: -1rem;
+    .item-scontato h3::before{
+        right: 0rem;
+        top: -0.4rem;
+    }
+    .item-scontato .item-consigliato-description h3{
+        margin-bottom: 0rem;
     }
     .footerProducts{
         height: 3rem;
@@ -2685,7 +2358,6 @@ footer ul {
         font-size: 16px;
     }
 
-
     .prodotti-scontatiContainer h3{
         margin-bottom: 0.5rem;
     }
@@ -2693,7 +2365,7 @@ footer ul {
         margin-bottom: 2rem;
     }
     .scopri-div{
-        top: 86%;  
+        top: 95%;  
     }
     .scopri{
         width: 14rem;
@@ -2704,10 +2376,9 @@ footer ul {
 
 
 
-
     /* Prodotti Section */
     #Prodotti{
-        top: 196rem;
+        top: 206rem;
         height: 90rem;
     }
     .prodotti-title{
@@ -2725,13 +2396,13 @@ footer ul {
         margin-top: -2.8rem;
         width: 100%;
         height: 3rem;
-        background-color: var(--bg-color-primo-livello);
+        background-color: var(--bg-color-contrast);
         display: flex;
         flex-direction: row;
         position: relative;
     }
     #categoria-attivaMobile{
-        color: var(--dark-color);
+        color: var(--verde-scala-3);
         font-size: 14px;
         width: 14rem;
         padding: 10px;
@@ -2746,7 +2417,7 @@ footer ul {
         right: 1rem;
         height: 100%;
         border: none;
-        background-color: var(--bg-color-primo-livello);
+        background-color: var(--bg-color-contrast);
         display: none;
     }
     .hamburgerProducts{ 
@@ -2754,7 +2425,7 @@ footer ul {
         right: 1rem;
         height: 100%;
         border: none;
-        background-color: var(--bg-color-primo-livello);
+        background-color: var(--bg-color-contrast);
     }
     .search-bar{
         right: 3.5rem;
@@ -2770,7 +2441,7 @@ footer ul {
     }
     .search-modal{
         height: 3rem;
-        background-color: var(--bg-color-primo-livello);
+        background-color: var(--bg-color-contrast);
     }
     #search-fieldMobile{
         width: 10rem;
@@ -2781,9 +2452,8 @@ footer ul {
         transform: translate(-50%);
         border: none;
         padding: 5px;
-        border-bottom: 2px solid var(--lighter-color);
-    
-        background-color: var(--bg-color-primo-livello);
+        border-bottom: 2px solid var(--verde-scala-2);
+        background-color: var(--bg-color-contrast);
         outline: none;
     }
     .search-btn-modal{
@@ -2803,7 +2473,7 @@ footer ul {
         top: 8%;
         height: 80%;
         width: 2rem;
-        background-color: var(--bg-color-primo-livello);
+        background-color: var(--bg-color-contrast);
     }
     .close-search-modal img{
         width: 25px;
@@ -2820,7 +2490,7 @@ footer ul {
         z-index: 20;
     }
     .macroCategorie-div{
-        background-color: var(--bg-color-primo-livello);
+        background-color: var(--bg-color-contrast);
         height: 2rem;
         width: 100%;
         display: flex;
@@ -2837,13 +2507,13 @@ footer ul {
         width: 100%;
     }
     .openMicro{
-        color: var(--lighter-color);
+        color: var(--verde-scala-2);
         font-size: 20px;
         position: absolute;
         right: 1.5rem;
     }
     .closeMicro{
-        color: var(--lighter-color);
+        color: var(--verde-scala-2);
         font-size: 20px;
         position: absolute;
         right: 1.5rem;
@@ -2866,11 +2536,11 @@ footer ul {
         z-index: 20;
     }
     #microCosmeticiMobile{
-        background-color: var(--bg-color-secondo-levello);
+        background-color: var(--bg-color-contrast);
     }
     .micro-macroCategoriaMobile h3{
         text-align: center;
-        color: var(--lighter-color);
+        color: var(--bg-color-contrast);
         font-size: 18px;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
@@ -2880,17 +2550,17 @@ footer ul {
         flex-direction: column;
     }
     #microOutletMobile{
-        background-color: var(--bg-color-secondo-levello);
+        background-color: var(--bg-color);
         z-index: 20;
     }
     #microOutletMobile h3{
-        color: var(--lighter-color);
+        color: var(--verde-scala-1);
         font-size: 18px;
         text-align: center;
         margin-top: 0.5rem;
     }
     .outletMicroMobile{
-        background-color: var(--bg-color-secondo-levello)
+        background-color: var(--bg-color)
     }
     .prodotti-categorie-container{
         height: 1350px;
@@ -3201,6 +2871,27 @@ footer ul {
         height: 80px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* TABLET MEDIA QUERY */
 @media(min-width: 31rem) and (max-width: 60rem){
     .mobile__nav_items{
@@ -3266,6 +2957,8 @@ footer ul {
         font-size: 18px;
     }
   
+
+
     /* Offerte Section */
     #Offerte{
         height: 132rem;
@@ -3323,7 +3016,7 @@ footer ul {
     }
     .item-consigliato img{
         width: 100%;
-        height: 13rem;
+        height: 20rem;
     }
     .item-consigliato-description{
         top: 66%; 
@@ -3439,7 +3132,7 @@ footer ul {
         width: 100%;
         height: 400px;
     }
-    .best-save{
+    #best-save{
         font-size: 20px;
     }
     .prodotti-scontati-container{
