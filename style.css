@@ -3786,10 +3786,139 @@ footer ul {
     .item-scontato{
         height: 90%;
     }
+    #Offerte{
+        height: 130rem;
+    }
+    #Prodotti{
+        top: 188rem;
+    }
+    .prodotti-scontatiContainer{
+        height: 350px;
+        margin-top: 2rem;
+    }   
+    .prodotti-consigliati{
+        height: 350px;
+    }
+    .prodotti-scontati{
+        height: 950px;
+        margin-top: -2rem;
+    }
+    .item-consigliato-description{
+        top: 65%; 
+        height: 3rem; 
+    }
+    .item-scontato .item-consigliato-description{
+        top: 65%;
+    }
+    .item-scontato .item-consigliato-description h3{
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+    }
+    .hover-img:hover + .item-consigliato-description,
+    .item-consigliato-description:hover {
+        top: 28%; 
+        height: 13rem;  
+    }
+    .item-scontato .footerProducts{
+        height: 3rem;
+    }
+    #ChiSiamo{
+        position: absolute;
+        top: 288rem;
+        height: 62.5rem; 
+    }
+    .posizione:last-of-type{
+        margin-top: 0rem;
+    }
+   
+      
 }
+@media(min-width: 1300px) and (max-width: 1600px){
+    
+    .prodotti-consigliati{
+        height: 400px;
+    }
+    .prodotti-scontatiContainer{
+        height: 400px;
+        margin-top: 2rem;
+    }   
+    #Offerte{
+        height: 135rem;
+    }
+    #Prodotti{
+        top: 192rem;
+    }
+    .prodotti-scontati{
+        height: 1000px;
+        margin-top: -2rem;
+    }
+    .item-consigliato-description{
+        top: 70%; 
+        height: 3rem; 
+    }
+    .item-scontato .item-consigliato-description{
+        top: 70%;
+    }
+    .item-scontato .item-consigliato-description h3{
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+    }
+    .hover-img:hover + .item-consigliato-description,
+    .item-consigliato-description:hover {
+        top: 30%; 
+        height: 13rem;  
+    }
+    .item-scontato .footerProducts{
+        height: 3rem;
+    }
+    #ChiSiamo{
+        position: absolute;
+        top: 293rem;
+        height: 62.5rem; 
+    }
+}
+@media(min-width: 1600px) and (max-width: 1900px){
+    
+    .prodotti-consigliati{
+        height: 450px;
+    }
+    .prodotti-scontatiContainer{
+        height: 450px;
+        margin-top: 2rem;
+    }   
+    #Offerte{
+        height: 140rem;
+    }
+    #Prodotti{
+        top: 197rem;
+    }
+    .prodotti-scontati{
+        height: 1050px;
+        margin-top: -2rem;
+    }
+    .item-consigliato-description{
+        top: 73%; 
+        height: 3rem; 
+    }
+    .item-scontato .item-consigliato-description{
+        top: 73%;
+    }
+    .hover-img:hover + .item-consigliato-description,
+    .item-consigliato-description:hover {
+        top: 40%; 
+        height: 13rem;  
+    }
+    .item-scontato .footerProducts{
+        height: 4rem;
+    }
+    #ChiSiamo{
+        position: absolute;
+        top: 298rem;
+        height: 62.5rem; 
+    }
+}
+/* General laptop style */
 @media(min-width: 960px) and (max-width: 1900px){
-    
-    
     /* Nav Bar */
     .hamburger {
         display: none !important;
@@ -3817,12 +3946,10 @@ footer ul {
 
 
     /* Home */
-
     .contatti-nav{
         top: 3.5rem;
     } 
        
-
 
     .Home_Description{
         height: 30rem;
@@ -3848,44 +3975,42 @@ footer ul {
 
 
     /* Offerte */
-    #Offerte{
-        height: 130rem;
-    }
     #Offerte h1{
         margin-top: -1.5rem;
         height: 2.8rem;
         font-size: 18px;   
     }
-    .prodotti-consigliati{
-        height: 500px;
-    }
     .prodotti-consigliati h2{
         font-size: 22px;
     }
+    .item-consigliato{
+        background-color: var(--bg-color);
+        width: 22rem;
+        height: 100%;
+        margin: 0px 1px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        border-radius: 4px;
+        border-left: 8px solid var(--bg-color);
+        border-right: 8px solid var(--bg-color);
+    }
     .item-consigliato img{
         width: 100%;
-    }
-    .item-consigliato-description{
-        top: 70%; 
-        height: 3rem; 
     }
     .item-consigliato h3{
         font-size: 20px
     }
     .tag{
-        left: 1.5rem;
-        width: 4.5rem;
-        font-size: 16px;
+        left: 1rem;
+        width: 4rem;
+        font-size: 14px;
     }
     .footerProducts p{
-        font-size: 18px;
+        font-size: 16px;
     }
     .ordina-btn{
         font-size: 18px;
-    }
-    .prodotti-scontati{
-        height: 950px;
-        margin-top: -2rem;
     }
     .prodotti-scontati h2{
         font-size: 22px;
@@ -3895,10 +4020,9 @@ footer ul {
         font-size: 18px;
         margin-top: -1rem;
     }
-    .etichetta{
-        right: 3rem;
-        top: 3.4rem;
-        width: 18rem;
+    #best-save{
+        margin-top: 0.5rem;
+        padding-bottom: 0px;
     }
     .categorie-container{
         height: 300px; 
@@ -3912,10 +4036,6 @@ footer ul {
     .categorieDescription button{
         font-size: 18px
     }
-    .prodotti-scontatiContainer{
-        height: 500px;
-        margin-top: 2rem;
-    }   
     .item-scontato{
         width: 22rem;
         height: 100%;  
@@ -3923,9 +4043,6 @@ footer ul {
     }
     .item-scontato .item-consigliato-description h3{
         margin-top: 1rem
-    }
-    .item-scontato .footerProducts{
-        height: 3rem;
     }
     .item-scontato .ordina-btn{
         margin-left: 0.2rem;
@@ -3943,23 +4060,11 @@ footer ul {
         margin-left: 0.2rem;
         margin-right: 0.2rem;
     }
-    .hover-img:hover + .item-consigliato-description,
-    .item-consigliato-description:hover {
-        top: 28%; 
-        height: 13rem;  
-    }
     .scopri-div{
-        top: 90%;
+        top: 95%;
     }
-
-
-
-
 
     /* Prodotti Style */
-    #Prodotti{
-        top: 188rem;
-    }
     .prodotti-title{
         margin-top: -1.5rem;
         height: 2.8rem;
@@ -4026,11 +4131,6 @@ footer ul {
 
 
     /* Chi Siamo style */
-    #ChiSiamo{
-        position: absolute;
-        top: 288rem;
-        height: 62.5rem; 
-    }
     .chi-siamo-title{
         margin-top: -1.5rem;
         height: 2.8rem;
@@ -4137,14 +4237,9 @@ footer ul {
             width: 13rem;
             font-size: 25px;
         }
-
         .contatti-nav{
             top: 5rem;
         } 
-           
-    
-
-
 
         #Offerte h1{
             height: 3.6rem;
@@ -4152,13 +4247,13 @@ footer ul {
             margin-top: 0rem;
         }
         .prodotti-consigliati{
-            height: 650px;
+            height: 600px;
         }
         .item-consigliato{
-            width: 20%;   
+            width: 25rem;   
         }
         .prodotti-consigliat-container{
-            width: 70%;
+            width: 90%;
             margin: 0px 15%;
         }
         .categorie-container{
@@ -4168,15 +4263,16 @@ footer ul {
             right: 18%;
         }
         .prodotti-scontatiContainer{
-            height: 650px;
+            height: 600px;
         }
         .prodotti-scontati-container{
-            height: 80%;
-            width: 70%;
-            margin: 0px 15%;
+            height: 90%;
+            width: 90%;
+            margin: 0px 5%;
+            gap: 1px;
         } 
         .item-scontato{
-            width: 20%; 
+            width: 25rem; 
         }
         .categorieContainer{
             height: 80%;
@@ -4213,16 +4309,9 @@ footer ul {
         }
         .hover-img:hover + .item-consigliato-description,
         .item-consigliato-description:hover {
-            top: 28%; 
+            top: 36%; 
             height: 18rem;  
         }
-
-
-
-
-
-
-
         .prodotti-title{
             font-size: 25px;
             height: 3.6rem;
@@ -4286,9 +4375,6 @@ footer ul {
         .prodotto-descrizione{
             font-size: 20px;
         }
-
-
-
         .chi-siamo-title{
             font-size: 25px;
             height: 3.6rem;
@@ -4307,14 +4393,11 @@ footer ul {
         .ChiSiamoDescription p{
             font-size: 30px;
         }
-
-
-
         .dove-siamo-container h3{
             font-size: 30px;
         }
         #map{
-            height: 900px;
+            height: 90%;
         }
         .info-container h3{
             font-size: 30px;
@@ -4339,17 +4422,17 @@ footer ul {
             }
             #Offerte{
                 top: 94rem;
-                height: 165rem;
+                height: 170rem;
             }
             #Prodotti{
-                top: 260rem;
+                top: 265rem;
                 height: 150rem;
             }
             .prodotti-scontati{
-                height: 1250px;
+                height: 1400px;
             }
             #ChiSiamo{
-                top: 364rem;
+                top: 368rem;
                 height: 100rem; 
             }
             #VieniATrovarci{
