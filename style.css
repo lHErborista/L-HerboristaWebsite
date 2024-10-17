@@ -2326,7 +2326,7 @@ footer ul {
     }
     .footerProducts{
         height: 3rem;
-        margin-top: -0.5rem;
+        margin-top: 0rem;
         position: absolute;
         top: 55%;
         width: 100%;
@@ -2840,7 +2840,6 @@ footer ul {
     .telefono{
         transform: translate(-16.5%);
     }
-
     .telefono img,
     .email img{
         width: 25px;
@@ -2864,12 +2863,6 @@ footer ul {
         font-size: 14px;
         padding-left: 30px;
     }
-
-
-
-
-
-
 
 
 
