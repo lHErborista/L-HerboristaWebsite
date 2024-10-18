@@ -31,6 +31,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Pacifico&family=Yellowtail&display=swap" rel="stylesheet">
 
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
 
 </head>
 <body>
@@ -50,7 +58,7 @@
 
     <!-- Nav Bar  -->
     <header>
-        <nav class="navBar">
+        <nav class="navBar" data-aos="fade-left" data-aos-duration="800">
             <div class="nav__title">
                 <a href="#Home" refer="Home">L'Herborista</a>
             </div>
@@ -67,23 +75,32 @@
         </nav>
     </header>
 
-    <main>
+    <main>  
+        <div class="whatsapp-fixed-modal" >
 
-       
-        <div class="whatsapp-fixed-modal">
-
-            <a href="#" class="whatsapp"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt=""></a>
-
-            <div class="content">test</div>
+                <div class="col-lg-3 button-whatsapp-modal">
+                    <a href="#" class="whatsapp d-flex justify-content-center align-items-center" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt=""></a>
+                </div>
+                <div class="col-lg-9 whatsapp-modal-content">
+                    <div class="col-md-12 p-2 tittle-modal-whatsapp">
+                        <h3>Chat e Supporto</h3>
+                    </div>
+                    <div class="col-md-12 p-2 content-modal-whatsapp">
+                        <p>Per ordinare un prodotto e per richiedere qualsiasi tipo di informazione, clicca il link qui sotto per aprire direttamente una chat con noi.</p>
+                    </div>
+                    <div class="col-md-12 p-2 direct-modal-whatsapp">
+                        <a href="" id="whatsapp-chat">Apri la chat whatsapp</a>
+                    </div>
+                </div>
+        
         </div>
-
 
         <!-- Home Section -->
         <section id="Home" class="Home"> 
             
             <div class="home-container">
 
-                <div class="contatti-nav">
+                <div class="contatti-nav" data-aos="fade-down" data-aos-duration="800">
                     <div class="contatti-telefono">
                         <img src="includes/img/icone/cornetta.png" alt="">
                         <p>+39 391 439 3426</p>
@@ -167,7 +184,7 @@
                 </div>
             </div>
                 
-            <h2 id="offerte-tittle-news">Le Novità del momento</h2>
+            <h2 id="offerte-tittle-news" >Le Novità del momento</h2>
 
             <div class="prodotti-consigliati">
                 <div class="prodotti-consigliat-container" id="prodotti-consigliati-list">
@@ -695,6 +712,67 @@
         <!-- Contact Me Section -->
         <section id="VieniATrovarci">
 
+            <div class="w-100 p-0 modal-termini-backdrop" id="modal-termini">
+                <div class="p-2 modal-termini d-flex flex-column">
+                    <div class="col-md-12 p-4 tittle-modal d-flex justify-content-center align-items-center">
+                        <h3>Termini e Condizioni di Utilizzo</h3>
+
+                    </div>
+                    <div class="col-md-12 p-4 content-modal d-flex justify-content-center align-items-center">
+                        <p>
+                            <span id="modal-span">
+                                <span>1.</span> Introduzione
+                                Benvenuto/a su Erboristeria L'Herborista: <a href="https://lherborista.github.io/L-HerboristaWebsite/">link Sito</a>.
+                                Accedendo o utilizzando il Sito, accetti di essere vincolato/a dai presenti Termini e Condizioni (di seguito "Termini").
+                                Se non accetti tutti i Termini, ti invitiamo a non utilizzare il Sito.
+                            </span>
+                            <span id="modal-span">
+                                <span>2.</span> Modifiche ai Termini
+                                Ci riserviamo il diritto di modificare, aggiornare
+                                o rimuovere qualsiasi parte dei presenti Termini
+                                senza preavviso. È tua responsabilità verificare
+                                regolarmente eventuali cambiamenti. 
+                                L'uso continuato del Sito costituisce accettazione
+                                delle modifiche apportate.
+                            </span>
+                            <span id="modal-span">
+                                <span>3.</span> Utilizzo del Sito
+                                <span id="modal-span">
+                                    <span>3.1</span> Il Sito è destinato esclusivamente all'uso personale e non commerciale. Non è consentito riprodurre, distribuire o sfruttare il contenuto del Sito senza previa autorizzazione scritta da parte nostra.  
+                                </span>
+                                <span id="modal-span">
+                                    <span>3.2</span> Non puoi utilizzare il Sito per scopi illegali o non autorizzati. È vietato violare leggi nazionali o internazionali attraverso l'uso del Sito.
+                                </span>
+                            </span>
+                            <span id="modal-span">
+                                <span>4.</span> Proprietà Intellettuale
+                                Tutti i contenuti presenti sul Sito, inclusi testi, immagini, loghi, video, software e grafiche, sono protetti dalle leggi sulla proprietà intellettuale. Ogni diritto riservato. Non è consentito utilizzare i contenuti senza il nostro consenso scritto.
+                            </span>
+                            <span id="modal-span">
+                                <span>5.</span> Limitazione di Responsabilità
+                                <span id="modal-span"><span>5.1.</span> Non garantiamo che il Sito sia privo di errori o che il suo utilizzo non possa essere interrotto.</span>
+                                <span id="modal-span"><span>5.2.</span> Non saremo responsabili per eventuali danni diretti o indiretti derivanti dall'uso o dall'incapacità di utilizzare il Sito, inclusi ma non limitati a perdita di dati, profitti o opportunità.</span>
+                            </span>
+                            <span id="modal-span">
+                                <span>6.</span> Link Esterni
+                                Il Sito potrebbe contenere collegamenti a siti web di terze parti. Non siamo responsabili del contenuto, delle politiche sulla privacy o delle pratiche di tali siti.
+                            </span>
+                            <span id="modal-span">
+                                <span>7.</span> Legge Applicabile
+                                I presenti Termini sono regolati dalle leggi dello Stato Italiano. Qualsiasi controversia derivante dall'uso del Sito sarà soggetta alla giurisdizione esclusiva dei tribunali di Trani.   
+                            </span>
+                            <span id="modal-span">
+                                <span>8.</span> Contatti
+                                Per qualsiasi domanda riguardante i presenti Termini, puoi contattarci via email all'indirizzo: erboristeriatrani@gmail.com.
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-md-12 p-4 button-modal d-flex justify-content-end align-items-center">
+                        <button class="button-style" id="close-modal-termini">Close</button>
+                    </div>
+                </div>
+            </div>
+
             <div class="negozio-information-container">
                 <div class="dove-siamo-container">
                     <!-- <h3>Dove Siamo?</h3> -->
@@ -746,11 +824,8 @@
                                 <p>09:00 am - 13:00 pm</p>
                             </div>                        
                         </div>
-                        <button class="button-style">contattaci</button>
+                        <button class="button-style" id="contatti-btn">contattaci</button>
                     </div>
-
-
-
 
                     <div class="posizione">
                         <h3>I Nostri Social</h3>
@@ -763,131 +838,6 @@
                         </div>
 
                     </div>
-
-                    
-
-                    
-
-                   
-
-
-
-                    <!-- <div class="orari">
-                        <h3>Orari Apertura</h3>
-
-                        <div class="orari-container">
-                            <div class="day-container">
-                                <h4 class="responsive-day">Lun</h4>
-                                <h4 class="day-title">Lunedi</h4>
-                                <p class="responsive-orari">9-13</p>
-                                <p class="responsive-orari">17-20:30</p>
-                                <p class="Orari">9:00 - 13:00</p>
-                                <p class="Orari">17:00 - 20:30</p>
-                            </div>
-                            <div class="day-container">
-                                <h4 class="responsive-day">Mar</h4>
-                                <h4 class="day-title">Martedi</h4>
-                                <p class="responsive-orari">9-13</p>
-                                <p class="responsive-orari">16:30-20:30</p>
-                                <p class="Orari">9:00 - 13:00</p>
-                                <p class="Orari">16:30 - 20:30</p>
-                            </div>
-                            <div class="day-container">
-                                <h4 class="responsive-day">Mer</h4>
-                                <h4 class="day-title">Mercoledi</h4>
-                                <p class="responsive-orari">9-13</p>
-                                <p class="responsive-orari">16:30-20:30</p>
-                                <p class="Orari">9:00 - 13:00</p>
-                                <p class="Orari">16:30 - 20:30</p>
-                            </div>
-                            <div class="day-container">
-                                <h4 class="responsive-day">Gio</h4>
-                                <h4 class="day-title">Giovedi</h4>
-                                <p class="responsive-orari">9-13</p>
-                                <p class="responsive-orari">16:30-20:30</p>
-                                <p class="Orari">9:00 - 13:00</p>
-                                <p class="Orari">16:30 - 20:30</p>
-                            </div>
-                            <div class="day-container">
-                                <h4 class="responsive-day">Ven</h4>
-                                <h4 class="day-title">Venerdi</h4>
-                                <p class="responsive-orari">9-13</p>
-                                <p class="responsive-orari">16:30-20:30</p>
-                                <p class="Orari">9:00 - 13:00</p>
-                                <p class="Orari">16:30 - 20:30</p>
-                            </div>
-                            <div class="day-container">
-                                <h4 class="responsive-day">Sab</h4>
-                                <h4 class="day-title">Sabato</h4>
-                                <p class="responsive-orari">9-13</p>
-                                <p class="responsive-orari">chiusi</p>
-                                <p class="Orari">9:00 - 13:00</p>
-                                <p class="Orari">chiusi</p>
-                            </div>
-                            <div class="day-container">
-                                <h4 class="responsive-day">Dom</h4>
-                                <h4 class="day-title">Domenica</h4>
-                                <p class="Orari">chiusi</p>
-                                <p class="Orari">chiusi</p>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="info-container__grid-container">
-
-                            <div class="place">
-                                <h3>Posizione</h3>
-                                <p>Vieni a trovarci, ci troviamo in</p>
-                                <p class="via">Via Pietro Badoglio, 51</p>
-                                <p>Trani (BT), 76125</p>
-                            </div>
-
-                            <div class="contatti">
-                                <h3>Contattaci</h3>
-                                <div class="information-container">
-                                    <img src="includes/img/gmail.png" alt="">
-                                    <p>erboristeriatrani@gmail.com</p>
-                                </div>
-                                    
-                                <div class="information-container">  
-                                    <img src="includes/img/cornetta.png" alt="">
-                                    <p>+39 391 439 3426</p>
-                                </div>
-                            </div>
-
-                     
-
-                            <div class="social">
-                                <h3>I Nostri Social</h3>
-                                <p>Seguici sui nostri social per restare sempre aggiornato con le nostre offerte, novità e molto altro.</p>
-
-                                <div class="social-container">
-                                    <a href="https://www.instagram.com/erboristeria_herborista_trani/"> <img src="includes/img/instagram.png" alt=""></a>
-                                    <a href="https://www.facebook.com/erboristeriatrani"><img src="includes/img/facebook.png" alt=""></a>
-                                    <a href="#"><img src="includes/img/tik_tok.png" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div class="recensioni">
-                                <h3>Le nostre recensioni</h3>
-                                <div class="recensioni-flex">
-                                    <div class="logo-container">
-                                        <img src="includes/img/logo.png" alt="">
-                                    </div>
-                                    <div class="recensioni-container">
-                                        <div class="img-container-recensioni">
-                                            <img src="includes/img/recensioni.png" alt="">
-                                        </div>
-                                        <div class="a-container-recensioni">
-                                            <a href="https://www.google.com/search?q=Dott.ssa%20Carla%20Avveniente%20-%20Erboristeria%20L%27%20Herborista%20-%20Biologo%20Nutrizionista%20Recensioni&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NDI3MbUwNTA2sjCyMAMCA8sNjIyvGCNd8ktK9IqLExWcE4tyEhUcy8pS8zJT80pSFXQVXIuS8osyi0tSizITFXzUFTxSoQKJQEmnzPyc_PR8Bb_SkqLMqsz8PLB4UGpyal4xiLeIlXZmAwDJ_vYc0gAAAA&rldimm=1274585032828666609&tbm=lcl&cs=1&hl=it&sa=X&ved=0CB0Q9fQKKABqFwoTCMjDrYqu0YgDFQAAAAAdAAAAABAG&biw=1745&bih=828&dpr=1.1#lkt=LocalPoiReviews">Visualizza tutte le Recensioni</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-                    </div>
-                     -->
                 </div>
             </div>
 
@@ -930,8 +880,8 @@
                                         <h3>Recensioni</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="#">Le Nostre Recensioni</a></li>
-                                        <li><a href="#">Chi Siamo</a></li>
+                                        <li><a href="https://www.google.com/search?q=Dott.ssa%20Carla%20Avveniente%20-%20Erboristeria%20L%27%20Herborista%20-%20Biologo%20Nutrizionista%20Recensioni&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NDI3MbUwNTA2sjCyMAMCA8sNjIyvGCNd8ktK9IqLExWcE4tyEhUcy8pS8zJT80pSFXQVXIuS8osyi0tSizITFXzUFTxSoQKJQEmnzPyc_PR8Bb_SkqLMqsz8PLB4UGpyal4xiLeIlXZmAwDJ_vYc0gAAAA&rldimm=1274585032828666609&tbm=lcl&cs=1&hl=it&sa=X&ved=0CB0Q9fQKKABqFwoTCNDns6Gyl4kDFQAAAAAdAAAAABAH&biw=1745&bih=828&dpr=1.1#lkt=LocalPoiReviews">Le Nostre Recensioni</a></li>
+                                        <li><a href="#ChiSiamo">Chi Siamo</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -941,8 +891,8 @@
                                         <h3>Link Utili</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="#">Termini e condizioni</a></li>
-                                        <li><a href="#">Contattaci</a></li>
+                                        <li><a href="#Prodotti">Tutti i Prodotti</a></li>
+                                        <li><a href="#Offerte">Offerte Stagionali</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -964,10 +914,10 @@
                                 <div class="footer-menu">
                                     <ul>
                                         <li><a href="#Home">Home</a></li>
-                                        <li><a href="#">Terms</a></li>
-                                        <li><a href="#">Privacy</a></li>
-                                        <li><a href="#">Policy</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#Prodotti">Prodotti</a></li>
+                                        <li><a href="#Outlet">Outlet</a></li>
+                                        <li><a href="" id="terminiModal">Termini e condizioni</a></li>
+                                        <li><a href="" id="contatti">Contatti</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -976,11 +926,12 @@
                 </div>
         </footer>
 
+    
 
             
         </section>
         
     </main>
-
+   
 </body>
 </html>

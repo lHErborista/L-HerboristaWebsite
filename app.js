@@ -13,6 +13,10 @@ linkMobile.forEach(link => {
     event.preventDefault();
     window.location.href = link.href; 
 
+    document.addEventListener('DOMContentLoaded', function() {
+        AOS.init();
+        });
+
     close()
 
   });
@@ -1172,11 +1176,42 @@ searchFieldMobile.addEventListener('keydown', function(event) {
 
 
 
+/* Footer */
+const terminiModal = document.getElementById('modal-termini');
+const terminiModalBtn = document.getElementById('terminiModal');
+const terminiModalCloseBtn = document.getElementById('close-modal-termini');
+
+terminiModalBtn.addEventListener('click',(event)=>{
+    event.preventDefault()
+    terminiModal.style.display = 'flex';
+})
+
+terminiModalCloseBtn.addEventListener('click',(event)=>{
+    event.preventDefault()
+    terminiModal.style.display = 'none';
+})
+
+
+const contattiLink = document.getElementById('contatti');
+
+contattiLink.addEventListener('click',(event)=>{
+    event.preventDefault(); 
+    event.stopPropagation();
+    
+    const whatsappLink = `https://wa.me/393914393426`;
+
+    window.location.href = whatsappLink;
+})
 
 
 
+const contattaciBtn = document.getElementById('contatti-btn');
 
+contattaciBtn.addEventListener('click',(event)=>{
+    event.preventDefault(); 
+    event.stopPropagation();
+    
+    const whatsappLink = `https://wa.me/393914393426`;
 
-
-
-
+    window.location.href = whatsappLink;
+})

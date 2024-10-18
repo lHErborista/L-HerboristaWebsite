@@ -35,6 +35,7 @@
 
 
 
+
 html, body {
     width: 100%;
     overflow-x: hidden;
@@ -126,7 +127,7 @@ html, body {
     justify-content: space-between;
     z-index: 22;
     background: var(--verde-scala-3);
-    animation: fade-in 1s;
+   /*  animation: fade-in 1s; */
 }
 .nav__title a{
     text-decoration: none;
@@ -146,7 +147,7 @@ html, body {
     list-style: none;
     margin: 1.25rem;
     font-size: 1.25rem;
-    transition: 0.4s ease-out;   
+   /*  transition: 0.4s ease-out;  */  
 }
 .nav__items li a,
 .mobile__nav_items li a{
@@ -305,7 +306,7 @@ section{
     height: 2rem;
     left: 0;
     background-color: var(--verde-scala-2);
-    animation: fade-in 2s;
+   /*  animation: fade-in 2s; */
 }
 .contatti-telefono{
     position: absolute;
@@ -349,39 +350,76 @@ section{
 
 /* Whatsap Chat Fixed Style */
 .whatsapp-fixed-modal{
-    background-color: var(--verde-scala-2);
     position: fixed;
-    right: 0rem;
+    right: -15rem;
     bottom: 1rem;
     z-index: 20;
-    width: 5rem;
-    height: 4rem;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    border-radius: 8px 0px 0px 8px;
+    width: 20rem;
+    height: 15rem;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    overflow: hidden;
 }
-.whatsapp-fixed-modal .content{
-    display: none;
+.button-whatsapp-modal{
+    position: relative;
+    width: 20%;
+}
+.whatsapp-modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-contrast);
+    border-radius: 4px 0px 0px 0px;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
 }
 .whatsapp{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--verde-scala-2);
+    height: 4rem;
+    width: 100%;
+    border-radius: 4px 0px 0px 4px;
 }
 .whatsapp img{
     width: 50px;
     height: 50px;
 }
-.whatsapp:hover{
-    transform: scale(1.1);
-}
 .whatsapp-fixed-modal:hover {
-    width: 15rem;     
+    right: 0;     
 }
-.whatsapp-fixed-modal:hover .content {
-    display: block;
+
+
+.tittle-modal-whatsapp{
+    height: 20%;
 }
+.tittle-modal-whatsapp h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--verde-scala-2);
+    text-align: center;
+}
+.content-modal-whatsapp{
+    height: 60%;
+}
+.content-modal-whatsapp p{
+    color: grey;
+    text-align: center;
+}
+.direct-modal-whatsapp{
+   height: 20%;
+}
+.direct-modal-whatsapp a{
+    color: var(--verde-scala-3);
+    margin-left: 2rem;
+}
+
 
 
 
@@ -505,7 +543,7 @@ section{
     width: 0%;
     height: 100%;
     z-index: -1;
-    transition: width 0.4s ease;
+    transition: width 0.4s ease; 
 }
 .button-type:hover::before {
     width: 100%;
@@ -1972,15 +2010,78 @@ footer ul {
 }
 
 
-
-
-
-
-
-
-
-
-
+/* Modal Termini */
+.modal-termini-backdrop {                 
+    z-index: 30;
+    height: 100%;           
+    position: fixed;           
+    top: 0;                    
+    left: 0;                 
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-termini {             
+    background-color: var(--bg-color-contrast);            
+    border-radius: 4px;
+    width: 35%;
+    height: 65%;
+}
+.tittle-modal{
+    height: 15%;
+    position: relative;
+    color: var(--verde-scala-3);
+    font-weight: bold;
+    font-size: 30px;
+}
+.tittle-modal h3::before{
+    content: ' ';
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    background-color: lightgrey;
+    width: 90%;
+    height: 2px;
+}
+.content-modal{
+    height: 70%;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+}
+.content-modal::before{
+    content: ' ';
+    position: absolute;
+    left: 5%;
+    top: 99%;
+    background-color: lightgrey;
+    width: 90%;
+    height: 2px;
+}
+.content-modal p{
+    max-width: 95%;
+    color: gray;
+    overflow-y: auto;
+    max-height: 100%;
+}   
+.content-modal p #modal-span a{
+    color: var(--verde-scala-3);
+}
+#modal-span{
+    color: grey;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button-modal{
+    height: 15%;
+}
+.button-modal button{
+    height: 2rem;
+    font-size: 18px;
+    margin-right: 1rem;
+}
 
 
 
@@ -2091,6 +2192,20 @@ footer ul {
         display: none;
     }
 
+
+    /* Whatsapp */
+    .whatsapp-fixed-modal{
+        right: -14.5rem;  
+        width: 18rem;
+    }
+    .tittle-modal-whatsapp h3{
+        font-size: 20px;
+    }
+
+
+
+
+
     #Home {
         top: 0;
         left: 0;
@@ -2179,7 +2294,6 @@ footer ul {
         padding: 1px;
         font-size: 12px;
     }
-
     .item-consigliato{
         width: 10rem;
         height: 23.5rem;   
@@ -2369,25 +2483,6 @@ footer ul {
         height: 2rem;
         font-size: 16px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     /* Prodotti Section */
@@ -2696,18 +2791,6 @@ footer ul {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     /* Chi siamo Section */
     #ChiSiamo{
         position: absolute;
@@ -2873,8 +2956,6 @@ footer ul {
     }
 
 
-
-
     .Copyright{
         height: 1rem;
     }
@@ -2885,26 +2966,28 @@ footer ul {
         padding: 0px;
         height: 80px;
     }
+
+    .modal-termini{
+        width: 90%;
+    }    
+    .tittle-modal h3{
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* TABLET MEDIA QUERY */
@@ -2938,6 +3021,13 @@ footer ul {
         top: 3rem;
     } 
         
+    .whatsapp-fixed-modal{
+        right: -14.5rem;  
+        width: 18rem;
+    }
+    .tittle-modal-whatsapp h3{
+        font-size: 22px;
+    }
 
 
     #Home {
@@ -3236,20 +3326,6 @@ footer ul {
         height: 2rem;
         font-size: 16px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     /* Prodotti Section */
@@ -3561,31 +3637,6 @@ footer ul {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* Chi siamo Section */
     #ChiSiamo{
         position: absolute;
@@ -3619,13 +3670,6 @@ footer ul {
         height: 2rem;
         font-size: 18px;
     }
-
-
-    
-
-
-
-
 
 
     /*  Vieni A trovarci section */
@@ -3761,8 +3805,6 @@ footer ul {
     }
 
 
-
-
     .Copyright{
         height: 1rem;
     }
@@ -3773,7 +3815,14 @@ footer ul {
         padding: 0px;
         height: 80px;
     }
+    .modal-termini{
+        width: 60%;
+    }    
+    .tittle-modal h3{
+        font-size: 25px;
+    }
 }
+
 
 
 /* Laptop Media query */
