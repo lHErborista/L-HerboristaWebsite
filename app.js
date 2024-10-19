@@ -1068,15 +1068,6 @@ function searchProducts() {
     setupSearchPagination(filteredProducts.length);
 }
 function showModal(){
-/* 
-    const hamburgerMobielProducts = document.querySelector('.hamburgerProducts');
-    const macroCategorieContainerMobile = document.querySelector('.macrocategoriaContainerMobile')
-    const closeMacroNabar = document.querySelector('.closeModalProducts')
-
-    closeMacroNabar.style.display = 'none';
-    macroCategorieContainerMobile.style.display = 'none';
-    hamburgerMobielProducts.style.display = 'block';
-     */
 
     const activatedModal = document.querySelectorAll('.active');
 
@@ -1085,7 +1076,7 @@ function showModal(){
     }
     activeModalMicro = null;
     activeModalBtn = null;
-    searchModal.style.display = "block";  
+    searchModal.style.display = 'block';
 
     const closeModalBtn = document.getElementById('closeModalBtn');
     closeModalBtn.addEventListener('click', function(){

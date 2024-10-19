@@ -393,8 +393,6 @@ section{
 .whatsapp-fixed-modal:hover {
     right: 0;     
 }
-
-
 .tittle-modal-whatsapp{
     height: 20%;
 }
@@ -656,8 +654,6 @@ section{
 .item-consigliato-description:hover h3::before {
     content: url(includes/img/icone/frecciaingiu.png); 
 }
-
-
 .item-consigliato .categoria{
     color: var(--verde-scala-2);
 }
@@ -787,7 +783,6 @@ section{
     color: var(--verde-scala-2);
     font-size: 22px;
 }
-
 .sconti-tittle{
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
@@ -1167,11 +1162,21 @@ section{
     background-color:  var(--bg-color-contrast);
     position: absolute;
     top: 5rem;
-    display: none;
+    display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     z-index: 20;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px); /* Starting position */
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    border-bottom: 5px solid var(--verde-scala-1);
+}
+.microCategorie-container.active { 
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 .microCategorie{
     padding: 10px;
@@ -1181,9 +1186,12 @@ section{
     color: var(--verde-scala-3);
     font-weight: bold;
     letter-spacing: 0.5px;
+    transition: transform 03s ease-in-out;
 }
 .microCategorie:hover{
-    color: var(--verde-scala-2);
+    color: var(--verde-scala-1);
+    transform: scale(1.1);
+   
 }
 .microMacroCategorie-container{
     width: 100%;
@@ -1191,9 +1199,14 @@ section{
     position: absolute;
     top: 5rem;
     height: 35rem;
-    display:  none;
+    display:  flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     z-index: 20;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px); 
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    border-bottom: 5px solid var(--verde-scala-1);
 }
 .micro-macroCategoria{
     width: 30%;
@@ -1212,9 +1225,6 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.microCategorie-container.active {
-    display: grid; 
-}
 .macroCategorie{
     background-color: var(--bg-color-contrast);
 }
@@ -1222,16 +1232,23 @@ section{
     display: grid;
 }
 #microCosmetici.active {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 .microCategorie-outlet-container{
     width: 100%;
     background-color: var(--bg-color-contrast);
     position: absolute;
     top: 5rem;
-    display: none;
+    display: grid;
     grid-template-rows: 1fr 1fr;
     z-index: 20;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px); 
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    border-bottom: 5px solid var(--verde-scala-1);
 }
 .microCategorie-outlet-container h3{
     margin-top: 2rem;
@@ -1241,7 +1258,9 @@ section{
     color: var(--verde-scala-2);
 }
 .microCategorie-outlet-container.active{
-    display: grid;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 .outletContainer-Micro{
     margin-top: -2rem;
@@ -1260,8 +1279,11 @@ span{
     background-color: var(--bg-color);
     width: 100%;
     height: 100%;
-    display: none;
+    display: none;    
 }
+
+
+
 .search-field{
     width: 50rem;
     height: 2.5rem;
@@ -1339,7 +1361,6 @@ span{
     height: 80%;
     position: absolute;
     top: 0;
-
 }
 .products-description {
     position: absolute;
@@ -1726,7 +1747,6 @@ span{
     width: 100%;
     z-index: 1;
 }
-
 .info-container{
     background-color: var(--bg-color-contrast);
     box-shadow: 1px 1px 1px 1px rgba(234, 234, 234, 0.5);
@@ -1771,7 +1791,6 @@ span{
 .social-container a img:hover{
     transform: scale(1.1);
 }
-
 .posizione h3,
 .orari h3{
     padding: 20px;
@@ -1955,7 +1974,6 @@ footer ul {
 .footer-widget:first-of-type {
     margin-bottom: 1rem; 
 }
-
 .footer-widget ul {
     display: flex; 
     flex-wrap: wrap; 
@@ -2082,28 +2100,6 @@ footer ul {
     font-size: 18px;
     margin-right: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

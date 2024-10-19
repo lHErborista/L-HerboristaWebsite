@@ -5,10 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 window.addEventListener('scroll', () => {
-    AOS.refresh(); // Recalculates AOS positions and ensures animations run
-  });
+    AOS.refresh(); 
+});
   
-
 containerImgCategorie.forEach(element =>{
     const Img = element.querySelector('img');
     const Btn = element.querySelector('button');
@@ -25,41 +24,24 @@ containerImgCategorie.forEach(element =>{
 
 
 
+const allh2 = document.querySelectorAll('h2');
+const allh3 = document.querySelectorAll('h3');
 
 
-
-const sectionOfferte = document.getElementById('Offerte');
-
-const allH3Offerte = document.querySelectorAll('h3');
-
-allH3Offerte.forEach(el => { // Corrected the arrow function
-    gsap.registerPlugin(ScrollTrigger);
-
-    gsap.from(el, {
-        scrollTrigger: {
-          trigger: sectionOfferte, // Trigger when the 'Offerte' section comes into view
-          start: "top 80%",        // Adjust where the animation starts (relative to viewport)
-        },
-        duration: 2,           
-        opacity: 0,         
-        y: 200,                
-        ease: "power2.out",    
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.animation = 'fade-in 1s forwards';
+        }
     });
+}, {
+    threshold: 0.1 
 });
 
-const allH2Offerte = document.querySelectorAll('h2');
+allh2.forEach(h2 => {
+    observer.observe(h2);
+});
 
-allH2Offerte.forEach(el => { // Corrected the arrow function
-    gsap.registerPlugin(ScrollTrigger);
-
-    gsap.from(el, {
-        scrollTrigger: {
-          trigger: sectionOfferte, // Trigger when the 'Offerte' section comes into view
-          start: "top 80%",        // Adjust where the animation starts (relative to viewport)
-        },
-        duration: 2,           
-        opacity: 0,         
-        y: 200,                
-        ease: "power2.out",    
-    });
+allh3.forEach(h3 => {
+    observer.observe(h3);
 });
