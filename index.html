@@ -38,6 +38,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
 
+    <!-- Pdf converter -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
 
 </head>
 <body>
@@ -47,10 +50,10 @@
         
         <ul class="mobile__nav_items" id="mobile__nav">
             <li><a href="#Home">l'Herborista</a></li>
-            <li><a href="#Offerte">Offerte Lampo</a></li>
+            <li><a href="#Offerte">Prodotti Stagionali</a></li>
             <li><a id="ProdottiLinkageMobile" href="#Prodotti">Prodotti</a></li>
             <li><a id="OutletLinkageMobile" href="#Prodotti">Outlet</a></li>
-            <li><a href="#ChiSiamo">Chi siamo?</a></li>    
+            <li><a href="#ChiSiamo">Chi siamo</a></li>    
             <li><a class="MobileVieniATrovarci" href="#VieniATrovarci">Vieni a trovarci</a></li>
         </ul>
     </div>
@@ -63,7 +66,7 @@
             </div>
             
             <ul class="nav__items">
-                <li><a href="#Offerte" refer="Offerte">Offerte Stagionali</a></li>
+                <li><a href="#Offerte" refer="Offerte">Prodotti Stagionali</a></li>
                 <li><a id="ProdottiLinkage" href="#Prodotti" refer="Prodotti">Prodotti</a></li>
                 <li><a id="OutletLinkage" href="#Prodotti" refer="Prodotti">Outlet</a></li>
                 <li><a href="#ChiSiamo" refer="ChiSiamo">Chi siamo</a></li>    
@@ -139,39 +142,39 @@
 
         <!-- Offerte Lampo Section -->
         <section id="Offerte">
-            <h1>Offerte Stagionali</h1>
-
-            <div id="offerte-carousel" class="p-0 m-0 border-0 bd-example m-0 border-0"  style="width: 100%; height: 550px;">
-                <!-- Carousel Item -->
+            <h1>Prodotti Stagionali</h1>
+<!-- 
+            <div id="offerte-carousel" class="p-0 m-0 border-0 bd-example m-0 border-0"  style="width: 100%; height: 200px;">
+             
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
 
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="550" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
-                            <image href="dati/immaginiOfferte/carosello1.webp" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" opacity="1"></image>
-                           <!--  <text x="50%" y="50%" fill="rgb(14, 108, 62)" dy=".3em">Offerte e Promozioni</text> -->
+                            <image href="dati/immaginiOfferte/carosellotest.png" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" opacity="1"></image>
+            
                         </svg>
                     </div>
 
                     <div class="carousel-item active">
-                      <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="550" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
                         <image href="dati/immaginiOfferte/carosello2.webp" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"  opacity="1"></image>
-                        <!-- <text x="50%" y="50%" fill="rgb(14, 108, 62)" dy=".3em">Prodotti Consigliati</text> -->
+            
                     </svg>
                     </div>
 
                     <div class="carousel-item">
-                      <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="550" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false">
                         <title>Placeholder</title>
                         <image href="https://www.mondoffice.com/INTERSHOP/static/WFS/RAJA-Site/MONDOFFICE/RAJA-MONDOFFICE/it_IT/images/2024/0380/9-SET/W24_09_SPECIAL_01_novita.webp" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" opacity="1"></image>
-                       <!--  <text x="50%" y="50%" fill="rgb(14, 108, 62)" dy=".3em">Ultime rimanenze</text> -->
+                   
                     </svg>
                     </div>
                   </div>
 
-                  <!-- Button carousel -->
+        
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -181,9 +184,34 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
-            </div>
+            </div> -->
                 
-            <h2 id="offerte-tittle-news" >Le Novità del momento</h2>
+
+            <div class="col-md-12 natale-carousel">
+                <div class="col-md-5">
+                    <h3>Offerte Natalizie</h3>
+                    <p>Scopri tutte le offerte natalizie, scarica gratuitamente il nostro catalogo.</p>
+                    <button>Scarica Catalogo</button>
+                </div>
+
+                <div class="col-md-5 container-carosello-pdf">
+                        <button id="prevButton">❮</button>
+                        <div class="pdf-page" id="pdfPage"></div>
+                        <button id="nextButton">❯</button>
+                
+                </div>
+            </div>
+
+
+         
+        <!--     
+            
+ -->
+
+
+
+
+            <h2 id="offerte-tittle-news" >Benessere Invernale</h2>
 
             <div class="prodotti-consigliati">
                 <div class="prodotti-consigliat-container" id="prodotti-consigliati-list">
@@ -192,9 +220,9 @@
             </div>
 
             <div class="prodotti-scontati">
-                <h2>Prodotti Scontati fino ad Esaurimento Scorte</h2>
+                <h2>Occasioni Speciali</h2>
 
-                <h3>Categorie <span class="sconti-tittle">Sconti fino al 30%</span></h3>
+                <h3>Categorie <span class="sconti-tittle">Sconti fino al 40%</span></h3>
                 <div class="categorie-container">
                  
                     <div class="categorieContainer overflow">
@@ -244,7 +272,7 @@
                 </div>
 
 
-                <h3 id="best-save">I migliori scontati</h3>
+                <h3 id="best-save">Best Seller</h3>
 
                 <div class="prodotti-scontatiContainer">
                     
@@ -366,7 +394,7 @@
                             <button class="microCategorie" id="microCategorie">Digestione e benessere intestinale</button>
                             <button class="microCategorie" id="microCategorie">Salute delle ossa e delle articolazioni</button>
                             <button class="microCategorie" id="microCategorie">Controllo del peso e metabolismo</button>
-                            <button class="microCategorie" id="microCategorie">Cura dei capelli e unghie</button>
+                            <button class="microCategorie" id="microCategorie">Cura dei capelli, della pelle e delle unghie</button>
                             <button class="microCategorie" id="microCategorie">Occhi e orecchie</button>
                             <button class="microCategorie" id="microCategorie">Sfera sessuale</button>
                             <button class="microCategorie" id="microCategorie">Sport e attività fisica</button>
@@ -455,6 +483,9 @@
                                 <button class="microCategorie" id="microCategorieOutlet">Alimentazione naturale<span> sconti</span></button>
                                 <button class="microCategorie" id="microCategorieOutlet">Integratori naturali<span> sconti</span></button>
                                 <button class="microCategorie" id="microCategorieOutlet">Cosmetici e cura della pelle<span> sconti</span></button>
+                                <button class="microCategorie" id="microCategorieOutlet">Sotto i 10€</button>
+                                <button class="microCategorie" id="microCategorieOutlet">Dai 10€ ai 25€</button>
+                                <button class="microCategorie" id="microCategorieOutlet">Dai 25€ ai 50€</button>
                             </div>
                         </div>
 
@@ -592,7 +623,7 @@
                             <button class="microCategorie" id="microCategorie">Digestione e benessere intestinale</button>
                             <button class="microCategorie" id="microCategorie">Salute delle ossa e delle articolazioni</button>
                             <button class="microCategorie" id="microCategorie">Controllo del peso e metabolismo</button>
-                            <button class="microCategorie" id="microCategorie">Cura dei capelli e unghie</button>
+                            <button class="microCategorie" id="microCategorie">Cura dei capelli, della pelle e delle unghie</button>
                             <button class="microCategorie" id="microCategorie">Occhi e orecchie</button>
                             <button class="microCategorie" id="microCategorie">Sfera sessuale</button>
                             <button class="microCategorie" id="microCategorie">Sport e attività fisica</button>
@@ -668,6 +699,9 @@
                             <button class="microCategorie" id="microCategorieOutlet">Alimentazione naturale<span> sconti</span></button>
                             <button class="microCategorie" id="microCategorieOutlet">Integratori naturali<span> sconti</span></button>
                             <button class="microCategorie" id="microCategorieOutlet">Cosmetici e cura della pelle<span> sconti</span></button>
+                            <button class="microCategorie" id="microCategorieOutlet">Sotto i 10€</button>
+                            <button class="microCategorie" id="microCategorieOutlet">Dai 10€ ai 25€</button>
+                            <button class="microCategorie" id="microCategorieOutlet">Dai 25€ ai 50€</button>
                         </div>
                     </div>
 

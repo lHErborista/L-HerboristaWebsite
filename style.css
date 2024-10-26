@@ -115,8 +115,6 @@ html, body {
 
 
 
-
-
 /* NAV BAR */
 .navBar{
     height: 4rem;
@@ -558,11 +556,85 @@ section{
 
 
 /* Offerte Lampo Section */
+
+/* Natale COntainer */
+/* 
+.pdf-carousel-container {
+
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.pdf-page canvas {
+    width: 100%;     
+    height: auto;      
+}
+
+
+
+
+
+ */
+
+ .natale-carousel {
+    width: 100%;
+    height: 800px;
+    background-color: var(--verde-scala-1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container-carosello-pdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pdf-page canvas {
+    width: 100%;         
+    max-width: 500px;   
+    height: auto;   
+}
+
+.container-carosello-pdf button {
+    margin-right: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#prevButton { left: 10px; }
+#nextButton { right: 10px; }
+
+
+.pdf-page {
+    opacity: 0; /* Inizialmente invisibile */
+    transform: scale(0.9); /* Inizialmente leggermente ridotto */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transizioni per l'animazione */
+}
+
+.pdf-page.show {
+    opacity: 1; /* Visibile */
+    transform: scale(1); /* Dimensione normale */
+}
+
+
+
+
 #Offerte{
     position: absolute;
     top: 53.375rem;
     position: relative;
-    height: 152rem;
+    height: 172rem;
     background-color: var(--bg-color);
     z-index: 5;
 }
@@ -1030,7 +1102,7 @@ section{
 /* Sezione Prodotti */
 #Prodotti{
     position: absolute;
-    top: 216rem;
+    top: 227rem;
     height: 103.125rem;
     background-color: var(--bg-color);
 }
@@ -1621,7 +1693,7 @@ span{
 /* Chi siamo Section */
 #ChiSiamo{
     position: absolute;
-    top: 316rem;
+    top: 334rem;
     height: 62.5rem; 
 }
 .chi-siamo-title{
@@ -1729,7 +1801,7 @@ span{
 /* Vieni A trovarci Section*/
 #VieniATrovarci{
     position: absolute;
-    top: 374.2rem;
+    top: 394.2rem;
     height: 800px;
 }
 .negozio-information-container{
@@ -2238,7 +2310,7 @@ footer ul {
 
     /* Offerte Section */
     #Offerte{
-        height: 150rem;
+        height: 165rem;
     }
     #Offerte h1{
         margin-top: 0rem;
@@ -2260,13 +2332,10 @@ footer ul {
         font-size: 20px;
     }
     #offerte-tittle-news{
-        position: absolute;
-        top: 22.75rem;
         width: 100%;
     }
     .prodotti-consigliati{
-        position: absolute;
-        top:26.75rem;
+
         height: 290px;
         width: 100vw;
     }
@@ -2340,7 +2409,7 @@ footer ul {
     }
     .prodotti-scontati{
         height: 1700px;
-        margin-top: 4rem;
+        margin-top: 0rem;
     }
     .prodotti-scontati h2{
         font-size: 20px;
@@ -2483,7 +2552,7 @@ footer ul {
 
     /* Prodotti Section */
     #Prodotti{
-        top: 206rem;
+        top: 240rem;
         height: 92rem;
     }
     .prodotti-title{

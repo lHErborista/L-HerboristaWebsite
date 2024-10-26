@@ -24,7 +24,6 @@ linkMobile.forEach(link => {
 
 
 
-
 // MOBILE NAV BAR 
 /* Mobile Nav Bar */
 function open(){
@@ -83,6 +82,25 @@ closeMacroNabar.addEventListener('click', ()=>{
     hamburgerMobielProducts.style.display = 'block';
     closeMacroNabar.style.display = 'none';
 })
+
+
+
+/*  Whatsapp chat */
+const whatsappLink = document.getElementById('whatsapp-chat');
+
+
+whatsappLink.addEventListener('click', function(event) {
+        event.preventDefault(); 
+        event.stopPropagation(); 
+        
+        const whatsappLink = `https://wa.me/393914393426`;
+        
+        window.location.href = whatsappLink;
+});
+
+
+
+
 
 
 
@@ -1206,3 +1224,104 @@ contattaciBtn.addEventListener('click',(event)=>{
 
     window.location.href = whatsappLink;
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const pdfPath = 'outlet.pdf';
+let pdfDoc = null;
+let pageNum = 1;
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js';
+
+// Funzione per caricare il PDF
+pdfjsLib.getDocument(pdfPath).promise.then(pdf => {
+    pdfDoc = pdf;
+    renderPage(pageNum);
+}).catch(error => {
+    console.error('Errore nel caricamento del PDF:', error);
+});
+
+function renderPage(num) {
+    pdfDoc.getPage(num).then(page => {
+        const scale = 1; // Scala di base (regolabile)
+        const viewport = page.getViewport({ scale });
+
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        
+        // Imposta le dimensioni del canvas
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+
+        // Renderizza la pagina sul canvas
+        page.render({ canvasContext: context, viewport }).promise.then(() => {
+            const pdfPageDiv = document.getElementById('pdfPage');
+            pdfPageDiv.innerHTML = '';  // Svuota il contenuto precedente
+            pdfPageDiv.appendChild(canvas);  // Aggiunge la nuova pagina renderizzata
+
+            // Imposta larghezza massima per rendere il canvas responsive
+            canvas.style.width = "100%";
+            canvas.style.height = "auto";
+
+            // Rimuove la classe show per applicare di nuovo l'animazione
+            pdfPageDiv.classList.remove('show');
+            
+            // Forza un reflow per l'animazione
+            void pdfPageDiv.offsetWidth; 
+            
+            // Aggiunge la classe show per attivare l'animazione di comparsa
+            pdfPageDiv.classList.add('show');
+        });
+    }).catch(error => {
+        console.error('Errore nel rendering della pagina:', error);
+    });
+}
+
+
+// Navigazione tra le pagine
+document.getElementById('prevButton').addEventListener('click', () => {
+    if (pageNum <= 1) return;
+    
+    // Riduci l'opacità e scala per effetto di uscita
+    const pdfPageDiv = document.getElementById('pdfPage');
+    pdfPageDiv.classList.remove('show'); // Rimuove la classe per nascondere l'immagine corrente
+
+    // Dopo un breve intervallo, cambia la pagina e ri-renderizza
+    setTimeout(() => {
+        pageNum--;
+        renderPage(pageNum);
+    }, 500); // Aspetta che l'animazione finisca
+});
+
+document.getElementById('nextButton').addEventListener('click', () => {
+    if (pageNum >= pdfDoc.numPages) return;
+
+    // Riduci l'opacità e scala per effetto di uscita
+    const pdfPageDiv = document.getElementById('pdfPage');
+    pdfPageDiv.classList.remove('show'); // Rimuove la classe per nascondere l'immagine corrente
+
+    // Dopo un breve intervallo, cambia la pagina e ri-renderizza
+    setTimeout(() => {
+        pageNum++;
+        renderPage(pageNum);
+    }, 500); // Aspetta che l'animazione finisca
+});
+
+
