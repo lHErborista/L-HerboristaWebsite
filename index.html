@@ -185,8 +185,9 @@
                   </button>
                 </div>
             </div> -->
-                
+            
 
+<!-- 
             <div class="col-md-12 natale-carousel">
                 <div class="col-md-5">
                     <h3>Offerte Natalizie</h3>
@@ -198,16 +199,41 @@
                         <button id="prevButton">❮</button>
                         <div class="pdf-page" id="pdfPage"></div>
                         <button id="nextButton">❯</button>
-                
+                </div>
+            </div> -->
+
+
+           
+
+            <div class="col-md-12 NataleContainer">
+                <div class="col-md-12 nataleImgContainer">
+                    <div class="natale-backdrop"></div>
+                    <img src="includes/img/natale.webp" alt="">
+                    <!-- <h3>Il Natale è ormai qui: Segli il regalo giusto!</h3> -->
+                </div>
+                <div class="col-md-12 d-flex justify-content-center align-items-center nataleCatalogoContainer">
+                    <div class="col-md-6 p-5 description">
+                        <h3>Scegli Il regalo giusto: <span>Sfoglia il nostro catalogo dei prodotti natalizi</span></h3>
+                        <p>Puoi Scaricare il catalogo gratuitamente con tutti i prodotti e poi contattarci per qualsiasi info o per ordinare i vari prodotti</p>
+                        <button class="button-style" id="downloadButton">Scarica Catalogo</button>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center align-items-center p-0 img-container">
+                        <img src="includes/img/Catalogo1.jpg" alt="">
+                        <img src="includes/img/Catalogo2.webp.jpg" alt="">
+                    </div>
+                    
                 </div>
             </div>
 
 
-         
-        <!--     
-            
- -->
-
+            <script>
+                document.getElementById("downloadButton").addEventListener("click", function() {
+                    const link = document.createElement("a");
+                    link.href = "outlet.pdf";  
+                    link.download = "Catalogo-Erboristeria.pdf";  
+                    link.click();
+                });
+            </script>
 
 
 
