@@ -125,7 +125,7 @@ html, body {
     justify-content: space-between;
     z-index: 22;
     background: var(--verde-scala-3);
-   /*  animation: fade-in 1s; */
+    animation: fade-in 1s; 
 }
 .nav__title a{
     text-decoration: none;
@@ -145,7 +145,7 @@ html, body {
     list-style: none;
     margin: 1.25rem;
     font-size: 1.25rem;
-   /*  transition: 0.4s ease-out;  */  
+    transition: 0.4s ease-out;  
 }
 .nav__items li a,
 .mobile__nav_items li a{
@@ -636,6 +636,7 @@ section{
 .NataleContainer{
     height: 750px;
     position: relative;
+    overflow: hidden;
 }
 .nataleImgContainer{
     height: 250px;
@@ -2411,17 +2412,16 @@ footer ul {
 
     /* Offerte Section */
 
-
-
     /* Natale COntainer */
     .NataleContainer{
-            height: 650px; 
+            height: 670px; 
+            overflow: hidden;
     }
     .natale-backdrop{
             display: none;
     }
     .nataleImgContainer{
-            display: none;
+        display: none;
     }
     .nataleImgContainer img{
             width: 100%;
@@ -2434,11 +2434,12 @@ footer ul {
     }
     .description{
             height: 400px;
+            text-align: center;
     }
     .description h3{
             color: var(--verde-scala-3);
             max-width: 100%;
-            text-align: left;
+            text-align: center;
             font-weight: bold;
             font-size: 22px;
             padding-bottom: 5px;
@@ -2471,12 +2472,13 @@ footer ul {
     .img-container img{
             width: 60%;
             height: auto;
-            transform: translate(0%, -10%);
+            transform: translate(0%, 0%);
             z-index: 1;
-        
+            padding-bottom: 50px;
     }
     .img-container img:last-of-type{
             width: 60%;
+            display: none;
     }
     .nataleCatalogoContainer .button-style{
             width: 15rem;
@@ -2492,7 +2494,7 @@ footer ul {
 
 
     #Offerte{
-        height: 172rem;
+        height: 174rem;
     }
     #Offerte h1{
         margin-top: 0rem;
@@ -2636,6 +2638,7 @@ footer ul {
     }
     #best-save{
         font-size: 20px;
+        margin-top: 1rem;
     }
     .prodotti-scontatiContainer{
         position: absolute;
@@ -2734,7 +2737,7 @@ footer ul {
 
     /* Prodotti Section */
     #Prodotti{
-        top: 228rem;
+        top: 231rem;
         height: 92rem;
     }
     .prodotti-title{
@@ -3041,7 +3044,7 @@ footer ul {
     /* Chi siamo Section */
     #ChiSiamo{
         position: absolute;
-        top: 325rem;
+        top: 317rem;
         height: 62.5rem; 
     }
     .chi-siamo-title{
@@ -3314,105 +3317,89 @@ footer ul {
     /* Offerte Section */
 
 
+    
+    /* Natale COntainer */
+    
     .NataleContainer{
-        height: 650px; 
+        height: 450px; 
+        overflow: hidden;
     }
     .natale-backdrop{
-        display: none;
+            display: none;
     }
     .nataleImgContainer{
         display: none;
     }
-
-    
-    
-    
     .nataleImgContainer img{
-        width: 100%;
-        height: auto;
+            width: 100%;
+            height: auto;
     }
-
-
-
     .nataleCatalogoContainer{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-       
+            display: flex;
+            flex-direction: row;
+            height: 100%;
     }
     .description{
-        height: 400px;
+            height: 400px;
+            text-align: left;
     }
     .description h3{
-        color: var(--verde-scala-3);
-        max-width: 100%;
-        text-align: left;
-        font-weight: bold;
-        font-size: 22px;
-        padding-bottom: 5px;
+            color: var(--verde-scala-3);
+            max-width: 100%;
+            text-align:left;
+            font-weight: bold;
+            font-size: 25px;
+            padding-bottom: 5px;
     }
     .description h3 span{
-        color: var(--bg-color);
-        display: block;
-        font-size: 18px;
-        padding-top: 5px;
-        margin-left: 0rem;
+            color: var(--bg-color);
+            display: block;
+            font-size: 20px;
+            padding-top: 5px;
+            margin-left: 0rem;
     }
     .description p{
-        max-width: 100%;
-        padding-bottom: 10px;
-        padding-top: 5px;
-        font-size: 16px;
+            max-width: 100%;
+            padding-bottom: 10px;
+            padding-top: 5px;
+            font-size: 16px;
     }
     .description .button-style{
-        font-size: 18px;
-        margin-left: -0.3rem;
-        background-color: var(--verde-scala-2);
+            font-size: 18px;
+            margin-left: -0.3rem;
+            background-color: var(--verde-scala-2);
     }
     .description .button-style::before{
-        background-color: var(--verde-scala-3);
+            background-color: var(--verde-scala-3);
     }
-
-
     .img-container{
-        height: 350px;
+            height: 350px;
+            margin-top: 0.5rem;
     }
     .img-container img{
-        width: 60%;
-        height: auto;
-        transform: translate(0%, -10%);
-        z-index: 1;
-    
+            width: 100%;
+            height: auto;
+            transform: translate(0%, 0%);
+            z-index: 1;
+            padding-bottom: 30px;
     }
     .img-container img:last-of-type{
-        width: 60%;
+            width: 60%;
+            display: none;
     }
     .nataleCatalogoContainer .button-style{
-        width: 15rem;
+            width: 15rem;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     #Offerte{
-        height: 130rem;
+        height: 140rem;
     }
     #Offerte h1{
         margin-top: 0rem;
         height: 2.6rem;
         font-size: 20px;
     }
-    .carousel{
+    /* .carousel{
         position: absolute;
         top: 0rem;
         width: 100vw;
@@ -3422,18 +3409,18 @@ footer ul {
     }
     .carousel-item{
         height: 300px;
-    }
+    } */
     #Offerte h2{
         font-size: 22px;
     }
     #offerte-tittle-news{
         position: absolute;
-        top: 24rem;
+        top: 33.5rem;
         width: 100%;
     }
     .prodotti-consigliati{
         position: absolute;
-        top:28rem;
+        top: 37rem;
         height: 300px;
         width: 100vw;
     }
@@ -3506,8 +3493,9 @@ footer ul {
         height: 8rem;  
     }
     .prodotti-scontati{
+        position: absolute;
+        top: 55rem;
         height: 1350px;
-        margin-top: 4rem;
     }
     .prodotti-scontati h2{
         font-size: 22px;
@@ -3669,7 +3657,7 @@ footer ul {
 
     /* Prodotti Section */
     #Prodotti{
-        top: 186rem;
+        top: 196rem;
         height: 90rem;
     }
     .prodotti-title{
@@ -3979,7 +3967,7 @@ footer ul {
     /* Chi siamo Section */
     #ChiSiamo{
         position: absolute;
-        top: 272rem;
+        top: 283rem;
         height: 74rem; 
     }
     .chi-siamo-title{
@@ -4175,10 +4163,10 @@ footer ul {
         height: 90%;
     }
     #Offerte{
-        height: 130rem;
+        height: 138rem;
     }
     #Prodotti{
-        top: 188rem;
+        top: 198rem;
     }
     .prodotti-scontatiContainer{
         height: 350px;
@@ -4212,14 +4200,39 @@ footer ul {
     }
     #ChiSiamo{
         position: absolute;
-        top: 288rem;
+        top: 298rem;
         height: 62.5rem; 
     }
     .posizione:last-of-type{
         margin-top: 0rem;
     }
-   
-      
+    .description h3{
+        color: var(--verde-scala-3);
+        max-width: 50%;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .description h3 span{
+        font-size: 25px;
+        width: 15rem;
+        margin-left: 0rem;
+    }  
+    .description .button-style{
+        font-size: 18px;
+        margin-left: -0.3rem;
+        width: 12rem;
+        background-color: var(--verde-scala-2);
+    }
+    .img-container img{
+        width: 100%;
+        height: auto;
+        transform: translate(-20%, -05%);
+        z-index: 1;
+    }
+
+    .img-container img:last-of-type{
+        width: 100%;
+    }
 }
 @media(min-width: 1300px) and (max-width: 1600px){
     
@@ -4231,10 +4244,10 @@ footer ul {
         margin-top: 2rem;
     }   
     #Offerte{
-        height: 135rem;
+        height: 145rem;
     }
     #Prodotti{
-        top: 192rem;
+        top: 202rem;
     }
     .prodotti-scontati{
         height: 1000px;
@@ -4261,7 +4274,7 @@ footer ul {
     }
     #ChiSiamo{
         position: absolute;
-        top: 293rem;
+        top: 302rem;
         height: 62.5rem; 
     }
 }
@@ -4810,17 +4823,17 @@ footer ul {
             }
             #Offerte{
                 top: 94rem;
-                height: 170rem;
+                height: 180rem;
             }
             #Prodotti{
-                top: 265rem;
+                top: 280rem;
                 height: 150rem;
             }
             .prodotti-scontati{
                 height: 1400px;
             }
             #ChiSiamo{
-                top: 368rem;
+                top: 385rem;
                 height: 100rem; 
             }
             #VieniATrovarci{
