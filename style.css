@@ -1,11 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway','Helvetica','sans-serif';
+    font-family: "Quicksand", sans-serif;
 }
 
 :root{
-    
     --bg-color:  white;
     --bg-color-contrast: whitesmoke;
 
@@ -16,23 +15,7 @@
 
     --footer: rgb(60, 78, 78);
     --grey-verde-footer-dark: #5a6d63;
-
-/* 
-    --bg-color-primo-livello: white;
-    --bg-color-secondo-levello: rgb(227, 227, 227);
-
-    --contrast-dark-color: rgb(68, 156, 103);
-    --contrast-color: #f3a7bf;
-
-    --text-color: #EEEEEE;
-    --text-two-color: rgb(236, 236, 236);
-
-    --sconti-bg:  rgb(68, 156, 103) ;
-    --footer: #3b8b5b;
-    --over-prdotti:   #f0f0f0; */
 }
-
-
 
 
 
@@ -51,12 +34,10 @@ html, body {
 .button-style{
     text-align: center;
     width: 10rem;
-    margin-left: 1rem;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    height: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 20px;
     background: none;
     color: var(--contrast-color);
     border: 1px solid var(--contrast-color);
@@ -79,9 +60,7 @@ html, body {
 }
 .button-style:hover{
     color: var(--bg-color); 
-    font-weight: bold
 }
-
 
 
 /* :root Generic a tag */
@@ -107,11 +86,6 @@ html, body {
 .a-style:hover::before{
     width: 100%;
 }
-
-
-
-
-
 
 
 
@@ -721,15 +695,6 @@ section{
 .nataleCatalogoContainer .button-style{
     width: 15rem;
 }
-
-
-
-
-
-
-
-
-
 
 
 #Offerte{
@@ -1796,7 +1761,6 @@ span{
 #ChiSiamo{
     position: absolute;
     top: 334rem;
-    height: 62.5rem; 
 }
 .chi-siamo-title{
     color: var(--bg-color);
@@ -1812,7 +1776,7 @@ span{
     margin-bottom: 0.4rem;
 }
 .imagePresentationContainer{
-    height: 100%;
+    height: 800px;
     width: 100%;
     position: relative;
     margin-top: -0.48rem;
@@ -1840,29 +1804,33 @@ span{
     z-index: 10;
     position: absolute;
     top: 15rem;
-    left: 10rem;
+    left: 22rem;
     width: 31.25rem;
 }
 .ChiSiamoDescription h3{
     font-size: 35px;
-    font-style: italic;
-    color: var(--verde-scala-2);
+    color: var(--bg-color-contrast);
 }
 .ChiSiamoDescription p{
     margin-top: 1rem;
     font-size: 18px;
+    color: lightgray;
 }
-.ChiSiamoDescription button{
-    margin-top: 1rem;
-    margin-left: 0.2rem;
+
+
+
+.ChiSiamoDescription button,
+.container-description button,
+.parlano-di-noi button{
+    margin-top: 0.8rem;
     text-decoration: none;
     text-align: center;
-    width: 49%;
-    border-radius: 10px;
+    padding: 8px;
+    width: 12rem;
+    border-radius: 8px;
     position: relative;
     overflow: hidden;
-    height: 2.8rem;
-    font-size: 1.5rem;
+    font-size: 20px;
     border: none;
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
@@ -1871,24 +1839,102 @@ span{
     animation: fade-in 4s;
     z-index: 1;
 }
-.ChiSiamoDescription button::before {
+.ChiSiamoDescription button::before,
+.container-description button::before{
     content: '';
     position: absolute;
     top: 0;
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--verde-scala-1);
+    background-color: var(--verde-scala-3);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
-.ChiSiamoDescription button:hover::before {
+.ChiSiamoDescription button:hover::before,
+.container-description button:hover::before,
+.parlano-di-noi button:hover::before {
     left: 0; 
 }
-.ChiSiamoDescription button:hover {
+.ChiSiamoDescription button:hover,
+.container-description button:hover,
+.parlano-di-noi button:hover {
     color: var(--bg-color); 
     cursor: pointer;
 }
+.descrizione-container{
+    margin-top: 2rem;
+}
+.container{
+    flex-wrap: wrap;
+}
+.container-description p{
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container-description button{
+    width: 12rem;
+}
+.img-container-chi-siamo img{
+    width: 100%;
+    height: auto;
+}
+.parlano-di-noi{
+    margin-top: 2rem;
+    background-color: var(--verde-scala-1);
+}
+.parlano-di-noi h3{
+    text-align: center;
+    color: var(--bg-color);
+    font-style: italic;
+}
+.parlano-di-noi button{
+    width: 16rem;
+}
+.parlano-di-noi button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: var(--verde-scala-3);
+    transition: left 0.4s ease; 
+    z-index: -1; 
+}
+.container-recensioni{
+    margin: auto;
+    gap: 10px;
+}
+.card-recensione{
+    border-radius: 8px;
+    background-color: var(--bg-color);
+}
+.card-recensione p{
+    color: grey;
+    margin-left: 0.5rem;
+}
+.autor-tittle h3{
+    color: var(--verde-scala-3);
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+}
+.stelline{
+    margin-top: -0.8rem;
+    margin-left: -0.8rem;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.stelline img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
 
 
 
@@ -1903,7 +1949,7 @@ span{
 /* Vieni A trovarci Section*/
 #VieniATrovarci{
     position: absolute;
-    top: 394.2rem;
+    top: 500rem;
     height: 800px;
 }
 .negozio-information-container{
@@ -2006,7 +2052,6 @@ span{
     letter-spacing: 1px;
     color: var(--verde-scala-1);
 }   
-
 .button-style{
     text-align: center;
     width: 10rem;
@@ -2302,6 +2347,22 @@ footer ul {
 
 /* MOBILE MEDIA QUERY */
 @media(max-width: 480px){
+
+    * h3{
+        font-size: 20px;
+    }
+    * p{
+        font-size: 14px;
+    }
+    * button{
+        font-size: 14px;
+    }
+    * a{
+        font-size: 14px;
+    }
+
+
+
     .nav__items{
         display: none;
     }
@@ -3001,8 +3062,6 @@ footer ul {
         padding: 0;
         transform: rotate(0deg)
     }
-
-
     .outlet-version{
         height: 16rem;
         top: 50%;
@@ -3045,7 +3104,6 @@ footer ul {
     #ChiSiamo{
         position: absolute;
         top: 317rem;
-        height: 62.5rem; 
     }
     .chi-siamo-title{
         font-size: 16px;
@@ -3057,29 +3115,59 @@ footer ul {
     }
     .ChiSiamoDescription{
         top: 10rem;
-        left: 2rem;
+        left: 3rem;
         width: 12rem;
     }
     .ChiSiamoDescription h3{
-        font-size: 22px;
-
-    }
-    .ChiSiamoDescription p{
-        font-size: 14px;
+        font-size: 20px;
     }
     .ChiSiamoDescription button{
         margin-top: 0rem;
         width: 10rem;
-        height: 1.7rem;
+        font-size: 14px
+    }
+    .ChiSiamoDescription p{
         font-size: 16px;
     }
 
 
-
+    .ChiSiamoDescription button,
+    .container-description button,
+    .parlano-di-noi button{
+        font-size: 14px;
+        width: 10rem;
+    }
+    .descrizione-container{
+        margin-top: 1rem;
+    }
+    .img-container-chi-siamo{
+        margin-top: -2rem;
+    }
+    .container{
+        margin-top: -1rem;
+    }
+    .container:last-of-type{
+        flex-wrap: wrap-reverse;
+    }
+    .container-recensioni{
+        flex-wrap: wrap;
+        margin-top: -1rem;
+    }
+    .card-recensione h3{
+        font-size: 15px;
+    }
+    .card-recensione p{
+        font-size: 12px;
+    }
+    .parlano-di-noi button{
+        width: 16rem;
+        margin-top: -1rem;
+    }
+    
     /*  Vieni A trovarci section */
     #VieniATrovarci{
         height: 1000px;
-        top: 384rem;
+        top: 548rem;
     }
     .negozio-information-container{
         margin-top: 0rem;
@@ -3163,6 +3251,8 @@ footer ul {
     }
 
 
+
+
     /* Footer Style */
     .footer-contacts{
         height: 12rem;
@@ -3204,8 +3294,6 @@ footer ul {
         font-size: 14px;
         padding-left: 30px;
     }
-
-
     .Copyright{
         height: 1rem;
     }
@@ -3216,13 +3304,10 @@ footer ul {
         padding: 0px;
         height: 80px;
     }
-
     .modal-termini{
         width: 90%;
     }    
-    .tittle-modal h3{
-        font-size: 20px;
-    }
+  
 
 
 
@@ -3968,7 +4053,6 @@ footer ul {
     #ChiSiamo{
         position: absolute;
         top: 283rem;
-        height: 74rem; 
     }
     .chi-siamo-title{
         font-size: 22px;
@@ -3994,15 +4078,80 @@ footer ul {
     .ChiSiamoDescription button{
         margin-top: 0rem;
         width: 12rem;
-        height: 2rem;
         font-size: 18px;
     }
+
+
+    
+
+
+    .ChiSiamoDescription button,
+    .container-description button,
+    .parlano-di-noi button{
+        font-size: 18px;
+        width: 10rem;
+    }
+    .descrizione-container{
+        margin-top: 1rem;
+       
+    }
+    .img-container-chi-siamo{
+        margin-top: -2rem;
+        min-width: 40rem;
+    }
+    .container{
+        margin-top: -1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container:last-of-type{
+        flex-direction: column-reverse;
+    }
+    .container-description{
+        min-width: 40rem;
+    }
+   
+    .container-recensioni{
+        margin-top: -1rem;
+        overflow: auto;
+    }
+    .card-recensione h3{
+        font-size: 18px;
+    }
+    .card-recensione p{
+        font-size: 16px;
+    }
+    .card-recensione{
+        max-height: 35rem;
+        min-width: 40rem;
+    }
+    .parlano-di-noi button{
+        width: 16rem;
+        margin-top: -1rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     /*  Vieni A trovarci section */
     #VieniATrovarci{
         height: 1260px;
-        top: 345rem;
+        top: 480rem;
     }
     .negozio-information-container{
         margin-top: 0rem;
@@ -4233,6 +4382,9 @@ footer ul {
     .img-container img:last-of-type{
         width: 100%;
     }
+    #VieniATrovarci{
+        top: 470rem;
+    }
 }
 @media(min-width: 1300px) and (max-width: 1600px){
     
@@ -4276,6 +4428,9 @@ footer ul {
         position: absolute;
         top: 302rem;
         height: 62.5rem; 
+    }
+    #VieniATrovarci{
+        top: 390rem;
     }
 }
 @media(min-width: 1600px) and (max-width: 1900px){
@@ -4537,11 +4692,15 @@ footer ul {
         height: 2.8rem;
         font-size: 18px;
     }
+    .card-recensione{
+        max-height: 30rem;
+        min-width: 20rem;
+    }
 
 
     /* Vieni a trovarci style */
     #VieniATrovarci{
-        top: 350rem;
+        top: 475rem;
     }
     .day-title{
         display: none;
