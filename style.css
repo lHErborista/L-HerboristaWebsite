@@ -4430,7 +4430,7 @@ footer ul {
         height: 62.5rem; 
     }
     #VieniATrovarci{
-        top: 390rem;
+        top: 470rem;
     }
 }
 @media(min-width: 1600px) and (max-width: 1900px){
@@ -4471,6 +4471,9 @@ footer ul {
         position: absolute;
         top: 298rem;
         height: 62.5rem; 
+    }
+    #VieniATrovarci{
+        top: 465rem;
     }
 }
 /* General laptop style */
@@ -4699,9 +4702,6 @@ footer ul {
 
 
     /* Vieni a trovarci style */
-    #VieniATrovarci{
-        top: 475rem;
-    }
     .day-title{
         display: none;
     }
