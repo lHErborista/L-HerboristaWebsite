@@ -241,7 +241,7 @@
                         <div class="carousel-caption d-block">
                             <h3>Outlet Natale 2024</h3>
                             <p>Clicca qui per scaricare gratuitamente il nostro catalogo di prodotti outlet</p>
-                            <button>Scarica Catalogo</button>
+                            <button id="downloadButtonOutlet">Scarica Catalogo</button>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -278,7 +278,7 @@
 
 
             <script>
-                document.getElementById("downloadButton").addEventListener("click", function() {
+                document.getElementById("downloadButtonOutlet").addEventListener("click", function() {
                     const link = document.createElement("a");
                     link.href = "outlet.pdf";  
                     link.download = "Catalogo-Erboristeria.pdf";  
