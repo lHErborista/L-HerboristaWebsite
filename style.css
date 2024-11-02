@@ -125,7 +125,6 @@ html, body {
 .mobile__nav_items li a{
     text-decoration: none;
     color: var(--bg-color);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -134,7 +133,7 @@ html, body {
 .nav__items li a::before{
     content: ' ';
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 0;
     background-color: var(--verde-scala-1);
     width: 0%;
@@ -156,14 +155,13 @@ html, body {
     color: var(--bg-color);
     font-size: 20px;
     padding: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     overflow: hidden;
     z-index: 1;
 }
 .VieniATrovarci::before{
     content: ' ';
-    background-color: var(--verde-scala-1);
+    background-color: var(--verde-scala-3);
     position: absolute;
     top: 0;
     left: 0;
@@ -174,6 +172,7 @@ html, body {
 }
 .VieniATrovarci:hover::before{
     width: 100%;
+    border: 2px solid var(--verde-scala-1);
 }
 
 
@@ -287,7 +286,7 @@ section{
     display: flex;
     justify-content: center;
     width: 11rem;
-    padding: 5px;
+    padding: 2px;
     height: 100%;
 }
 .contatti-nav img{
@@ -302,14 +301,14 @@ section{
     display: flex;
     justify-content: center;
     width: 10rem;
-    padding: 4px;
+    padding: 2px;
     height: 100%;
 }
 .social-nav{
     position: absolute;
     right: 1rem;
     top: 0;
-    padding: 4px;
+    padding: 2px;
 }
 .social-nav a img:hover{
     transform: scale(1.1)
@@ -325,7 +324,7 @@ section{
     position: fixed;
     right: -15rem;
     bottom: 1rem;
-    z-index: 20;
+    z-index: 30;
     width: 20rem;
     height: 15rem;
     transition: all 0.3s ease-in-out;
@@ -371,7 +370,6 @@ section{
 .tittle-modal-whatsapp h3{
     font-size: 25px;
     font-weight: bold;
-    font-style: italic;
     color: var(--verde-scala-2);
     text-align: center;
 }
@@ -442,7 +440,7 @@ section{
     z-index: 4;
     position: absolute;
     left: 50%;
-    top: 45%;
+    top: 47%;
     transform: translate(-50%, -50%);
     position: relative;
     z-index: 5;
@@ -459,16 +457,17 @@ section{
     opacity: 0.8;
 }
 .Home_Description h3{
-    font-size: 45px;
+    font-size: 40px;
     margin: 12px auto;
     width: 50%;
     text-align: center;
-    color: var(--verde-scala-2);
-    font-weight: 900;
-    font-family: serif;
+    color: lightgrey;
+    font-weight: 500;
+    /* font-family: "Lora", serif; */
+    font-family: "Quicksand", sans-serif;
     letter-spacing: 1px;
     position: absolute;
-    top: 60%;
+    top: 61%;
     left: 50%;
     transform: translate(-50%);
     animation: fade-in 2s;
@@ -483,22 +482,21 @@ section{
     align-items: center;
     gap: 10px;
     position: absolute;
-    top: 75%;
+    top: 71%;
     left: 50%;
     transform: translate(-50%);
+    z-index: 10;
 }
 .button-type {
     text-decoration: none;
-    padding: 5px;
     text-align: center;
+    padding: 5px;
     width: 49%;
-    border-radius: 10px;
+    border-radius: 8px;
     position: relative;
-    height: 50px;
-    font-size: 1.5rem;
+    font-size: 22px;
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
-    border: 1px solid var(--verde-scala-1);
     transition: width 0.4s ease;
     animation: fade-in 4s;
     z-index: 1;
@@ -509,24 +507,17 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--verde-scala-1);
+    background-color: var(--verde-scala-3);
     width: 0%;
     height: 100%;
     z-index: -1;
     transition: width 0.4s ease; 
+    border-radius: 8px;
 }
 .button-type:hover::before {
     width: 100%;
+    border: 2px solid var(--verde-scala-1);
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -602,12 +593,7 @@ section{
 }
  */
 
-
-/* Offerte Lampo Section */
-
-
-/* Natale COntainer */
-.NataleContainer{
+/* .NataleContainer{
     height: 750px;
     position: relative;
     overflow: hidden;
@@ -641,8 +627,6 @@ section{
     width: 100%;
     height: auto;
 }
-
-
 .nataleCatalogoContainer{
     z-index: 10;
     height: 500px;
@@ -677,8 +661,6 @@ section{
 .description .button-style::before{
     background-color: var(--verde-scala-3);
 }
-
-
 .img-container{
     height: 350px;
 }
@@ -694,14 +676,114 @@ section{
 }
 .nataleCatalogoContainer .button-style{
     width: 15rem;
+} */
+
+
+
+
+
+
+
+
+
+
+/* Offerte Lampo Section */
+/* Natale Carousel */
+
+
+
+.carousel-container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
 }
+.carousel{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.carousel-inner,
+.carousel-item,
+.carousel,
+.carousel-container{
+    height: 500px;
+}
+
+.carousel-item h3{
+    font-size: 40px;
+    color: var(--bg-color);
+    font-weight: bold;
+}
+.carousel-item p{
+    color: var(--bg-color-contrast);
+    font-size: 20px;
+    padding: 20px;
+    max-width: 22rem;
+    margin: auto;
+}
+
+.carousel-item button {
+    text-align: center;
+    padding: 5px;
+    width: 12rem;
+    border-radius: 8px;
+    position: relative;
+    font-size: 22px;
+    background-color: var(--verde-scala-2);
+    color: var(--bg-color);
+    transition: width 0.4s ease;
+    animation: fade-in 4s;
+    z-index: 1;
+    overflow: hidden;
+    border: none;
+    margin-bottom: 2rem;
+}
+.carousel-item button::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--verde-scala-3);
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: width 0.4s ease; 
+    border-radius: 8px;
+}
+.carousel-item button:hover::before {
+    width: 100%;
+    border: 2px solid var(--verde-scala-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Offerte{
     position: absolute;
     top: 53.375rem;
     position: relative;
-    height: 172rem;
+    height: 155rem;
     background-color: var(--bg-color);
     z-index: 5;
 }
@@ -893,11 +975,6 @@ section{
 .item-consigliato-description:hover + #backdropOfferte {
     opacity: 1;
 }
-
-
-
-
-
 .prodotti-scontati{
     padding: 40px 0px;
     height: 1300px;
@@ -1005,8 +1082,6 @@ section{
     color: var(--text-color); 
     cursor: pointer;
 }
-
-
 #best-save{
     font-size: 26px;
     font-style: italic;
@@ -1169,7 +1244,7 @@ section{
 /* Sezione Prodotti */
 #Prodotti{
     position: absolute;
-    top: 227rem;
+    top: 209rem;
     height: 103.125rem;
     background-color: var(--bg-color);
 }
@@ -1420,9 +1495,6 @@ span{
     height: 100%;
     display: none;    
 }
-
-
-
 .search-field{
     width: 50rem;
     height: 2.5rem;
@@ -1760,7 +1832,7 @@ span{
 /* Chi siamo Section */
 #ChiSiamo{
     position: absolute;
-    top: 334rem;
+    top: 310rem;
 }
 .chi-siamo-title{
     color: var(--bg-color);
@@ -1949,7 +2021,7 @@ span{
 /* Vieni A trovarci Section*/
 #VieniATrovarci{
     position: absolute;
-    top: 500rem;
+    top: 470rem;
     height: 800px;
 }
 .negozio-information-container{
@@ -2474,7 +2546,7 @@ footer ul {
     /* Offerte Section */
 
     /* Natale COntainer */
-    .NataleContainer{
+   /*  .NataleContainer{
             height: 670px; 
             overflow: hidden;
     }
@@ -2545,8 +2617,74 @@ footer ul {
             width: 15rem;
     }
 
+ */
 
 
+    .carousel-container{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .carousel{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 70%;
+    }
+    .carousel-inner,
+    .carousel-item,
+    .carousel,
+    .carousel-container{
+        height: 500px;
+    }
+    .carousel-item img{
+        height: 500px;
+    }
+    .carousel-item h3{
+        font-size: 20px;
+        color: var(--bg-color);
+        font-weight: bold;
+    }
+    .carousel-item p{
+        color: var(--bg-color-contrast);
+        font-size: 20px;
+        max-width: 18rem;
+        margin: auto;
+    }
+
+    .carousel-item button {
+        text-align: center;
+        padding: 5px;
+        width: 12rem;
+        border-radius: 8px;
+        position: relative;
+        font-size: 18px;
+        background-color: var(--verde-scala-2);
+        color: var(--bg-color);
+        transition: width 0.4s ease;
+        animation: fade-in 4s;
+        z-index: 1;
+        overflow: hidden;
+        border: none;
+    }
+    .carousel-item button::before {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--verde-scala-3);
+        width: 0%;
+        height: 100%;
+        z-index: -1;
+        transition: width 0.4s ease; 
+        border-radius: 8px;
+    }
+    .carousel-item button:hover::before {
+        width: 100%;
+        border: 2px solid var(--verde-scala-1);
+    }
 
 
 
