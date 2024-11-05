@@ -194,7 +194,7 @@ html, body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     z-index: 100;
     width: 100vw;
     height: 100%;
@@ -520,178 +520,8 @@ section{
 }
 
 
-
-
-
-/* 
-.pdf-carousel-container {
-
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    background-color: red;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    overflow: hidden;
-}
-.pdf-page canvas {
-    width: 100%;     
-    height: auto;      
-}
-
-
-
-
-
- */
-
-/*  .natale-carousel {
-    width: 100%;
-    height: 800px;
-    background-color: var(--verde-scala-1);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.container-carosello-pdf{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.pdf-page canvas {
-    width: 100%;         
-    max-width: 500px;   
-    height: auto;   
-}
-
-.container-carosello-pdf button {
-    margin-right: 1rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-#prevButton { left: 10px; }
-#nextButton { right: 10px; }
-
-
-.pdf-page {
-    opacity: 0; 
-    transform: scale(0.9); 
-    transition: opacity 0.5s ease, transform 0.5s ease; 
-}
-
-.pdf-page.show {
-    opacity: 1; 
-    transform: scale(1); 
-}
- */
-
-/* .NataleContainer{
-    height: 750px;
-    position: relative;
-    overflow: hidden;
-}
-.nataleImgContainer{
-    height: 250px;
-    overflow: hidden;
-    position: relative;
-}
-.natale-backdrop{
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-.nataleImgContainer h3{
-    position: absolute;
-    z-index: 20;
-    top: 30%;
-    left: 50%;
-    color: var(--verde-scala-3);
-    font-weight: bold;
-    font-size: 25px;
-    font-style: italic;
-    transform: translate(-50%, -50%);
-}
-.nataleImgContainer img{
-    width: 100%;
-    height: auto;
-}
-.nataleCatalogoContainer{
-    z-index: 10;
-    height: 500px;
-    background-color: var(--verde-scala-1);
-}
-.description{
-    height: 500px;
-}
-.description h3{
-    color: var(--verde-scala-3);
-    max-width: 50%;
-    font-weight: bold;
-    font-size: 40px;
-}
-.description h3 span{
-    color: var(--bg-color);
-    display: block;
-    font-size: 35px;
-    margin-left: -0.2rem;
-    padding-bottom: 8px;
-}
-.description p{
-    max-width: 50%;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-.description .button-style{
-    font-size: 18px;
-    margin-left: -0.3rem;
-    background-color: var(--verde-scala-2);
-}
-.description .button-style::before{
-    background-color: var(--verde-scala-3);
-}
-.img-container{
-    height: 350px;
-}
-.img-container img{
-    width: 80%;
-    height: auto;
-    transform: translate(-20%, -20%);
-    z-index: 1;
- 
-}
-.img-container img:last-of-type{
-    width: 80.5%;
-}
-.nataleCatalogoContainer .button-style{
-    width: 15rem;
-} */
-
-
-
-
-
-
-
-
-
-
 /* Offerte Lampo Section */
 /* Natale Carousel */
-
-
-
 .carousel-container{
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
@@ -707,7 +537,6 @@ section{
 .carousel-container{
     height: 500px;
 }
-
 .carousel-item h3{
     font-size: 40px;
     color: var(--bg-color);
@@ -720,7 +549,6 @@ section{
     max-width: 22rem;
     margin: auto;
 }
-
 .carousel-item button {
     text-align: center;
     padding: 5px;
@@ -753,20 +581,6 @@ section{
     width: 100%;
     border: 2px solid var(--verde-scala-1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2424,13 +2238,13 @@ footer ul {
         font-size: 20px;
     }
     * p{
-        font-size: 14px;
+        font-size: 16px;
     }
     * button{
         font-size: 14px;
     }
     * a{
-        font-size: 14px;
+        font-size: 16px;
     }
 
 
@@ -2445,9 +2259,6 @@ footer ul {
         height: 3rem;
         width: 100%;
     }
-    .nav__title a{
-        font-size: 22px;
-    }
     .VieniATrovarci{
         display: none;
     }
@@ -2458,7 +2269,7 @@ footer ul {
     /* Home Style */
     .contatti-nav{
         top: 3rem;
-        height: 3.4rem;
+        height: 3.8rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2471,8 +2282,8 @@ footer ul {
         width: 100%;
         height: 50%;
         margin: 0;
-        padding: 5px;
-        font-size: 14px;
+        padding-top: 5px;
+        padding-bottom: 5px ;
     }
     .contatti-nav img{
         height: 25px;
@@ -2481,15 +2292,14 @@ footer ul {
         margin-top: -0.2rem;
     }
     .contatti-email{
-
         position: relative;
         display: flex;
         justify-content: center;
         width: 100%;
-        font-size: 14px;
         height: 50%;
         left: 0;
-        pad: 5px;
+        padding-top: 0px;
+        padding-bottom: 5px ;
     }
     .social-nav{
         display: none;
@@ -2498,14 +2308,32 @@ footer ul {
 
     /* Whatsapp */
     .whatsapp-fixed-modal{
-        right: -14.5rem;  
-        width: 18rem;
+        right: -11.4rem;  
+        width: 14rem;
+    }
+    .button-whatsapp-modal{
+        position: relative;
+        width: 4rem;
+    }
+    .whatsapp{
+        height: 3rem;
+        width: 3rem;
+    }
+    .whatsapp img{
+        width: 30px;
+        height: 30px;
     }
     .tittle-modal-whatsapp h3{
         font-size: 20px;
     }
-
-
+    .content-modal-whatsapp p{
+        font-size: 14px;
+        margin-top: -0.5rem;
+    }
+    .direct-modal-whatsapp a{
+        font-size: 14px;
+        margin-left: 0rem;
+    }
 
 
 
@@ -2528,7 +2356,7 @@ footer ul {
         width: 27rem;
     }
     .Home_Description h3{
-        font-size: 24px;
+        font-size: 22px;
         width: 80%;
         margin-top: -1rem;
     }
@@ -2631,7 +2459,7 @@ footer ul {
     }
     .carousel-caption{
         position: absolute;
-        top: 70%;
+        top: 50%;
     }
     .carousel-inner,
     .carousel-item,
@@ -2657,7 +2485,7 @@ footer ul {
     .carousel-item button {
         text-align: center;
         padding: 5px;
-        width: 12rem;
+        width: 10rem;
         border-radius: 8px;
         position: relative;
         font-size: 18px;
@@ -2668,6 +2496,7 @@ footer ul {
         z-index: 1;
         overflow: hidden;
         border: none;
+        margin-bottom: 0rem;
     }
     .carousel-item button::before {
         content: ' ';
