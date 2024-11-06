@@ -1923,7 +1923,7 @@ span{
     padding-bottom: 10px;
 }
 .day-container{
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 10px;
 }
 .day-container p{
     margin: 0;
@@ -2886,6 +2886,8 @@ footer ul {
         width: 100%;
         display: none;
         z-index: 20;
+        box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.2);
+
     }
     .macroCategorie-div{
         background-color: var(--bg-color-contrast);
@@ -3115,6 +3117,14 @@ footer ul {
     }
     .img-container-chi-siamo{
         margin-top: -2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container-chi-siamo img{
+        min-width: 18rem;
+        padding-bottom: 5px;
+        padding-top: 5px;
     }
     .container{
         margin-top: -1rem;
@@ -3140,7 +3150,7 @@ footer ul {
     /*  Vieni A trovarci section */
     #VieniATrovarci{
         height: 1000px;
-        top: 555rem;
+        top: 543rem;
     }
     .negozio-information-container{
         margin-top: 0rem;
@@ -3165,13 +3175,16 @@ footer ul {
         position: absolute;
         top: 25%;
         grid-template-columns: 1fr;
-        grid-template-rows: 15% 45% 40%;
+        grid-template-rows: 15% 47% 38%;
     }
     .posizione{
         width: 100%;
         margin: 0;
         height: 100%;
         align-items: center;
+    }
+    .posizione:last-of-type{
+        padding-bottom: 40px;
     }
     .posizione:first-of-type{
         padding-top: 40px;
@@ -3183,7 +3196,6 @@ footer ul {
         height: 100%;
         align-items: center;
         width: 100%;
-        margin-top: 1rem;
         justify-content: center;
     }
     .posizione:last-of-type{
@@ -3197,12 +3209,14 @@ footer ul {
         padding: 0px;
     }
     .social-container img{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
     .posizione h3,
     .orari h3{
         font-size: 20px;
+        padding: 10px;
+        margin: 0;
     }
     .posizione h4{
         font-size: 16px;
@@ -3222,8 +3236,9 @@ footer ul {
         width: 8rem;
         margin-left: -0.5rem;
     }
-
-
+    #contatti-btn{
+        height:  2.5rem;
+    }
 
 
     /* Footer Style */
@@ -3280,7 +3295,7 @@ footer ul {
     .modal-termini{
         width: 90%;
     }    
-  
+
 
 
 
