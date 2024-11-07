@@ -747,9 +747,9 @@ section{
     font-size: 20px;
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
-    border: 1px solid var(--verde-scala-1);
     z-index: 1;
     transition: color 0.4s ease; 
+    border: none;
 }
 .ordina-btn::before {
     content: '';
@@ -758,12 +758,14 @@ section{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--verde-scala-1);
+    background-color: var(--verde-scala-3);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
 .ordina-btn:hover::before {
     left: 0; 
+    border-radius: 10px;
+    border: 2px solid var(--verde-scala-1);
 }
 .ordina-btn:hover {
     color: var(--bg-color); 
@@ -874,7 +876,7 @@ section{
     font-size: 20px;
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
-    border: 1px solid var(--verde-scala-1);
+    border: none;
     transition: color 0.4s ease; 
     z-index: 1;
 }
@@ -885,16 +887,18 @@ section{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--verde-scala-1);
+    background-color: var(--verde-scala-3);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
 .categorieDescription button:hover::before {
     left: 0; 
+    border-radius: 10px;
+    border: 2px solid var(--verde-scala-1);
 }
 .categorieDescription button:hover {
-    color: var(--text-color); 
-    cursor: pointer;
+    color: var(--bg-color); 
+    cursor: pointer; 
 }
 #best-save{
     font-size: 26px;
@@ -1020,7 +1024,7 @@ section{
     font-size: 20px;
     background-color: var(--bg-color-contrast);
     color: var(--verde-scala-2);
-    border: 1px solid var(--verde-scala-2);
+    border: 1px solid var(--verde-scala-1);
     transition: color 0.4s ease; 
     z-index: 1;
 }
@@ -1031,12 +1035,14 @@ section{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--verde-scala-2);
+    background-color: var(--verde-scala-3);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
 .scopri:hover::before {
     left: 0; 
+    border-radius: 10px;
+    border: 2px solid var(--verde-scala-1);
 }
 .scopri:hover {
     color: var(--bg-color); 
@@ -1277,6 +1283,7 @@ section{
     transform: translateY(-20px); 
     transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
     border-bottom: 5px solid var(--verde-scala-1);
+    
 }
 .microCategorie-outlet-container h3{
     margin-top: 2rem;
@@ -1284,6 +1291,7 @@ section{
     font-weight: bold;
     text-align: center;
     color: var(--verde-scala-2);
+    height: 5rem;
 }
 .microCategorie-outlet-container.active{
     opacity: 1;
@@ -1291,7 +1299,7 @@ section{
     transform: translateY(0);
 }
 .outletContainer-Micro{
-    margin-top: -2rem;
+    margin-top: -4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -1407,6 +1415,7 @@ span{
 }
 .categoria-prodotto {
     color: var(--verde-scala-2);
+    padding-bottom: 10px;
 }
 .prodotto-descrizione{
     font-size: 18px;
@@ -1430,7 +1439,7 @@ span{
     font-size: 1rem;
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
-    border: 1px solid var(--verde-scala-1);
+    border: none;
     transition: color 0.4s ease; 
     animation: fade-in 4s;
     font-size: 20px;
@@ -1443,12 +1452,14 @@ span{
     left: -100%; 
     width: 100%;
     height: 100%;
-    background-color: var(--verde-scala-1);
+    background-color: var(--verde-scala-3);
     transition: left 0.4s ease; 
     z-index: -1; 
 }
 .prodotto-btn:hover::before {
     left: 0; 
+    border-radius: 10px;
+    border: 2px solid var(--verde-scala-1);
 }
 .prodotto-btn:hover {
     color: var(--bg-color); 
@@ -1713,14 +1724,14 @@ span{
     text-align: center;
     padding: 8px;
     width: 12rem;
-    border-radius: 8px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
     font-size: 20px;
     border: none;
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
-    border: 1px solid var(--verde-scala-2);
+    border: none;
     transition: color 0.4s ease; 
     animation: fade-in 4s;
     z-index: 1;
@@ -1741,6 +1752,8 @@ span{
 .container-description button:hover::before,
 .parlano-di-noi button:hover::before {
     left: 0; 
+    border: 2px solid var(--verde-scala-1);
+    border-radius: 10px;
 }
 .ChiSiamoDescription button:hover,
 .container-description button:hover,
@@ -1942,14 +1955,14 @@ span{
     text-align: center;
     width: 10rem;
     margin-left: 1rem;
+    padding: 8px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    height: 2.5rem;
     font-size: 1.5rem;
     background-color: var(--verde-scala-2);
     color: var(--bg-color);
-    border: 1px solid var(--verde-scala-2);
+    border: none;
     transition: color 0.4s ease;
     z-index: 1;
 }
@@ -1960,16 +1973,17 @@ span{
     top: 0;
     position: absolute;
     left: 0;
-    background-color: var(--verde-scala-1);
+    background-color: var(--verde-scala-3);
     z-index: -1;
     transition: width 0.4s ease;
 }
 .button-style:hover::before {
     width: 100%; 
+    border: 2px solid var(--verde-scala-1);
+    border-radius: 10px;
 }
 .button-style:hover{
     color: var(--bg-color); 
-    font-weight: bold
 }
 
 
@@ -2206,7 +2220,9 @@ footer ul {
     margin-right: 1rem;
 }
 
-
+#close-modal-termini{
+    height: 3rem;
+}
 
 
 
@@ -2992,7 +3008,7 @@ footer ul {
     .products-description h3{
         font-size: 16px;
         text-align: center;
-        margin-top: -0.5rem;
+        margin-top: -1rem;
         padding-bottom: 2px;
     }
     .categoria-prodotto{
@@ -3083,6 +3099,8 @@ footer ul {
     #ChiSiamo{
         position: absolute;
         top: 310rem;
+        height: 233rem;
+        background-color: red;
     }
     .chi-siamo-title{
         font-size: 16px;
