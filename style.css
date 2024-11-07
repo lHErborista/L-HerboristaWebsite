@@ -3521,6 +3521,7 @@ footer ul {
         width: 12rem;
         height: 25rem;   
         position: relative; 
+        background-color: var(--bg-color);
     }
     .item-consigliato img{
         width: 100%;
@@ -3569,6 +3570,7 @@ footer ul {
         position: absolute;
         top: 55rem;
         height: 1350px;
+        background-color: var(--bg-color);
     }
     .prodotti-scontati h2{
         font-size: 22px;
