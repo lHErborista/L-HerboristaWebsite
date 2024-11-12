@@ -4103,154 +4103,22 @@ footer ul {
     .email-description p{
         font-size: 16px;
     }
-  
-    .widget-logo {
-       display: none;
-
+    .footer-logo{
+        min-width: 15rem;
     }
+
 }
 
 
 
-/* Laptop Media query */
-@media(min-width: 960px) and (max-width: 1300px){
-    .item-scontato img,
-    .item-consigliato img{
-        height: 70%;
-    }
-    .item-consigliato,
-    .item-scontato{
-        height: 90%;
-    }
-    .prodotti-scontatiContainer{
-        height: 350px;
-        margin-top: 2rem;
-    }   
-    .prodotti-consigliati{
-        height: 350px;
-    }
-    .prodotti-scontati{
-        height: 950px;
-        margin-top: -2rem;
-    }
-    .item-consigliato-description{
-        top: 65%; 
-        height: 3rem; 
-    }
-    .item-scontato .item-consigliato-description{
-        top: 65%;
-    }
-    .item-scontato .item-consigliato-description h3{
-        margin-bottom: 0.5rem;
-        font-size: 20px;
-    }
-    .hover-img:hover + .item-consigliato-description,
-    .item-consigliato-description:hover {
-        top: 28%; 
-        height: 13rem;  
-    }
-    .item-scontato .footerProducts{
-        height: 3rem;
-    }
-    
-    .posizione:last-of-type{
-        margin-top: 0rem;
-    }
-    .description h3{
-        color: var(--verde-scala-3);
-        max-width: 50%;
-        font-weight: bold;
-        font-size: 30px;
-    }
-    .description h3 span{
-        font-size: 25px;
-        width: 15rem;
-        margin-left: 0rem;
-    }  
-    .description .button-style{
-        font-size: 18px;
-        margin-left: -0.3rem;
-        width: 12rem;
-        background-color: var(--verde-scala-2);
-    }
-    .img-container img{
-        width: 100%;
-        height: auto;
-        transform: translate(-20%, -05%);
-        z-index: 1;
-    }
 
-    .img-container img:last-of-type{
-        width: 100%;
-    }
-   
-}
-@media(min-width: 1300px) and (max-width: 1600px){
-    
-    .prodotti-consigliati{
-        height: 400px;
-    }
-    .prodotti-scontatiContainer{
-        height: 400px;
-        margin-top: 2rem;
-    }   
-   
-    .prodotti-scontati{
-        height: 1000px;
-        margin-top: -2rem;
-    }
-    .item-consigliato-description{
-        top: 70%; 
-        height: 3rem; 
-    }
-    .item-scontato .item-consigliato-description{
-        top: 70%;
-    }
-    .item-scontato .item-consigliato-description h3{
-        margin-bottom: 0.5rem;
-        font-size: 20px;
-    }
-    .hover-img:hover + .item-consigliato-description,
-    .item-consigliato-description:hover {
-        top: 30%; 
-        height: 13rem;  
-    }
-    .item-scontato .footerProducts{
-        height: 3rem;
-    }
-    
-}
-@media(min-width: 1600px) and (max-width: 1900px){
-    
-    .prodotti-consigliati{
-        height: 450px;
-    }
-    .prodotti-scontatiContainer{
-        height: 450px;
-        margin-top: 2rem;
-    }   
 
-    .prodotti-scontati{
-        height: 1050px;
-        margin-top: -2rem;
-    }
-    .item-consigliato-description{
-        top: 73%; 
-        height: 3rem; 
-    }
-    .item-scontato .item-consigliato-description{
-        top: 73%;
-    }
-    .hover-img:hover + .item-consigliato-description,
-    .item-consigliato-description:hover {
-        top: 40%; 
-        height: 13rem;  
-    }
-    .item-scontato .footerProducts{
-        height: 4rem;
-    }
-    
-}
+/*  
+
+ */
+
+
+
 /* General laptop style */
 @media(min-width: 960px) and (max-width: 1900px){
     /* Nav Bar */
@@ -4285,39 +4153,21 @@ footer ul {
     } 
 
 
-
     #Home{
         height: 100vh;
     }
     .Home_Description{
-        width: 50%;  
-        height: 40%;
-        background-color: red;
-    }
-    .img-container{
-        background-color: violet;
-        width: 60%;
-        margin-left: 20%;
-    }
-    .logo{
-        width: 100%;
-    }
-    
-    .Home_Description h3{
-        font-size: 30px;
-        margin: auto;
-        width: 40%;
+        width: 60%;  
+        height: 50%;
     }
     .Home_Description_btn{
-        width: 80%;
-        margin: 1.5rem auto;
+        width: 60%;
+        margin: -1.5rem auto;
     }
     .button-type {
         width: 10rem;
         font-size: 18px;
     }
-
-
 
 
 
@@ -4416,8 +4266,11 @@ footer ul {
         margin-right: 0.2rem;
     }
     .scopri-div{
-        top: 95%;
+        top: 90%;
     }
+
+
+
 
     /* Prodotti Style */
     .prodotti-title{
@@ -4481,8 +4334,11 @@ footer ul {
     }
     .prodotti-container {
         grid-template-columns: repeat(5,19%);
-        grid-template-rows: repeat(3, 34%);
+        grid-template-rows: repeat(3, 33%);
     }
+   
+
+
 
 
     /* Chi Siamo style */
@@ -4575,6 +4431,167 @@ footer ul {
 
 }
 
+/* Laptop Media query */
+@media(min-width: 960px) and (max-width: 1300px){
+
+    .Home_Description{
+        width: 60%;  
+        height: 40%;
+    }
+    .Home_Description h3{
+        font-size: 25px;
+        height: 5rem;
+    }
+    .Home_Description_btn{
+        width: 60%;
+        margin-top: -2rem;
+    }
+    .button-type {
+        width: 8rem;
+        font-size: 16px;
+    } 
+    .item-scontato img,
+    .item-consigliato img{
+        height: 70%;
+    }
+    .item-consigliato,
+    .item-scontato{
+        height: 90%;
+    }
+    .prodotti-scontatiContainer{
+        height: 350px;
+        margin-top: 2rem;
+    }   
+    .prodotti-consigliati{
+        height: 350px;
+    }
+    .prodotti-scontati{
+        height: 1000px;
+        margin-top: -2rem;
+
+    }
+    .item-consigliato-description{
+        top: 62%; 
+        height: 3rem; 
+    }
+    .item-scontato .item-consigliato-description{
+        top: 65%;
+    }
+    .item-scontato .item-consigliato-description h3{
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+    }
+    .hover-img:hover + .item-consigliato-description,
+    .item-consigliato-description:hover {
+        top: 28%; 
+        height: 13rem;  
+    }
+    .item-scontato .footerProducts{
+        height: 3rem;
+    }   
+    .posizione:last-of-type{
+        margin-top: 0rem;
+    }
+    .description h3{
+        color: var(--verde-scala-3);
+        max-width: 50%;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .description h3 span{
+        font-size: 25px;
+        width: 15rem;
+        margin-left: 0rem;
+    }  
+    .description .button-style{
+        font-size: 18px;
+        margin-left: -0.3rem;
+        width: 12rem;
+        background-color: var(--verde-scala-2);
+    }
+    .img-container img{
+        width: 100%;
+        height: auto;
+        transform: translate(-20%, -05%);
+        z-index: 1;
+    }
+    .img-container img:last-of-type{
+        width: 100%;
+    }  
+    .products img{
+        height: 18rem;
+    }
+}
+@media(min-width: 1300px) and (max-width: 1600px){
+    
+    .prodotti-consigliati{
+        height: 400px;
+    }
+    .prodotti-scontatiContainer{
+        height: 400px;
+        margin-top: 2rem;
+    }   
+    .prodotti-scontati{
+        height: 1100px;
+        margin-top: -2rem;
+    }
+    .item-consigliato-description{
+        top: 70%; 
+        height: 3rem; 
+    }
+    .item-scontato .item-consigliato-description{
+        top: 70%;
+    }
+    .item-scontato .item-consigliato-description h3{
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+    }
+    .hover-img:hover + .item-consigliato-description,
+    .item-consigliato-description:hover {
+        top: 30%; 
+        height: 13rem;  
+    }
+    .item-scontato .footerProducts{
+        height: 3rem;
+    }
+    .products img{
+        height: 18rem;
+    }
+    
+}
+@media(min-width: 1600px) and (max-width: 1900px){
+    
+    .prodotti-consigliati{
+        height: 450px;
+    }
+    .prodotti-scontatiContainer{
+        height: 450px;
+        margin-top: 2rem;
+    }   
+
+    .prodotti-scontati{
+        height: 1150px;
+        margin-top: -2rem;
+    }
+    .item-consigliato-description{
+        top: 73%; 
+        height: 3rem; 
+    }
+    .item-scontato .item-consigliato-description{
+        top: 73%;
+    }
+    .hover-img:hover + .item-consigliato-description,
+    .item-consigliato-description:hover {
+        top: 40%; 
+        height: 13rem;  
+    }
+    .item-scontato .footerProducts{
+        height: 4rem;
+    }
+    
+}
+
+
 
 /* Large screen Size */
 @media(min-width: 2000px){
@@ -4596,6 +4613,51 @@ footer ul {
         .contatti-nav{
             top: 5rem;
         } 
+
+
+        #Home{
+            height: 100vh;
+        }
+        .contatti-nav{
+            top: 5rem;
+            height: 3rem;
+        }
+        .contatti-telefono{
+            width: 13rem;
+        }
+        .contatti-telefono p,
+        .contatti-email p{
+            margin-top: 0.5rem;
+            font-size: 18px;
+        }
+        .contatti-nav img{
+            height: 40px;
+            width: 40px;
+            margin-right: 1rem;
+        }
+        .contatti-email{
+            left: 18rem;
+        }
+        .social-nav{
+            right: 0rem;
+        }
+
+
+
+        .Home_Description{
+            width: 1200px;
+            height: 400px;
+        }
+        .Home_Description h3{
+            margin: auto;
+            font-size: 40px;    
+            width: 30%;
+        }
+        .Home_Description_btn{
+            margin: 1rem auto;
+        }
+
+
 
         #Offerte h1{
             height: 3.6rem;
