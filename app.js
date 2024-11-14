@@ -1229,6 +1229,36 @@ contattaciBtn.addEventListener('click',(event)=>{
 
 
 
+function showLoadingPopup() {
+    document.getElementById("loadingOverlay").style.display = "flex";
+}
+
+function hideLoadingPopup() {
+    document.getElementById("loadingOverlay").style.display = "none";
+}
+
+function initiateDownload(filename, link) {
+    showLoadingPopup(); // Mostra il popup di caricamento
+    setTimeout(() => { // Timeout per simulare un'attesa
+        const a = document.createElement("a");
+        a.href = link;
+        a.download = filename;
+        a.click();
+        hideLoadingPopup(); // Nascondi il popup dopo il click
+    }, 2000); // Timeout di 2 secondi
+}
+
+document.getElementById("downloadButtonOutlet").addEventListener("click", function() {
+    initiateDownload("Catalogo-Erboristeria.pdf", "outlet.pdf");
+});
+
+document.getElementById("downloadButtonIdee").addEventListener("click", function() {
+    initiateDownload("IdeeRegalo.pdf", "Oggettistica.pdf");
+});
+
+document.getElementById("downloadButtonProfumazioni").addEventListener("click", function() {
+    initiateDownload("Profumazioni.pdf", "Profumazioni.pdf");
+});
 
 
 
