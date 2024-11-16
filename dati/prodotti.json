@@ -92,7 +92,7 @@
             "nome": "SnelSì",
             "categoria": "integratori alimentari",
             "microcategoria": "Detox e drenaggio",
-            "immagine": "dati/immaginiProdotti/Snel.jpg",
+            "immagine": "dati/immaginiProdotti/snel.jpg",
             "promo": "",
             "prezzo": "24.90",
             "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
@@ -157,34 +157,106 @@
     ],
     "Idee regalo ed oggettistica":[
         {
-            "nome": "vitamida b",
+            "nome": "Lampade di sale",
             "descrizione": "cosmesi",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg"
+            "microcategoria": "Lampade di sale rosa Himalaya",
+            "immagine": "dati/immaginiProdotti/lampadadisale.jpg"
         },
         {
-            "nome": "vitamida b",
+            "nome": "Incensi artigianali",
             "descrizione": "cosmesi",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg"
+            "microcategoria": "Incensi",
+            "immagine": "dati/immaginiProdotti/incensigrandi.jpg"
         },
         {
-            "nome": "vitamida b",
+            "nome": "Incensi artigianali",
             "descrizione": "cosmesi",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg"
+            "microcategoria": "Incensi",
+            "immagine": "dati/immaginiProdotti/incensipiccoli.jpg"
         },
         {
-            "nome": "vitamida b",
+            "nome": "Albero della Vita",
             "descrizione": "cosmesi",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg"
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/alberogiada.jpg"
         },
         {
-            "nome": "vitamida b",
+            "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg"
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/braccialeorovegaperto.jpg"
+        },
+        {
+            "nome": "Bracciale in oro vegetale",
+            "descrizione": "cosmesi",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/braccialeorovegconfiori.jpg"
+        },
+        {
+            "nome": "Bracciale in oro vegetale",
+            "descrizione": "cosmesi",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/braccialeorovegspiraleepietre.jpg"
+        },
+        {
+            "nome": "Bracciale in oro vegetale",
+            "descrizione": "cosmesi",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/braccialeorovegspirale.jpg"
+        },
+        {
+            "nome": "Bracciale in oro vegetale",
+            "descrizione": "cosmesi",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/braccialeoroveg.semplice.jpg"
+        },
+        {
+            "nome": "Bracciale in oro vegetale",
+            "descrizione": "cosmesi",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti1.jpg"
+        },
+        {
+            "nome": "Bracciale in oro vegetale",
+            "descrizione": "cosmesi",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti2.jpg"
+        },
+        {
+            "nome": "Bracciale in pietre semipreziose",
+            "descrizione": "cosmesi",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/braccialepietre.jpg"
+        },
+        {
+            "nome": "Candela al Lemongrass",
+            "descrizione": "cosmesi",
+            "microcategoria": "Candele",
+            "immagine": "dati/immaginiProdotti/candelacocco.jpg"
+        },
+        {
+            "nome": "Candela Dream",
+            "descrizione": "cosmesi",
+            "microcategoria": "Candele",
+            "immagine": "dati/immaginiProdotti/candeladream.jpg"
+        },
+        {
+            "nome": "Candela Love",
+            "descrizione": "cosmesi",
+            "microcategoria": "Candele",
+            "immagine": "dati/immaginiProdotti/candelalove.jpg"
+        },
+        {
+            "nome": "Candela al Pino",
+            "descrizione": "cosmesi",
+            "microcategoria": "Candele",
+            "immagine": "dati/immaginiProdotti/candelapino.jpg"
+        },
+        {
+            "nome": "Candela alla Vaniglia",
+            "descrizione": "cosmesi",
+            "microcategoria": "Candele",
+            "immagine": "dati/immaginiProdotti/candelavaniglia.jpg"
         }
     ],
     "Alimentazione naturale":[
