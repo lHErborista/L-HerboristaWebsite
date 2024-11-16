@@ -172,8 +172,7 @@ function  renderProdottiScontati(){
         const productDiv = document.createElement("div");
         productDiv.classList.add("item-scontato");
     
-        let Sconto = (parseInt(datiProdottiConsigliati['prodottiScontati'][el]['prezzo']) * parseInt(datiProdottiConsigliati['prodottiScontati'][el]['sconto'])) / 100;
-        let prezzoScontato = parseInt(parseInt(datiProdottiConsigliati['prodottiScontati'][el]['prezzo']) - Sconto) - 0.01
+
 
 
         productDiv.innerHTML = `
@@ -196,7 +195,7 @@ function  renderProdottiScontati(){
                 </button>
                 <div class="prezzo-sale">
                     <p id="prezzo-originale">${datiProdottiConsigliati['prodottiScontati'][el]['prezzo']} €</p>
-                    <p id="prezzo-scontato">${prezzoScontato} €</p>
+                    <p id="prezzo-scontato">${datiProdottiConsigliati['prodottiScontati'][el]['prezzoScontato']} €</p>
                 </div>
             </div>
 
@@ -286,13 +285,11 @@ function rendereCategoria() {
         productDiv.classList.add("products");
         
         if(String(currentCategory) == "Prodotti in sconto"){ 
-            
-            let Sconto = (parseInt(prodotti[i]['prezzo originale']) * parseInt(prodotti[i]['sconto'])) / 100;
-            let prezzoScontato = parseInt(parseInt(prodotti[i]['prezzo originale']) - Sconto) - 0.01
+       
         
             productDiv.innerHTML = `
             <div class="prodotti-backdrop"></div>
-            <p class="sconto-prodotto">Sconto del ${prodotti[i]['sconto']}</p>
+            <p class="sconto-prodotto">Sconto del ${prodotti[i]['sconto']}%</p>
             <img src="${prodotti[i]['immagine']}" alt="">
             <div class="products-description outlet-version">
                 <h3>${prodotti[i]['nome']}</h3> 
@@ -303,8 +300,8 @@ function rendereCategoria() {
                 <div class="prezzo-container-div">
 
                     <div class="prezzo-container">  
-                        <p class="prezzo-originale">prezzo: <span class="sbarrato">${prodotti[i]['prezzo originale']}€</span></p>
-                        <p class="prezzo-scontato"> ${prezzoScontato}€</p>
+                        <p class="prezzo-originale">prezzo: <span class="sbarrato">${prodotti[i]['prezzoOriginale']}€</span></p>
+                        <p class="prezzo-scontato"> ${prodotti[i]['prezzoScontato']}€</p>
                     </div>
 
                     <button class="prodotto-btn" data-whatsapp-number="393914393426" 
@@ -600,13 +597,10 @@ function renderCheck(){
 
 
         if(String(microCurrentCategory).includes('sconti')){ 
-            
-            let Sconto = (parseInt(prodotto['prezzo originale']) * parseInt(prodotto['sconto'])) / 100;
-            let prezzoScontato = parseInt(parseInt(prodotto['prezzo originale']) - Sconto) - 0.01
-        
+              
             productDiv.innerHTML = `
             <div class="prodotti-backdrop"></div>
-            <p class="sconto-prodotto">Sconto del ${prodotto['sconto']}</p>
+            <p class="sconto-prodotto">Sconto del ${prodotto['sconto']}%</p>
             <img src="${prodotto['immagine']}" alt="">
             <div class="products-description outlet-version">
                 <h3>${prodotto['nome']}</h3> 
@@ -617,8 +611,8 @@ function renderCheck(){
                 <div class="prezzo-container-div">
 
                     <div class="prezzo-container">  
-                        <p class="prezzo-originale">prezzo: <span class="sbarrato">${prodotto['prezzo originale']}€</span></p>
-                        <p class="prezzo-scontato"> ${prezzoScontato}€</p>
+                        <p class="prezzo-originale">prezzo: <span class="sbarrato">${prodotto['prezzoOriginale']}€</span></p>
+                        <p class="prezzo-scontato"> ${prodotto['prezzoScontato']}€</p>
                     </div>
 
                     <button class="prodotto-btn" data-whatsapp-number="393914393426" 
@@ -1021,12 +1015,11 @@ function searchProducts() {
 
         // Check if the product is in the "sconti" category
         if (String(prodotto['microcategoria']).includes('sconti')) {
-            let Sconto = (parseInt(prodotto['prezzo originale']) * parseInt(prodotto['sconto'])) / 100;
-            let prezzoScontato = parseInt(parseInt(prodotto['prezzo originale']) - Sconto) - 0.01;
+            
 
             productDiv.innerHTML = `
                 <div class="prodotti-backdrop"></div>
-                <p class="sconto-prodotto">Sconto del ${prodotto['sconto']}</p>
+                <p class="sconto-prodotto">Sconto del ${prodotto['sconto']}%</p>
                 <img src="${prodotto['immagine']}" alt="">
                 <div class="products-description">
                     <h3>${prodotto['nome']}</h3> 
@@ -1034,8 +1027,8 @@ function searchProducts() {
                     <p class="prodotto-descrizione">${prodotto['descrizione']}</p>
                     <div class="prezzo-container-div">
                         <div class="prezzo-container">
-                            <p class="prezzo-originale">prezzo: <span class="sbarrato">${prodotto['prezzo originale']}€</span></p>
-                            <p class="prezzo-scontato"> ${prezzoScontato}€</p>
+                            <p class="prezzo-originale">prezzo: <span class="sbarrato">${prodotto['prezzoOriginale']}€</span></p>
+                            <p class="prezzo-scontato"> ${prodotto['prezzoScontato']}€</p>
                         </div>
                         <button class="prodotto-btn" data-whatsapp-number="393914393426" 
                                 data-prefill-message="Salve, vorrei ordinare il prodotto: ${prodotto['nome']}">

@@ -159,7 +159,9 @@
         {
             "nome": "Lampade di sale",
             "descrizione": "cosmesi",
+            "categoria": "",
             "microcategoria": "Lampade di sale rosa Himalaya",
+            "prezzo": "",
             "immagine": "dati/immaginiProdotti/lampada di sale.jpg"
         },{
             "nome": "Incensi artigianali",
@@ -286,7 +288,7 @@
             "descrizione": "cosmesi",
             "microcategoria": "Profuma ambienti",
             "immagine": "dati/immaginiProdotti/profumatore auto.jpg"
-        },
+        }
     ],
     "Alimentazione naturale":[
         {
@@ -332,7 +334,7 @@
             "descrizione": "oggettistica",
             "microcategoria": "Cosmetica solida",
             "immagine": "dati/immaginiProdotti/senso naturale.jpg"
-        },
+        }
     ],
     "Prodotti in sconto":[
             {
@@ -340,43 +342,49 @@
                 "descrizione": "oggettistica test test test test test test test test test test oggettistica test test test test test test test test test test",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/abarelli.jpg",
-                "sconto": "20%",
-                "prezzo originale": "12,50"
+                "sconto": "20",
+                "prezzoOriginale": "12.50",
+                "prezzoScontato": "9.99"
             }, {
                 "nome": "Zucchero d'Ambra",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/ambra.jpg",
-                "sconto": "30%",
-                "prezzo originale": "27"
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "9.99"
             }, {
                 "nome": "Agrumèe",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/agrumèe.jpg",
-                "sconto": "30%",
-                "prezzo originale": "18.99"
+                "sconto": "30",
+                "prezzoOriginale": "18.99",
+                "prezzoScontato": "9.99"
             }, {
                 "nome": "Bouquet",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/boquet.jpg",
-                "sconto": "30%",
-                "prezzo originale": "27"
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "9.99"
             }, {
                 "nome": "vitamida b",
                 "descrizione": "oggettistica",
                 "microcategoria": "Alimentazione naturale sconti",
                 "immagine": "dati/immaginiProdotti/vitamina.jpg",
-                "sconto": "10%",
-                "prezzo originale": "18.99"
+                "sconto": "10",
+                "prezzoOriginale": "18.99",
+                "prezzoScontato": "9.99"
             },  {
                 "nome": "Bagnodoccia Detossinante",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della persona sconti",
                 "immagine": "dati/immaginiProdotti/vitamina.jpg",
-                "sconto": "10%",
-                "prezzo originale": "18.99"
+                "sconto": "10",
+                "prezzoOriginale": "18.99",
+                "prezzoScontato": "9.99"
             }
     ]
 }

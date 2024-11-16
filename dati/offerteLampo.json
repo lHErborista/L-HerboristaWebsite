@@ -43,7 +43,8 @@
             "categoria": "integratori alimentari",
             "descrizione" : "piccola descrizione test test test test test test test test test test test test test test test test piccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test test",
             "prezzo": "18.99",
-            "sconto": "10%"
+            "sconto": "10%",
+            "prezzoScontato": "15.99"
         },
         {
             "nome": "carbone",
@@ -51,7 +52,8 @@
             "categoria": "integratori alimentari",
             "descrizione" : "piccola descrizione",
             "prezzo": "18.99",
-            "sconto": "10%"
+            "sconto": "10%",
+            "prezzoScontato": "15.99"
         }, 
         {
             "nome": "carbone",
@@ -59,7 +61,8 @@
             "categoria": "integratori alimentari",
             "descrizione" : "piccola descrizione",
             "prezzo": "18.99",
-            "sconto": "10%"
+            "sconto": "10%",
+            "prezzoScontato": "15.99"
         },   
         {
             "nome": "carbone",
@@ -67,7 +70,8 @@
             "categoria": "integratori alimentari",
             "descrizione" : "piccola descrizione",
             "prezzo": "18.99",
-            "sconto": "10%"
+            "sconto": "10%",
+            "prezzoScontato": "15.99"
         },  
         {
             "nome": "carbone",
@@ -75,7 +79,8 @@
             "categoria": "integratori alimentari",
             "descrizione" : "piccola descrizione",
             "prezzo": "18.99",
-            "sconto": "10%"
+            "sconto": "10%",
+            "prezzoScontato": "15.99"
         } 
     ]
 }
