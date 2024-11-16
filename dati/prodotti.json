@@ -160,104 +160,133 @@
             "nome": "Lampade di sale",
             "descrizione": "cosmesi",
             "microcategoria": "Lampade di sale rosa Himalaya",
-            "immagine": "dati/immaginiProdotti/lampadadisale.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/lampada di sale.jpg"
+        },{
             "nome": "Incensi artigianali",
             "descrizione": "cosmesi",
             "microcategoria": "Incensi",
-            "immagine": "dati/immaginiProdotti/incensigrandi.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/incensi grandi.jpg"
+        },{
             "nome": "Incensi artigianali",
             "descrizione": "cosmesi",
             "microcategoria": "Incensi",
-            "immagine": "dati/immaginiProdotti/incensipiccoli.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/incensi piccoli.jpg"
+        },{
             "nome": "Albero della Vita",
             "descrizione": "cosmesi",
             "microcategoria": "Pietre, cristalli e gioielli",
-            "immagine": "dati/immaginiProdotti/alberogiada.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/albero giada.jpg"
+        },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "immagine": "dati/immaginiProdotti/braccialeorovegaperto.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/bracciale oro veg aperto.jpg"
+        },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "immagine": "dati/immaginiProdotti/braccialeorovegconfiori.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/bracciale oro veg con fiori.jpg"
+        },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "immagine": "dati/immaginiProdotti/braccialeorovegspiraleepietre.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/bracciale oro veg spirale e pietre.jpg"
+        },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "immagine": "dati/immaginiProdotti/braccialeorovegspirale.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/bracciale oro veg spirale.jpg"
+        },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "immagine": "dati/immaginiProdotti/braccialeoroveg.semplice.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/bracciale oro veg.semplice.jpg"
+        },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti1.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/bracciale oro vegetale conpendenti 1.jpg"
+        },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti2.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/bracciale oro vegetale con pendenti 2.jpg"
+        },{
             "nome": "Bracciale in pietre semipreziose",
             "descrizione": "cosmesi",
             "microcategoria": "Pietre, cristalli e gioielli",
-            "immagine": "dati/immaginiProdotti/braccialepietre.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/bracciale pietre.jpg"
+        },{
             "nome": "Candela al Lemongrass",
             "descrizione": "cosmesi",
             "microcategoria": "Candele",
-            "immagine": "dati/immaginiProdotti/candelacocco.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/candela cocco.jpg"
+        },{
             "nome": "Candela Dream",
             "descrizione": "cosmesi",
             "microcategoria": "Candele",
-            "immagine": "dati/immaginiProdotti/candeladream.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/candela dream.jpg"
+        },{
             "nome": "Candela Love",
             "descrizione": "cosmesi",
             "microcategoria": "Candele",
-            "immagine": "dati/immaginiProdotti/candelalove.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/candela love.jpg"
+        },{
             "nome": "Candela al Pino",
             "descrizione": "cosmesi",
             "microcategoria": "Candele",
-            "immagine": "dati/immaginiProdotti/candelapino.jpg"
-        },
-        {
+            "immagine": "dati/immaginiProdotti/candela pino.jpg"
+        },{
             "nome": "Candela alla Vaniglia",
             "descrizione": "cosmesi",
             "microcategoria": "Candele",
-            "immagine": "dati/immaginiProdotti/candelavaniglia.jpg"
-        }
+            "immagine": "dati/immaginiProdotti/candela vaniglia.jpg"
+        },{
+            "nome": "Collana Ametista",
+            "descrizione": "cosmesi",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/collana ametista.jpg"
+        },{
+            "nome": "Collana Aromaterapica e Cristalloterapica",
+            "descrizione": "cosmesi",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/collana aroma e cristallo terapia.jpg"
+        },{
+            "nome": "Collana Cuor di Leone",
+            "descrizione": "cosmesi",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/collana cuor di leone.jpg"
+        },{
+            "nome": "Collana Fiordaliso",
+            "descrizione": "cosmesi",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/collana fiordaliso.jpg"
+        },{
+            "nome": "Collana Rosa",
+            "descrizione": "cosmesi",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/collana rosa.jpg"
+        },{
+            "nome": "Orecchini in Oro Vegetale",
+            "descrizione": "cosmesi",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/orecchini noro veg.jpg"
+        },{
+            "nome": "Bracciale in oro vegetale con ciondoli",
+            "descrizione": "cosmesi",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "immagine": "dati/immaginiProdotti/oro vegetale doppio.jpg"
+        },{
+            "nome": "Palo Santo",
+            "descrizione": "cosmesi",
+            "microcategoria": "Incensi",
+            "immagine": "dati/immaginiProdotti/palo santo.jpg"
+        },{
+            "nome": "Profumatore per auto",
+            "descrizione": "cosmesi",
+            "microcategoria": "Profuma ambienti",
+            "immagine": "dati/immaginiProdotti/profumatore auto.jpg"
+        },
     ],
     "Alimentazione naturale":[
         {
@@ -284,11 +313,26 @@
     ],
     "Cosmetici e cura della persona":[
         {
-            "nome": "vitamida b",
+            "nome": "Acqua Profumata",
             "descrizione": "oggettistica",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg"
-        }
+            "microcategoria": "Profumi e acqua profumate",
+            "immagine": "dati/immaginiProdotti/acqua profumata 2.jpg"
+        },{
+            "nome": "Acqua Profumata",
+            "descrizione": "oggettistica",
+            "microcategoria": "Profumi e acqua profumate",
+            "immagine": "dati/immaginiProdotti/acqua profumata.jpg"
+        },{
+            "nome": "Crema Mani e Piedi",
+            "descrizione": "oggettistica",
+            "microcategoria": "Crema corpo",
+            "immagine": "dati/immaginiProdotti/crema mani e piedi.jpg"
+        },{
+            "nome": "Porta saponette in sughero",
+            "descrizione": "oggettistica",
+            "microcategoria": "Cosmetica solida",
+            "immagine": "dati/immaginiProdotti/senso naturale.jpg"
+        },
     ],
     "Prodotti in sconto":[
             {
