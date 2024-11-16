@@ -143,81 +143,107 @@
         {
             "nome": "Lampade di sale",
             "descrizione": "cosmesi",
-            "categoria": "Idee regalo eed oggettistica",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Lampade di sale rosa Himalaya",
             "prezzo": "20",
             "immagine": "dati/immaginiProdotti/lampadadisale.jpg"
         },{
             "nome": "Incensi artigianali",
             "descrizione": "cosmesi",
-            "categoria": "Idee regalo eed oggettistica",
-            "microcategoria": "Lampade di sale rosa Himalaya",
-            "prezzo": "20"
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Incensi",
+            "prezzo": "10.00"
             "immagine": "dati/immaginiProdotti/incensigrandi.jpg"
         },{
             "nome": "Incensi artigianali",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Incensi",
+            "prezzo": "6.90"
             "immagine": "dati/immaginiProdotti/incensipiccoli.jpg"
         },{
             "nome": "Albero della Vita",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "20"
             "immagine": "dati/immaginiProdotti/alberogiada.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "20"
             "immagine": "dati/immaginiProdotti/braccialeorovegaperto.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "20"
             "immagine": "dati/immaginiProdotti/braccialeorovegconfiori.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "20"
             "immagine": "dati/immaginiProdotti/braccialeorovegspiraleepietre.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "20"
             "immagine": "dati/immaginiProdotti/braccialeorovegspirale.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "20"
             "immagine": "dati/immaginiProdotti/braccialeorovegsemplice.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "20"
             "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti1.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "20"
             "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti2.jpg"
         },{
             "nome": "Bracciale in pietre semipreziose",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "12"
             "immagine": "dati/immaginiProdotti/braccialepietre.jpg"
         },{
             "nome": "Candela al Lemongrass",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
+            "prezzo": "18"
             "immagine": "dati/immaginiProdotti/candelacocco.jpg"
         },{
             "nome": "Candela Dream",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
+            "prezzo": "16,20",
             "immagine": "dati/immaginiProdotti/candeladream.jpg"
         },{
             "nome": "Candela Love",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
+            "prezzo": "16,20"
             "immagine": "dati/immaginiProdotti/candelalove.jpg"
         },{
             "nome": "Candela al Pino",
