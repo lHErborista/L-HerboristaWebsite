@@ -152,84 +152,84 @@
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Incensi",
-            "prezzo": "10.00"
+            "prezzo": "10",
             "immagine": "dati/immaginiProdotti/incensigrandi.jpg"
         },{
             "nome": "Incensi artigianali",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Incensi",
-            "prezzo": "6.90"
+            "prezzo": "6.90",
             "immagine": "dati/immaginiProdotti/incensipiccoli.jpg"
         },{
             "nome": "Albero della Vita",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
-            "prezzo": "20"
+            "prezzo": "20",
             "immagine": "dati/immaginiProdotti/alberogiada.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "prezzo": "20"
-            "immagine": "dati/immaginiProdotti/braccialeorovegaperto.jpg"
+            "prezzo": "30",
+           "immagine": "dati/immaginiProdotti/braccialeorovegaperto.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "prezzo": "20"
+            "prezzo": "30",
             "immagine": "dati/immaginiProdotti/braccialeorovegconfiori.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "prezzo": "20"
+            "prezzo": "30",
             "immagine": "dati/immaginiProdotti/braccialeorovegspiraleepietre.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "prezzo": "20"
+            "prezzo": "30",
             "immagine": "dati/immaginiProdotti/braccialeorovegspirale.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "prezzo": "20"
+            "prezzo": "10",
             "immagine": "dati/immaginiProdotti/braccialeorovegsemplice.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "prezzo": "20"
+            "prezzo": "20",
             "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti1.jpg"
         },{
             "nome": "Bracciale in oro vegetale",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
-            "prezzo": "20"
+            "prezzo": "20",
             "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti2.jpg"
         },{
             "nome": "Bracciale in pietre semipreziose",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
-            "prezzo": "12"
+            "prezzo": "12",
             "immagine": "dati/immaginiProdotti/braccialepietre.jpg"
         },{
             "nome": "Candela al Lemongrass",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
-            "prezzo": "18"
+            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/candelacocco.jpg"
         },{
             "nome": "Candela Dream",
@@ -243,62 +243,84 @@
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
-            "prezzo": "16,20"
+            "prezzo": "16,20",
             "immagine": "dati/immaginiProdotti/candelalove.jpg"
         },{
             "nome": "Candela al Pino",
             "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
+            "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/candelapino.jpg"
         },{
             "nome": "Candela alla Vaniglia",
             "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
+            "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/candelavaniglia.jpg"
         },{
             "nome": "Collana Ametista",
             "descrizione": "cosmesi",
-            "microcategoria": "Pietre, cristalli e gioielli",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "40",
             "immagine": "dati/immaginiProdotti/collanaametista.jpg"
         },{
             "nome": "Collana Aromaterapica e Cristalloterapica",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "30",
             "immagine": "dati/immaginiProdotti/collanaaromaecristalloterapia.jpg"
         },{
             "nome": "Collana Cuor di Leone",
             "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "33",
             "immagine": "dati/immaginiProdotti/collanacuordileone.jpg"
         },{
             "nome": "Collana Fiordaliso",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "33",
             "immagine": "dati/immaginiProdotti/collanafiordaliso.jpg"
         },{
             "nome": "Collana Rosa",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "33",
             "immagine": "dati/immaginiProdotti/collanarosa.jpg"
         },{
             "nome": "Orecchini in Oro Vegetale",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "15",
             "immagine": "dati/immaginiProdotti/orecchinioroveg.jpg"
         },{
             "nome": "Bracciale in oro vegetale con ciondoli",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
+            "prezzo": "20",
             "immagine": "dati/immaginiProdotti/orovegetaledoppio.jpg"
         },{
             "nome": "Palo Santo",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Incensi",
+            "prezzo": "3,50",
             "immagine": "dati/immaginiProdotti/palosanto.jpg"
         },{
             "nome": "Profumatore per auto",
             "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
+            "prezzo": "11",
             "immagine": "dati/immaginiProdotti/profumatoreauto.jpg"
         }
     ],
@@ -330,22 +352,30 @@
             "nome": "Acqua Profumata",
             "descrizione": "oggettistica",
             "microcategoria": "Profumi e acqua profumate",
-            "immagine": "dati/immaginiProdotti/acqua profumata 2.jpg"
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "12.50",
+            "immagine": "dati/immaginiProdotti/acquaprofumata2.jpg"
         },{
             "nome": "Acqua Profumata",
             "descrizione": "oggettistica",
             "microcategoria": "Profumi e acqua profumate",
-            "immagine": "dati/immaginiProdotti/acqua profumata.jpg"
+            "categortia" : "Cosmetici e cura della persona",
+            "prezzo": "14.90",
+            "immagine": "dati/immaginiProdotti/acquaprofumata.jpg"
         },{
             "nome": "Crema Mani e Piedi",
             "descrizione": "oggettistica",
             "microcategoria": "Crema corpo",
-            "immagine": "dati/immaginiProdotti/crema mani e piedi.jpg"
+            "categortia" : "Cosmetici e cura della persona",
+            "prezzo": "7.90",
+            "immagine": "dati/immaginiProdotti/cremamaniepiedi.jpg"
         },{
             "nome": "Porta saponette in sughero",
             "descrizione": "oggettistica",
             "microcategoria": "Cosmetica solida",
-            "immagine": "dati/immaginiProdotti/senso naturale.jpg"
+            "categortia" : "Cosmetici e cura della persona",
+            "prezzo": "13",
+            "immagine": "dati/immaginiProdotti/sensonaturale.jpg"
         }
     ],
     "Prodotti in sconto":[
@@ -354,7 +384,6 @@
                 "descrizione": "oggettistica test test test test test test test test test test oggettistica test test test test test test test test test test",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/abarelli.jpg",
-                "sconto": "20",
                 "prezzoOriginale": "12.50",
                 "prezzoScontato": "9.99"
             }, {
@@ -364,15 +393,15 @@
                 "immagine": "dati/immaginiProdotti/ambra.jpg",
                 "sconto": "30",
                 "prezzoOriginale": "27",
-                "prezzoScontato": "9.99"
+                "prezzoScontato": "18.90"
             }, {
                 "nome": "Agrumèe",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/agrumèe.jpg",
                 "sconto": "30",
-                "prezzoOriginale": "18.99",
-                "prezzoScontato": "9.99"
+                "prezzoOriginale": "19,50",
+                "prezzoScontato": "15"
             }, {
                 "nome": "Bouquet",
                 "descrizione": "oggettistica",
@@ -380,21 +409,23 @@
                 "immagine": "dati/immaginiProdotti/boquet.jpg",
                 "sconto": "30",
                 "prezzoOriginale": "27",
-                "prezzoScontato": "9.99"
+                "prezzoScontato": "18.90"
             }, {
                 "nome": "BabyLattea",
                 "descrizione": "oggettistica",
                 "microcategoria": "Alimentazione naturale sconti",
                 "immagine": "dati/immaginiProdotti/vitamina.jpg",
-                "sconto": "10%",
-                "prezzo originale": "18.99"
+                "sconto": "40%",
+                "prezzoOriginale": "20",
+                "prezzoScontato": "12"
             },  {
                 "nome": "Balsamindoccia",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della persona sconti",
                 "immagine": "dati/immaginiProdotti/vitamina.jpg",
-                "sconto": "10%",
-                "prezzo originale": "18.99"
+                "sconto": "40%",
+                "prezzoOriginale": "20",
+                "prezzoScontato": "12"
             }
     ]
 }
