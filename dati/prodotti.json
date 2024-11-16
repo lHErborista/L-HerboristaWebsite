@@ -286,6 +286,16 @@
             "descrizione": "cosmesi",
             "microcategoria": "Profuma ambienti",
             "immagine": "dati/immaginiProdotti/profumatore auto.jpg"
+        },{
+            "nome": "Albero della Vita",
+            "descrizione": "cosmesi",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/albero lapislazzuli.jpg"
+        },{
+            "nome": "Albero della Vita",
+            "descrizione": "cosmesi",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "immagine": "dati/immaginiProdotti/albero quarzo rosa.jpg"
         },
     ],
     "Alimentazione naturale":[
@@ -364,19 +374,61 @@
                 "sconto": "30%",
                 "prezzo originale": "27"
             }, {
-                "nome": "vitamida b",
+                "nome": "BabyLattea",
                 "descrizione": "oggettistica",
-                "microcategoria": "Alimentazione naturale sconti",
-                "immagine": "dati/immaginiProdotti/vitamina.jpg",
+                "microcategoria": "Cosmetici e cura della persona sconti",
+                "immagine": "dati/immaginiProdotti/babylattea.jpg",
                 "sconto": "10%",
                 "prezzo originale": "18.99"
             },  {
-                "nome": "Bagnodoccia Detossinante",
+                "nome": "Balsamindoccia",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della persona sconti",
-                "immagine": "dati/immaginiProdotti/vitamina.jpg",
+                "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
                 "sconto": "10%",
                 "prezzo originale": "18.99"
-            }
+            }, {
+                "nome": "Balsamolio",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della persona sconti",
+                "immagine": "dati/immaginiProdotti/balsamolio.jpg",
+                "sconto": "30%",
+                "prezzo originale": "27"
+            }, {
+                "nome": "Chinotto",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/chinotto.jpg",
+                "sconto": "30%",
+                "prezzo originale": "27"
+            }, {
+                "nome": "Cioccolatini al pistacchio",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/cioccolatini pistacchio.jpg",
+                "sconto": "30%",
+                "prezzo originale": "27"
+            }, {
+                "nome": "Crema Lenitiva Seno",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della persona sconti",
+                "immagine": "dati/immaginiProdotti/crema lenitiva seno.jpg",
+                "sconto": "30%",
+                "prezzo originale": "27"
+            }, {
+                "nome": "Crema Volumizzante e Rigenerante",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della persona sconti",
+                "immagine": "dati/immaginiProdotti/crema helan.jpg",
+                "sconto": "30%",
+                "prezzo originale": "27"
+            }, {
+                "nome": "Crema Viso Antiage",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della persona sconti",
+                "immagine": "dati/immaginiProdotti/crema natures.jpg",
+                "sconto": "30%",
+                "prezzo originale": "27"
+            },
     ]
 }
