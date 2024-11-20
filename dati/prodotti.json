@@ -336,7 +336,21 @@
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "20",
             "immagine": "dati/immaginiProdotti/alberoquarzorosa.jpg"
-        }
+        },{
+            "nome": "Cofanetto Panettone ",
+            "descrizione": "oggettistica",
+            "microcategoria": "Speciale Natale",
+            "categortia" : "Idee regalo ed oggettistica",
+            "prezzo": "19.00",
+            "immagine": "dati/immaginiProdotti/fragranzapanettone.jpg"
+        },{
+            "nome": "Palline di Natale ",
+            "descrizione": "oggettistica",
+            "microcategoria": "Speciale Natale",
+            "categortia" : "Idee regalo ed oggettistica",
+            "prezzo": "8.90",
+            "immagine": "dati/immaginiProdotti/palline.jpg"
+        },
     ],
     "Alimentazione naturale":[
         {
@@ -417,7 +431,7 @@
                 "prezzoOriginale": "19,50",
                 "prezzoScontato": "15"
             },{
-                "nome": "Bouquet",
+                "nome": "Bouquet Fragola",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/boquet.jpg",
@@ -429,7 +443,7 @@
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/babylattea.jpg",
-                "sconto": "40%",
+                "sconto": "40",
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
             },{
@@ -437,7 +451,7 @@
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
-                "sconto": "40%",
+                "sconto": "40",
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
             },{
@@ -445,11 +459,11 @@
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
-                "sconto": "40%",
+                "sconto": "40",
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
             },{
-                "nome": "Chinotto",
+                "nome": "Chinotto Rosa",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/chinotto.jpg",
@@ -494,13 +508,13 @@
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
             },{
-                "nome": "Detergente intimo Naturale",
+                "nome": "Detergente intimo Mamma",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/detergenteintimo.jpg",
-                "sconto": "30",
-                "prezzoOriginale": "9",
-                "prezzoScontato": "6,30"
+                "sconto": "40",
+                "prezzoOriginale": "12",
+                "prezzoScontato": "7,20"
             },{
                 "nome": "Fiori Notturni",
                 "descrizione": "oggettistica",
@@ -510,7 +524,7 @@
                 "prezzoOriginale": "12,50",
                 "prezzoScontato": "8,90"
             },{
-                "nome": "Foglie D'Ebano",
+                "nome": "Foglie d'Ebano",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/fogliedebano.jpg",
@@ -534,7 +548,7 @@
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18,90"
             },{
-                "nome": "Linfa D'Acero",
+                "nome": "Linfa d'Acero",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/linfadacero.jpg",
@@ -557,6 +571,97 @@
                 "sconto": "30",
                 "prezzoOriginale": "24",
                 "prezzoScontato": "18,20"
-            }
+            },{
+                "nome": "Muschio D'Acqua",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/muschio.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "18.90"
+            },{
+                "nome": "Narciso Nobile",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/narciso.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "12.50",
+                "prezzoScontato": "8.80"
+            },{
+                "nome": "Olio Emolliente Protettivo",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/olioemolliente.jpg",
+                "sconto": "40",
+                "prezzoOriginale": "10",
+                "prezzoScontato": "6"
+            },{
+                "nome": "Papavero d'Oriente",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/papavero.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "18.90"
+            },{
+                "nome": "Pepe Fondente",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/pepe.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "12.50",
+                "prezzoScontato": "8.80"
+            },{
+                "nome": "Pomelia",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/pomelia.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "18.90"
+            },{
+                "nome": "Profumatore Riviera",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/profumatorebastonciniriviera.jpg",
+                "prezzoOriginale": "16",
+                "prezzoScontato": "12"
+            },{
+                "nome": "Profumatore Salento",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/profumatorebastoncinisalento.jpg",
+                "prezzoOriginale": "16",
+                "prezzoScontato": "12"
+            },{
+                "nome": "Rum & Vetiver",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/rumevetiver.jpg",
+                "prezzoOriginale": "28",
+                "prezzoScontato": "21,70"
+            },{
+                "nome": "Salvia Mediterranea",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/salvia.jpg",
+                "prezzoOriginale": "15",
+                "prezzoScontato": "10,50"
+            },{
+                "nome": "Sapone Intimo Naturale",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/saponeintimo.jpg",
+                "sconto":"30",
+                "prezzoOriginale": "9",
+                "prezzoScontato": "6,30"
+            },{
+                "nome": "Scrub al Vino",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/scrubvino.jpg",
+                "prezzoOriginale": "28",
+                "prezzoScontato": "20"
+            },
     ]
 }
