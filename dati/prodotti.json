@@ -322,6 +322,20 @@
             "microcategoria": "Profuma ambienti",
             "prezzo": "11",
             "immagine": "dati/immaginiProdotti/profumatoreauto.jpg"
+        },{
+            "nome": "Albero della Vita",
+            "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "20",
+            "immagine": "dati/immaginiProdotti/alberolapislazzuli.jpg"
+        },{
+            "nome": "Albero della Vita",
+            "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "20",
+            "immagine": "dati/immaginiProdotti/alberoquarzorosa.jpg"
         }
     ],
     "Alimentazione naturale":[
@@ -413,19 +427,136 @@
             }, {
                 "nome": "BabyLattea",
                 "descrizione": "oggettistica",
-                "microcategoria": "Alimentazione naturale sconti",
-                "immagine": "dati/immaginiProdotti/vitamina.jpg",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/babylattea.jpg",
                 "sconto": "40%",
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
-            },  {
+            },{
                 "nome": "Balsamindoccia",
                 "descrizione": "oggettistica",
-                "microcategoria": "Cosmetici e cura della persona sconti",
-                "immagine": "dati/immaginiProdotti/vitamina.jpg",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
                 "sconto": "40%",
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
-            }
+            },{
+                "nome": "Balsamolio",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
+                "sconto": "40%",
+                "prezzoOriginale": "20",
+                "prezzoScontato": "12"
+            }, {
+                "nome": "Chinotto",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/chinotto.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "18,90"
+            }, {
+                "nome": "Crema Viso Volumizzante",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/cremahelan.jpg",
+                "prezzoOriginale": "38,00",
+                "prezzoScontato": "28,00"
+            }, {
+                "nome": "Cioccolatini al Pistacchio",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/cioccolatinipistacchio.jpg",
+                "prezzoOriginale": "16",
+                "prezzoScontato": "12"
+            }, {
+                "nome": "Crema Lenitiva per il seno",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/cremalenitivaseno.jpg",
+                "sconto": "40",
+                "prezzoOriginale": "12",
+                "prezzoScontato": "7,20"
+            }, {
+                "nome": "Crema Viso Antiage",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/cremanatures.jpg",
+                "prezzoOriginale": "31",
+                "prezzoScontato": "20"
+            }, {
+                "nome": "Crema Viso per neonati",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/cremaviso.jpg",
+                "sconto": "40",
+                "prezzoOriginale": "20",
+                "prezzoScontato": "12"
+            }, {
+                "nome": "Detergente intimo Naturale",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/detergenteintimo.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "9",
+                "prezzoScontato": "6,30"
+            }, {
+                "nome": "Fiori Notturni",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/fiorinotturni.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "12,50",
+                "prezzoScontato": "8,90"
+            }, {
+                "nome": "Foglie D'Ebano",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/fogliedebano.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "17,50",
+                "prezzoScontato": "12"
+            }, {
+                "nome": "Fucsia",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/fucsia.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "24",
+                "prezzoScontato": "18,20"
+            }, {
+                "nome": "Legni",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/legni.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "18,90"
+            }, {
+                "nome": "Linfa D'Acero",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/linfadacero.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "18,90"
+            }, {
+                "nome": "Fiori di Mandorlo",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/mandorlo.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "18.90"
+            }, {
+                "nome": "Moud",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/moud.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "24",
+                "prezzoScontato": "18,20"
+            },
     ]
 }
