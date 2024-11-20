@@ -400,7 +400,7 @@
                 "immagine": "dati/immaginiProdotti/abarelli.jpg",
                 "prezzoOriginale": "12.50",
                 "prezzoScontato": "9.99"
-            }, {
+            },{
                 "nome": "Zucchero d'Ambra",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -408,7 +408,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18.90"
-            }, {
+            },{
                 "nome": "Agrumèe",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -416,7 +416,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "19,50",
                 "prezzoScontato": "15"
-            }, {
+            },{
                 "nome": "Bouquet",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -424,7 +424,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18.90"
-            }, {
+            },{
                 "nome": "BabyLattea",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
@@ -448,7 +448,7 @@
                 "sconto": "40%",
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
-            }, {
+            },{
                 "nome": "Chinotto",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -456,21 +456,21 @@
                 "sconto": "30",
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18,90"
-            }, {
+            },{
                 "nome": "Crema Viso Volumizzante",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/cremahelan.jpg",
                 "prezzoOriginale": "38,00",
                 "prezzoScontato": "28,00"
-            }, {
+            },{
                 "nome": "Cioccolatini al Pistacchio",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/cioccolatinipistacchio.jpg",
                 "prezzoOriginale": "16",
                 "prezzoScontato": "12"
-            }, {
+            },{
                 "nome": "Crema Lenitiva per il seno",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
@@ -478,14 +478,14 @@
                 "sconto": "40",
                 "prezzoOriginale": "12",
                 "prezzoScontato": "7,20"
-            }, {
+            },{
                 "nome": "Crema Viso Antiage",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/cremanatures.jpg",
                 "prezzoOriginale": "31",
                 "prezzoScontato": "20"
-            }, {
+            },{
                 "nome": "Crema Viso per neonati",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
@@ -493,7 +493,7 @@
                 "sconto": "40",
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
-            }, {
+            },{
                 "nome": "Detergente intimo Naturale",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
@@ -501,7 +501,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "9",
                 "prezzoScontato": "6,30"
-            }, {
+            },{
                 "nome": "Fiori Notturni",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -509,7 +509,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "12,50",
                 "prezzoScontato": "8,90"
-            }, {
+            },{
                 "nome": "Foglie D'Ebano",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -517,7 +517,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "17,50",
                 "prezzoScontato": "12"
-            }, {
+            },{
                 "nome": "Fucsia",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -525,7 +525,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "24",
                 "prezzoScontato": "18,20"
-            }, {
+            },{
                 "nome": "Legni",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -533,7 +533,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18,90"
-            }, {
+            },{
                 "nome": "Linfa D'Acero",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -541,7 +541,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18,90"
-            }, {
+            },{
                 "nome": "Fiori di Mandorlo",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -549,7 +549,7 @@
                 "sconto": "30",
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18.90"
-            }, {
+            },{
                 "nome": "Moud",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
@@ -557,6 +557,6 @@
                 "sconto": "30",
                 "prezzoOriginale": "24",
                 "prezzoScontato": "18,20"
-            },
+            }
     ]
 }
