@@ -350,7 +350,7 @@
             "categortia" : "Idee regalo ed oggettistica",
             "prezzo": "8.90",
             "immagine": "dati/immaginiProdotti/palline.jpg"
-        },
+        }
     ],
     "Alimentazione naturale":[
         {
@@ -662,6 +662,6 @@
                 "immagine": "dati/immaginiProdotti/scrubvino.jpg",
                 "prezzoOriginale": "28",
                 "prezzoScontato": "20"
-            },
+            }
     ]
 }
