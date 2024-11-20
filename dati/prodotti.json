@@ -350,6 +350,13 @@
             "categortia" : "Idee regalo ed oggettistica",
             "prezzo": "8.90",
             "immagine": "dati/immaginiProdotti/palline.jpg"
+        },{
+            "nome": "Lampada in Vetro e Sale Rosa",
+            "descrizione": "cosmesi",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Lampade di sale rosa Himalaya",
+            "prezzo": "30",
+            "immagine": "dati/immaginiProdotti/voganto.jpg"
         }
     ],
     "Alimentazione naturale":[
@@ -662,6 +669,70 @@
                 "immagine": "dati/immaginiProdotti/scrubvino.jpg",
                 "prezzoOriginale": "28",
                 "prezzoScontato": "20"
+            },{
+                "nome": "Struccante delicato per Occhi",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/struccantealkemilla.jpg",
+                "prezzoOriginale": "15,50",
+                "prezzoScontato": "10"
+            },{
+                "nome": "Thermos",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/thermosrosa.jpg",
+                "prezzoOriginale": "25,90",
+                "prezzoScontato": "20"
+            },{
+                "nome": "Thermos",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/thermosverde.jpg",
+                "prezzoOriginale": "25,90",
+                "prezzoScontato": "20"
+            },{
+                "nome": "Rosso The",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/therosso.jpg",
+                "sconto": "30",
+                "prezzoOriginale": "27",
+                "prezzoScontato": "18,90"
+            },{
+                "nome": "Tinte Biokap",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/tintebiokap.jpg",
+                "prezzoOriginale": "13",
+                "prezzoScontato": "8"
+            },{
+                "nome": "Vaniglia Bianca",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/vaniglia.jpg",
+                "prezzoOriginale": "12.50",
+                "prezzoScontato": "8.80"
+            },{
+                "nome": "Crema Purificante",
+                "descrizione": "oggettistica",
+                "microcategoria": "Cosmetici e cura della pelle sconti",
+                "immagine": "dati/immaginiProdotti/vegupcremapurificante.jpg",
+                "prezzoOriginale": "52",
+                "prezzoScontato": "25"
+            },{
+                "nome": "Zagara Frizzante",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/zagara.jpg",
+                "prezzoOriginale": "38",
+                "prezzoScontato": "26,50"
+            },{
+                "nome": "Fiori di Zenzero",
+                "descrizione": "oggettistica",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "immagine": "dati/immaginiProdotti/zenzero.jpg",
+                "prezzoOriginale": "12,50",
+                "prezzoScontato": "8,80"
             }
     ]
 }
