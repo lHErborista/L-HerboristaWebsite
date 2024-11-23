@@ -7,99 +7,7 @@
             "immagine": "dati/immaginiProdotti/carbone.jpg",
             "prezzo": "15.00",
             "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto.Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Cumino Composto",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Digestione e benessere intestinale",
-            "immagine": "dati/immaginiProdotti/cumino.jpg",
-            "prezzo": "20.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Eudigest",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Digestione e benessere intestinale",
-            "immagine": "dati/immaginiProdotti/eudigest.jpg",
-            "prezzo": "10.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "ferplus",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Vitamine e Sali minerali",
-            "immagine": "dati/immaginiProdotti/ferplus.jpg",
-            "prezzo": "21.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Ficus Carica",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Digestione e benessere intestinale",
-            "immagine": "dati/immaginiProdotti/ficus.jpg",
-            "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Juglans Composto",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Digestione e benessere intestinale",
-            "immagine": "dati/immaginiProdotti/jurglans.jpg",
-            "prezzo": "25.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Magnesio",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Vitamine e Sali minerali",
-            "immagine": "dati/immaginiProdotti/magnesio.jpg",
-            "prezzo": "21.90",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Olio di Germe di Grano",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Cura dei capelli e unghie",
-            "immagine": "dati/immaginiProdotti/olio.jpg",
-            "prezzo": "17.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Pilosella",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Detox e drenaggio",
-            "immagine": "dati/immaginiProdotti/pilosella.jpg",
-            "prezzo": "20.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Ribes Nigrum",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Allergie e sistema immunitario",
-            "immagine": "dati/immaginiProdotti/ribes.jpg",
-            "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Rosmarino",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Digestione e benessere intestinale",
-            "immagine": "dati/immaginiProdotti/rosmarino.jpg",
-            "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "SnelSì",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Detox e drenaggio",
-            "immagine": "dati/immaginiProdotti/snel.jpg",
-            "prezzo": "24.90",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Sns Ted",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Vitamine e Sali minerali",
-            "immagine": "dati/immaginiProdotti/sns.jpg",
-            "prezzo": "21.90",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Spaccapietra",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Detox e drenaggio",
-            "immagine": "dati/immaginiProdotti/spaccapietra.jpg",
-            "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
         }
-
     ],
     "Idee regalo ed oggettistica":[
         {
@@ -390,7 +298,7 @@
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/peraelegno.jpg"
         },{
-            "nome": "Profumatore Pomodoro e Menta",
+            "nome": "Profumatore Foglie di Pomodoro e Menta",
             "descrizione": "cosmesi",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
@@ -404,7 +312,7 @@
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/rosaemuschio.jpg"
         },{
-            "nome": "Profumatore Sedano e Fico",
+            "nome": "Profumatore Sedano Selvatico e Fico",
             "descrizione": "cosmesi",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
@@ -424,6 +332,20 @@
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/tonkaevaniglia.jpg"
+        },{
+            "nome": "Profumatore Tabacco Speziato e Ambra",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "25,00",
+            "immagine": "dati/immaginiProdotti/tabacco.jpg"
+        },{
+            "nome": "Profumatore Legni Orientali e Pepe Nero",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "25,00",
+            "immagine": "dati/immaginiProdotti/legniepepe.jpg"
         }
     ],
     "Alimentazione naturale":[
@@ -443,10 +365,103 @@
     ],
     "Integratori Naturali":[
         {
-            "nome": "vitamida b",
-            "descrizione": "erbe",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg"
+            "nome": "Carbone Vegetale Attivo",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Digestione e benessere intestinale",
+            "immagine": "dati/immaginiProdotti/carbone.jpg",
+            "prezzo": "15.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto.Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Cumino Composto",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Digestione e benessere intestinale",
+            "immagine": "dati/immaginiProdotti/cumino.jpg",
+            "prezzo": "20.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Eudigest",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Digestione e benessere intestinale",
+            "immagine": "dati/immaginiProdotti/eudigest.jpg",
+            "prezzo": "10.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Ferplus",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Vitamine e Sali minerali",
+            "immagine": "dati/immaginiProdotti/ferplus.jpg",
+            "prezzo": "21.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Ficus Carica",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Digestione e benessere intestinale",
+            "immagine": "dati/immaginiProdotti/ficus.jpg",
+            "prezzo": "15.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Juglans Composto",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Digestione e benessere intestinale",
+            "immagine": "dati/immaginiProdotti/jurglans.jpg",
+            "prezzo": "25.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Magnesio",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Vitamine e Sali minerali",
+            "immagine": "dati/immaginiProdotti/magnesio.jpg",
+            "prezzo": "21.90",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Olio di Germe di Grano",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Cura dei capelli e unghie",
+            "immagine": "dati/immaginiProdotti/olio.jpg",
+            "prezzo": "17.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Pilosella",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Detox e drenaggio",
+            "immagine": "dati/immaginiProdotti/pilosella.jpg",
+            "prezzo": "20.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Ribes Nigrum",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Allergie e sistema immunitario",
+            "immagine": "dati/immaginiProdotti/ribes.jpg",
+            "prezzo": "15.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Rosmarino",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Digestione e benessere intestinale",
+            "immagine": "dati/immaginiProdotti/rosmarino.jpg",
+            "prezzo": "15.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "SnelSì",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Detox e drenaggio",
+            "immagine": "dati/immaginiProdotti/snel.jpg",
+            "prezzo": "24.90",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Sns Ted",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Vitamine e Sali minerali",
+            "immagine": "dati/immaginiProdotti/sns.jpg",
+            "prezzo": "21.90",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+        },{
+            "nome": "Spaccapietra",
+            "categoria": "integratori alimentari",
+            "microcategoria": "Detox e drenaggio",
+            "immagine": "dati/immaginiProdotti/spaccapietra.jpg",
+            "prezzo": "15.00",
+            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
         }
     ],
     "Cosmetici e cura della persona":[
@@ -478,6 +493,69 @@
             "categortia" : "Cosmetici e cura della persona",
             "prezzo": "13",
             "immagine": "dati/immaginiProdotti/sensonaturale.jpg"
+        },{
+            "nome": "Scrub al Pistacchio",
+            "descrizione": "oggettistica",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/pistacchio.jpg"
+        },{
+            "nome": "Scrub al Caffè",
+            "descrizione": "oggettistica",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/caffè.jpg"
+        },{
+            "nome": "Scrub al Cioccolato",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/cioccolato.jpg"
+        },{
+            "nome": "Scrub alla Fragola",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/fragola.jpg"
+        },{
+            "nome": "Scrub ai Gelsi Neri",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/gelsi.jpg"
+        },{
+            "nome": "Scrub al Limone",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Prodotti in Italia",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/limone.jpg"
+        },{
+            "nome": "Scrub alla Mandorla Tostata",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/mandorla.jpg"
+        },{
+            "nome": "Scrub al Mango di Sicilia",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/mango.jpg"
+        },{
+            "nome": "Scrub al Pompelmo Rosa",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
+            "microcategoria": "scrub corpo",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/pompelmo.jpg"
         }
     ],
     "Prodotti in sconto":[
