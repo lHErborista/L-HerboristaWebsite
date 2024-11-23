@@ -36,7 +36,7 @@
             "prezzo": "15.00",
             "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
         },{
-            "nome": "Jurglans Composto",
+            "nome": "Juglans Composto",
             "categoria": "integratori alimentari",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/jurglans.jpg",
@@ -98,45 +98,7 @@
             "immagine": "dati/immaginiProdotti/spaccapietra.jpg",
             "prezzo": "15.00",
             "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "vitamina b",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Ansia e insonnia",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg",
-            "prezzo": "18.99",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "vitamida b",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg",
-            "promo": "",
-            "prezzo": "18.99",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "vitamida b",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg",
-            "promo": "",
-            "prezzo": "18.99",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Carbone Vegetale Attivo",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Make-up naturale",
-            "immagine": "dati/immaginiProdotti/carbone.jpg",
-            "prezzo": "18.99",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto.Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        },{
-            "nome": "Carbone Vegetale Attivo",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Make-up naturale",
-            "immagine": "dati/immaginiProdotti/carbone.jpg",
-            "promo": "",
-            "prezzo": "18.99",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto.Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        }
+        },
 
     ],
     "Idee regalo ed oggettistica":[
@@ -236,14 +198,14 @@
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
-            "prezzo": "16,20",
+            "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/candeladream.jpg"
         },{
             "nome": "Candela Love",
             "descrizione": "cosmesi",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
-            "prezzo": "16,20",
+            "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/candelalove.jpg"
         },{
             "nome": "Candela al Pino",
@@ -357,6 +319,111 @@
             "microcategoria": "Lampade di sale rosa Himalaya",
             "prezzo": "30",
             "immagine": "dati/immaginiProdotti/voganto.jpg"
+        },{
+            "nome": "Profumatore Arancio e Cannella",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "16,00",
+            "immagine": "dati/immaginiProdotti/arancioecannella.jpg"
+        },{
+            "nome": "Candela Gelsomino e Fiori d'Arancio",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Candele",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/gelsominoefioriarancio.jpg"
+        },{
+            "nome": "Profumatore Lavanda di Provenza",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "16,00",
+            "immagine": "dati/immaginiProdotti/lavanda.jpg"
+        },{
+            "nome": "Candela MareSardo",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Candele",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/maresardo.jpg"
+        },{
+            "nome": "Profumatore Mirto e Gelsomino",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "16,00",
+            "immagine": "dati/immaginiProdotti/mirtoegelsomino.jpg"
+        },{
+            "nome": "Candela al Muschio",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Candele",
+            "prezzo": "12,00",
+            "immagine": "dati/immaginiProdotti/muschiocandela.jpg"
+        },{
+            "nome": "Candela Ninfea Bianca e Salvia",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Candele",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/ninfeabiancaesalvia.jpg"
+        },{
+            "nome": "Christmas Wish",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Candele",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/pandizenzero.jpg"
+        },{
+            "nome": "Profumatore Pepe Nero e Vetiver",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "16,00",
+            "immagine": "dati/immaginiProdotti/pepenerovetiver.jpg"
+        },{
+            "nome": "Candela Pera Kaiser e Legno di Quercia",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Candele",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/peraelegno.jpg"
+        },{
+            "nome": "Profumatore Pomodoro e Menta",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "14,00",
+            "immagine": "dati/immaginiProdotti/pomodoroementa.jpg"
+        },{
+            "nome": "Candela Rosa di Maggio e Muschio ",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Candele",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/rosaemuschio.jpg"
+        },{
+            "nome": "Profumatore Sedano e Fico",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "14,00",
+            "immagine": "dati/immaginiProdotti/sedanoefico.jpg"
+        },{
+            "nome": "Profumatore Tè Verde e Bergamotto",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Profuma ambienti",
+            "prezzo": "16,00",
+            "immagine": "dati/immaginiProdotti/teverdebergamotto.jpg"
+        },{
+            "nome": "Candela Tonka e Vaniglia del Madagascar",
+            "descrizione": "cosmesi",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Candele",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/tonkaevaniglia.jpg"
         }
     ],
     "Alimentazione naturale":[
