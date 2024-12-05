@@ -1,39 +1,44 @@
 {
     "prodottiConsigliati":[
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
+            "nome": "Mucolid Bronc-Nac 600",
+            "immagine": "dati/immaginiOfferte/mucolid.jpg",
             "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione test test test test test test test test test test test test test test test test piccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test test",
-            "prezzo": "18.99"
+            "microcategoria": "Vie respiratorie",
+            "descrizione" : "Mucolid Bronc NAC 600 è un integratore naturale con N-acetilcisteina, piante ed estratti balsamici, utile per fluidificare il muco e favorire il benessere delle vie respiratorie.",
+            "prezzo": "15"
         },
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
+            "nome": "Propoli Analcolica",
+            "immagine": "dati/immaginiOfferte/propoli.jpg",
             "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
-            "prezzo": "18.99"
+            "microcategoria": "Vie respiratorie",
+            "descrizione" : "Propoli analcolica è un integratore naturale, delicato e adatto a tutta la famiglia. Ideale per il benessere della gola e delle vie respiratorie, senza alcool",
+            "prezzo": "12"
         }, 
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
+            "nome": "Vitamina C Retard",
+            "immagine": "dati/immaginiOfferte/vitaminac.jpg",
             "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
-            "prezzo": "18.99"
+             "microcategoria": "Vitamine e Sali Minerali",
+            "descrizione" : "Vitamina C Retard è un integratore naturale che dona energia prolungata e difese attive tutto il giorno, con rilascio graduale per un benessere continuo!",
+            "prezzo": "9.90"
         },   
         {
-            "nome": "carbone",
+            "nome": "Vitamina D3 Vegan",
             "immagine": "dati/immaginiOfferte/carbone.jpg",
             "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
-            "prezzo": "18.99"
+            "microcategoria": "Vitamine e Sali Minerali",
+            "descrizione" : "Vitamina D3 Vegana è un integratore naturale per il supporto delle ossa, dei muscoli e del sistema immunitario, 100% vegetale",
+            "prezzo": "10.50"
         },  
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
+            "nome": "Scudovit",
+            "immagine": "dati/immaginiOfferte/vitaminaD3.jpg",
             "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
-            "prezzo": "18.99"
+            "microcategoria": "Allergie e sistema immunitario",
+            "descrizione" : "Scudovit è un integratore alimentare  che stimola il sistema immunitario. Con estratti vegetali per proteggere il tuo benessere ogni giorno!",
+            "prezzo": "20"
         }  
     ],
     "prodottiScontati":[
