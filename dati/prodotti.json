@@ -280,7 +280,7 @@
             "nome": "Christmas Wish",
             "descrizione": "cosmesi",
            "categoria": "Idee regalo ed oggettistica",
-            "microcategoria": "Candele",
+            "microcategoria": "Profuma ambienti",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/pandizenzero.jpg"
         },{
@@ -494,63 +494,63 @@
             "prezzo": "13",
             "immagine": "dati/immaginiProdotti/sensonaturale.jpg"
         },{
-            "nome": "Scrub al Pistacchio",
-            "descrizione": "oggettistica",
+            "nome": "Scrub corpo al Pistacchio 500gr",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Effetto detergente. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/pistacchio.jpg"
         },{
-            "nome": "Scrub al Caffè",
-            "descrizione": "oggettistica",
+            "nome": "Scrub corpo al Caffè 500gr",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Effetto detergente. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/caffè.jpg"
         },{
-            "nome": "Scrub al Cioccolato",
+            "nome": "Scrub corpo al Cioccolato 500gr",
             "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/cioccolato.jpg"
         },{
-            "nome": "Scrub alla Fragola",
+            "nome": "Scrub corpo alla Fragola 500gr",
             "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/fragola.jpg"
         },{
-            "nome": "Scrub ai Gelsi Neri",
+            "nome": "Scrub corpo ai Gelsi Neri 500gr",
             "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/gelsi.jpg"
         },{
-            "nome": "Scrub al Limone",
-            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Prodotti in Italia",
+            "nome": "Scrub corpo al Limone 500gr",
+            "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Effetto detergente. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/limone.jpg"
         },{
-            "nome": "Scrub alla Mandorla Tostata",
+            "nome": "Scrub corpo alla Mandorla Tostata 500gr",
             "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/mandorla.jpg"
         },{
-            "nome": "Scrub al Mango di Sicilia",
+            "nome": "Scrub corpo al Mango di Sicilia 500gr",
             "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/mango.jpg"
         },{
-            "nome": "Scrub al Pompelmo Rosa",
+            "nome": "Scrub corpo al Pompelmo Rosa 500gr",
             "descrizione": "Grazie alla combinazione di ingredienti naturali e potenti vitamine, i nostri scrub esfoliano delicatamente, nutrono in profondità e lasciano la pelle incredibilmente morbida e luminosa. Con effetto freddo per una maggiore tonicità. Prodotti in Italia",
             "microcategoria": "scrub corpo",
            "categortia" : "Cosmetici e cura della persona",
@@ -560,14 +560,14 @@
     ],
     "Prodotti in sconto":[
             {
-                "nome": "Albarelli mani e viso",
+                "nome": "Sapone mani e viso",
                 "descrizione": "oggettistica test test test test test test test test test test oggettistica test test test test test test test test test test",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/abarelli.jpg",
                 "prezzoOriginale": "12.50",
                 "prezzoScontato": "9.99"
             },{
-                "nome": "Zucchero d'Ambra",
+                "nome": "Linea Profumata Zucchero d'Ambra",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/ambra.jpg",
@@ -575,7 +575,7 @@
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18.90"
             },{
-                "nome": "Agrumèe",
+                "nome": "Linea Profumata Agrumèe",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/agrumèe.jpg",
@@ -583,7 +583,7 @@
                 "prezzoOriginale": "19,50",
                 "prezzoScontato": "15"
             },{
-                "nome": "Bouquet Fragola",
+                "nome": "Linea Profumata Bouquet Fragola",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/boquet.jpg",
@@ -591,7 +591,7 @@
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18.90"
             },{
-                "nome": "BabyLattea",
+                "nome": "Crema Crosta Lattea",
                 "descrizione": "oggettistica",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/babylattea.jpg",
@@ -615,7 +615,7 @@
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
             },{
-                "nome": "Chinotto Rosa",
+                "nome": "Linea Profumata Chinotto Rosa",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/chinotto.jpg",
@@ -668,7 +668,7 @@
                 "prezzoOriginale": "12",
                 "prezzoScontato": "7,20"
             },{
-                "nome": "Fiori Notturni",
+                "nome": "Linea Profumata Fiori Notturni",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/fiorinotturni.jpg",
@@ -676,7 +676,7 @@
                 "prezzoOriginale": "12,50",
                 "prezzoScontato": "8,90"
             },{
-                "nome": "Foglie d'Ebano",
+                "nome": "Linea Profumata Foglie d'Ebano",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/fogliedebano.jpg",
@@ -684,7 +684,7 @@
                 "prezzoOriginale": "17,50",
                 "prezzoScontato": "12"
             },{
-                "nome": "Fucsia",
+                "nome": "Linea Profumata Fucsia",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/fucsia.jpg",
@@ -692,7 +692,7 @@
                 "prezzoOriginale": "24",
                 "prezzoScontato": "18,20"
             },{
-                "nome": "Legni",
+                "nome": "Linea Profumata Legni",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/legni.jpg",
@@ -700,7 +700,7 @@
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18,90"
             },{
-                "nome": "Linfa d'Acero",
+                "nome": "Linea Profumata Linfa d'Acero",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/linfadacero.jpg",
@@ -708,7 +708,7 @@
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18,90"
             },{
-                "nome": "Fiori di Mandorlo",
+                "nome": "Linea Profumata Fiori di Mandorlo",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/mandorlo.jpg",
@@ -716,7 +716,7 @@
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18.90"
             },{
-                "nome": "Moud",
+                "nome": "Linea Profumata Moud",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/moud.jpg",
@@ -724,7 +724,7 @@
                 "prezzoOriginale": "24",
                 "prezzoScontato": "18,20"
             },{
-                "nome": "Muschio D'Acqua",
+                "nome": "Linea Profumata Muschio D'Acqua",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/muschio.jpg",
@@ -732,7 +732,7 @@
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18.90"
             },{
-                "nome": "Narciso Nobile",
+                "nome": "Linea Profumata Narciso Nobile",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/narciso.jpg",
@@ -748,7 +748,7 @@
                 "prezzoOriginale": "10",
                 "prezzoScontato": "6"
             },{
-                "nome": "Papavero d'Oriente",
+                "nome": "Linea Profumata Papavero d'Oriente",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/papavero.jpg",
@@ -756,7 +756,7 @@
                 "prezzoOriginale": "27",
                 "prezzoScontato": "18.90"
             },{
-                "nome": "Pepe Fondente",
+                "nome": "Linea Profumata Pepe Fondente",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/pepe.jpg",
@@ -764,7 +764,7 @@
                 "prezzoOriginale": "12.50",
                 "prezzoScontato": "8.80"
             },{
-                "nome": "Pomelia",
+                "nome": "Linea Profumata Pomelia",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/pomelia.jpg",
@@ -786,14 +786,14 @@
                 "prezzoOriginale": "16",
                 "prezzoScontato": "12"
             },{
-                "nome": "Rum & Vetiver",
+                "nome": "Linea Profumata Rum & Vetiver",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/rumevetiver.jpg",
                 "prezzoOriginale": "28",
                 "prezzoScontato": "21,70"
             },{
-                "nome": "Salvia Mediterranea",
+                "nome": "Linea Profumata Salvia Mediterranea",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/salvia.jpg",
@@ -836,7 +836,7 @@
                 "prezzoOriginale": "25,90",
                 "prezzoScontato": "20"
             },{
-                "nome": "Rosso The",
+                "nome": "Linea Profumata Rosso The",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/therosso.jpg",
@@ -851,7 +851,7 @@
                 "prezzoOriginale": "13",
                 "prezzoScontato": "8"
             },{
-                "nome": "Vaniglia Bianca",
+                "nome": "Linea Profumata Vaniglia Bianca",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/vaniglia.jpg",
@@ -865,14 +865,14 @@
                 "prezzoOriginale": "52",
                 "prezzoScontato": "25"
             },{
-                "nome": "Zagara Frizzante",
+                "nome": "Linea Profumata Zagara Frizzante",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/zagara.jpg",
                 "prezzoOriginale": "38",
                 "prezzoScontato": "26,50"
             },{
-                "nome": "Fiori di Zenzero",
+                "nome": "Linea Profumata Fiori di Zenzero",
                 "descrizione": "oggettistica",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/zenzero.jpg",

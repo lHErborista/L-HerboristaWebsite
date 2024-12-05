@@ -26,7 +26,7 @@
         },   
         {
             "nome": "Vitamina D3 Vegan",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
+            "immagine": "dati/immaginiOfferte/vitaminaD3.jpg",
             "categoria": "integratori alimentari",
             "microcategoria": "Vitamine e Sali Minerali",
             "descrizione" : "Vitamina D3 Vegana è un integratore naturale per il supporto delle ossa, dei muscoli e del sistema immunitario, 100% vegetale",
@@ -34,7 +34,7 @@
         },  
         {
             "nome": "Scudovit",
-            "immagine": "dati/immaginiOfferte/vitaminaD3.jpg",
+            "immagine": "dati/immaginiOfferte/scudovit.jpg",
             "categoria": "integratori alimentari",
             "microcategoria": "Allergie e sistema immunitario",
             "descrizione" : "Scudovit è un integratore alimentare  che stimola il sistema immunitario. Con estratti vegetali per proteggere il tuo benessere ogni giorno!",
@@ -43,39 +43,39 @@
     ],
     "prodottiScontati":[
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
-            "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione test test test test test test test test test test test test test test test test piccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test testpiccola descrizione test test test test test test test test test test test test test test test test",
-            "prezzo": "15.99"
+            "nome": "Bagnodoccia BioFamily",
+            "immagine": "dati/immaginiOfferte/biofamily.jpg",
+            "categoria": "Cosmetici e cura della persona",
+            "descrizione" : "Bagnodoccia delicato, bio e ideale per tutta la famiglia, rispettando pelle e natura!",
+            "prezzo": "14.90"
         },
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
-            "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
-            "prezzo": "15.99"
+            "nome": "Lampada di Sale",
+            "immagine": "dati/immaginiOfferte/lampadadisale20.jpg",
+            "categoria": "Idee regalo ed oggettistica",
+            "descrizione" : "Realizzata con cristalli naturali, purifica l'aria, crea un'atmosfera calda e rilassante, favorendo benessere e armonia negli ambienti.",
+            "prezzo": "20"
         }, 
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
-            "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
-            "prezzo": "15.99"
+            "nome": "Papillon e Gemelli in Sughero",
+            "immagine": "dati/immaginiOfferte/papillosughero.jpg",
+            "categoria": "Idee regalo ed oggettistica",
+            "descrizione" : "Accessori in sughero: eleganti, leggeri ed ecologici, perfetti per uno stile unico e sostenibile!",
+            "prezzo": "30"
         },   
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
-            "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
-            "prezzo": "15.99"
+            "nome": "Hydra-Detox Soft Mousse",
+            "immagine": "dati/immaginiOfferte/softmousse.jpg",
+            "categoria": "Cosmetici e cura della persona",
+            "descrizione" : "Detergente delicato che purifica, idrata e rivitalizza la pelle con una texture soffice e avvolgente",
+            "prezzo": "19"
         },  
         {
-            "nome": "carbone",
-            "immagine": "dati/immaginiOfferte/carbone.jpg",
-            "categoria": "integratori alimentari",
-            "descrizione" : "piccola descrizione",
-            "prezzo": "15.99"
+            "nome": "Crema Corpo Solida",
+            "immagine": "dati/immaginiOfferte/solido.jpg",
+            "categoria": "Cosmetici e cura della persona",
+            "descrizione" : "Crema corpo solida per un'idratazione intensa e sostenibile, con ingredienti naturali e zero sprechi. Equivale a 500gr di prodotto",
+            "prezzo": "20"
         } 
     ]
 }
