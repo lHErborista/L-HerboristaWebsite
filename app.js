@@ -177,7 +177,7 @@ function  renderProdottiScontati(){
 
         productDiv.innerHTML = `
             
-            <p class="tag">- ${datiProdottiConsigliati['prodottiScontati'][el]['sconto']}</p>
+
             <img class="hover-img" src="${datiProdottiConsigliati['prodottiScontati'][el]['immagine']}" alt="">
         
             <div class="item-consigliato-description">
@@ -193,10 +193,10 @@ function  renderProdottiScontati(){
                             data-prefill-message="Salve, vorrei ordinare il prodotto: ${datiProdottiConsigliati['prodottiScontati'][el]['nome']}">
                         ordina
                 </button>
-                <div class="prezzo-sale">
-                    <p id="prezzo-originale">${datiProdottiConsigliati['prodottiScontati'][el]['prezzo']} €</p>
-                    <p id="prezzo-scontato">${datiProdottiConsigliati['prodottiScontati'][el]['prezzoScontato']} €</p>
-                </div>
+               
+               
+                <p id="prezzo-scontato">${datiProdottiConsigliati['prodottiScontati'][el]['prezzo']} €</p>
+          
             </div>
 
         `;

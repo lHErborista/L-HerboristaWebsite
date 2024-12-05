@@ -991,28 +991,12 @@ section{
     align-items: center;
     height: 3.5rem;
 }
-.prezzo-sale{
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#prezzo-originale{
-    margin-top: -0.5rem;
-    width: 100%;
-    margin-left: -3rem;
-    font-size: 14px;    
-    color: var(--verde-scala-1);
-    text-decoration: line-through;
-}
+
 #prezzo-scontato{
     color: var(--verde-scala-2);
-    border-bottom: 2px solid var(--verde-scala-2);
     font-size: 22px; 
-    margin-top: -1rem;
-    width: 80%;
+    margin-top: 1rem;
+    width: 50%;
 }
 .scopri-div{
     position: absolute;
