@@ -89,42 +89,42 @@
             "immagine": "dati/immaginiProdotti/braccialeorovegetaleconpendenti2.jpg"
         },{
             "nome": "Bracciale in pietre semipreziose",
-            "descrizione": "cosmesi",
+            "descrizione": "I bracciali di pietre semipreziose sono accessori eleganti e significativi, realizzati con pietre naturali che promuovono equilibrio, energia positiva e benessere, ognuna con proprietà uniche.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "12",
             "immagine": "dati/immaginiProdotti/braccialepietre.jpg"
         },{
             "nome": "Candela al Lemongrass",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela al Lemongrass diffonde una fragranza fresca e rivitalizzante. Il profumo agrumato del lemongrass racchiuso in una elegante noce di cocco, crea un'atmosfera naturale e stimolante. In cera di soia vegetale",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "18",
             "immagine": "dati/immaginiProdotti/candelacocco.jpg"
         },{
-            "nome": "Candela Dream",
-            "descrizione": "cosmesi",
+            "nome": "Candela Christmas Dream",
+            "descrizione": "La candela Christmas Dream diffonde una fragranza avvolgente di pan di zenzero, creando un'atmosfera calda e accogliente, perfetta per evocare la magia del Natale e momenti di puro comfort. In cera di soia vegetale",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/candeladream.jpg"
         },{
-            "nome": "Candela Love",
-            "descrizione": "cosmesi",
+            "nome": "Candela Christmas Love",
+            "descrizione": "La candela Christmas Love regala un'atmosfera calda e avvolgente con le note dolci di fava tonka e cacao, creando una fragranza natalizia ricca e confortante, ideale per momenti di festa e intimità. In cera di soia vegetale",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/candelalove.jpg"
         },{
             "nome": "Candela al Pino",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela al Pino con tre stoppini diffonde una fragranza fresca e boschiva, evocando l'atmosfera invernale. Il profumo naturale crea un ambiente rilassante e rigenerante. In cera di soia vegetale",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/candelapino.jpg"
         },{
             "nome": "Candela alla Vaniglia",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela alla Vaniglia con tre stoppini offre una fragranza dolce e avvolgente, creando un'atmosfera calda e accogliente, perfetta per rilassarsi e rendere ogni ambiente più invitante. In cera di soia vegetale",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,00",
@@ -138,21 +138,21 @@
             "immagine": "dati/immaginiProdotti/collanaametista.jpg"
         },{
             "nome": "Collana Aromaterapica e Cristalloterapica",
-            "descrizione": "cosmesi",
+            "descrizione": "Combina il potere degli oli essenziali e dei cristalli e favorisce il benessere emotivo e fisico. Grazie ai suoi cristalli selezionati e al supporto per diffondere gli oli, aiuta a riequilibrare energia e umore durante la giornata.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "30",
             "immagine": "dati/immaginiProdotti/collanaaromaecristalloterapia.jpg"
         },{
             "nome": "Collana Cuor di Leone",
-            "descrizione": "cosmesi",
+            "descrizione": "La collana in vetro e acciaio inossidabile è un gioiello botanico elegante e resistente, privo di nickel e antiallergico. Il cuor di leone simboleggia coraggio, forza interiore e protezione, rendendo questo pezzo un amuleto potente oltre che un accessorio raffinato.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "33",
             "immagine": "dati/immaginiProdotti/collanacuordileone.jpg"
         },{
             "nome": "Collana Fiordaliso",
-            "descrizione": "cosmesi",
+            "descrizione": "La collana in vetro e acciaio inossidabile è un gioiello botanico elegante e resistente, privo di nickel e antiallergico.Il fiordaliso è simbolo di amore sincero, purezza e speranza, un fiore che trasmette serenità e bellezza naturale, rendendo questo gioiello un amuleto di positività e affetto.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "33",
