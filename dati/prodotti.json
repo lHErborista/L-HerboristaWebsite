@@ -6,7 +6,7 @@
             "categoria": "Tradizione erboristica",
             "microcategoria": "Oli essenziali",
             "prezzo": "13",
-            "immagine": "dati/immaginiProdotti/lavanda.jpg"
+            "immagine": "dati/immaginiProdotti/olioesslavanda.jpg"
         }
     ],
     "Idee regalo ed oggettistica":[
@@ -130,8 +130,8 @@
             "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/candelavaniglia.jpg"
         },{
-            "nome": "Collana Ametista",
-            "descrizione": "cosmesi",
+            "nome": "Collana di Agata",
+            "descrizione": "La collana in oro vegetale con pietra di agata è un gioiello elegante e naturale, che unisce l'oro vegetale sostenibile alla bellezza della pietra di agata, simbolo di equilibrio e protezione. Un accessorio raffinato che esprime armonia e forza interiore.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Gioielli in Capim Durado (oro vegan)",
             "prezzo": "40",
@@ -152,14 +152,14 @@
             "immagine": "dati/immaginiProdotti/collanacuordileone.jpg"
         },{
             "nome": "Collana Fiordaliso",
-            "descrizione": "La collana in vetro e acciaio inossidabile è un gioiello botanico elegante e resistente, privo di nickel e antiallergico.Il fiordaliso è simbolo di amore sincero, purezza e speranza, un fiore che trasmette serenità e bellezza naturale, rendendo questo gioiello un amuleto di positività e affetto.",
+            "descrizione": "La collana in vetro e acciaio inossidabile è un gioiello botanico elegante e resistente, privo di nickel e antiallergico. L'ampolla in resistente vetro soffiato temprato, contiene fiori di Fiordaliso e semi di tarassaco biologici, simbolo di desideri e sogni.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "33",
             "immagine": "dati/immaginiProdotti/collanafiordaliso.jpg"
         },{
             "nome": "Collana Rosa",
-            "descrizione": "cosmesi",
+            "descrizione": "La collana in vetro e acciaio inossidabile è un gioiello botanico elegante e resistente, privo di nickel e antiallergico. L'ampolla in resistente vetro soffiato temprato, contiene petali di Rosa Rossa, simbolo di fedeltà e amore eterno.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "33",
@@ -180,14 +180,14 @@
             "immagine": "dati/immaginiProdotti/orovegetaledoppio.jpg"
         },{
             "nome": "Palo Santo",
-            "descrizione": "cosmesi",
+            "descrizione": "Il Palo Santo è un legno sacro noto per le sue proprietà purificanti e rilassanti. Emana una fragranza dolce e legnosa che favorisce la serenità, la calma e la purificazione energetica degli ambienti.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Incensi",
             "prezzo": "3,50",
             "immagine": "dati/immaginiProdotti/palosanto.jpg"
         },{
             "nome": "Profumatore per auto",
-            "descrizione": "cosmesi",
+            "descrizione": "Il profumatore d'auto con filtro per l'olio essenziale offre una fragranza duratura, per purificare e rinfrescare l'aria dell'auto. È ideale per creare un ambiente rilassante e piacevole durante i tuoi viaggi. Scegli l'olio essenziale che più fa per te!",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "11",
@@ -208,112 +208,112 @@
             "immagine": "dati/immaginiProdotti/alberoquarzorosa.jpg"
         },{
             "nome": "Cofanetto Panettone ",
-            "descrizione": "oggettistica",
+            "descrizione": "Il nostro cofanetto composto di bagnodoccia e crema corpo regala un'esperienza avvolgente e festiva, con note dolci di panettone che nutrono e idratano la pelle, lasciandola morbida e delicatamente profumata.",
             "microcategoria": "Speciale Natale",
             "categortia" : "Idee regalo ed oggettistica",
             "prezzo": "19.00",
             "immagine": "dati/immaginiProdotti/fragranzapanettone.jpg"
         },{
             "nome": "Palline di Natale ",
-            "descrizione": "oggettistica",
+            "descrizione": "Le palline di Natale in latta, contenenti le storiche pastiglie Leone, uniscono l'eleganza natalizia alla dolcezza di un classico italiano. Un regalo perfetto per aggiungere un tocco di tradizione e gusto alle feste.",
             "microcategoria": "Speciale Natale",
             "categortia" : "Idee regalo ed oggettistica",
             "prezzo": "8.90",
             "immagine": "dati/immaginiProdotti/palline.jpg"
         },{
             "nome": "Lampada in Vetro e Sale Rosa",
-            "descrizione": "cosmesi",
+            "descrizione": "Le lampade di sale UNICA di Voganto, realizzate in pregiato sale himalayano, offrono un'atmosfera calda e rilassante. Con le loro proprietà purificanti e il design elegante, contribuiscono a migliorare la qualità dell'aria e il benessere ambientale.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Lampade di sale rosa Himalaya",
             "prezzo": "30",
             "immagine": "dati/immaginiProdotti/voganto.jpg"
         },{
             "nome": "Profumatore Arancio e Cannella",
-            "descrizione": "cosmesi",
+            "descrizione": "Il profumatore Cannella e Arancio diffonde una fragranza avvolgente e speziata, con note calde di cannella e agrumate di arancio, creando un'atmosfera accogliente e stimolante.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/arancioecannella.jpg"
         },{
             "nome": "Candela Gelsomino e Fiori d'Arancio",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela Gelsomino e Fiori di Arancio di Nasoterapia offre una fragranza fresca e floreale, che unisce la dolcezza del gelsomino e la freschezza dei fiori di arancio, creando un'atmosfera rilassante e raffinata. In cera di soia vegetale",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/gelsominoefioriarancio.jpg"
         },{
             "nome": "Profumatore Lavanda di Provenza",
-            "descrizione": "cosmesi",
+            "descrizione": "Il profumatore alla Lavanda di Provenza diffonde una fragranza fresca e rilassante, che evoca i campi di lavanda della Provenza, creando un ambiente sereno e purificante.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/lavanda.jpg"
         },{
             "nome": "Candela MareSardo",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela Mare Sardo evoca l'atmosfera della costa sarda, con una fragranza fresca e salina che richiama il mare, creando un ambiente rigenerante.In cera di soia vegetale",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/maresardo.jpg"
         },{
             "nome": "Profumatore Mirto e Gelsomino",
-            "descrizione": "cosmesi",
+            "descrizione": "Mirto e Gelsomino diffonde una fragranza fresca e floreale, unendo le note verdi e aromatiche del mirto alla dolcezza delicata del gelsomino, crea un'atmosfera rigenerante.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/mirtoegelsomino.jpg"
         },{
             "nome": "Candela al Muschio",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela al muschio offre una fragranza avvolgente, perfetta per creare un'atmosfera calda e rilassante. Aggiungi un tocco speciale e unico grazie al messaggio personalizzato. In cera di soia vegetale",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "12,00",
             "immagine": "dati/immaginiProdotti/muschiocandela.jpg"
         },{
             "nome": "Candela Ninfea Bianca e Salvia",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela Ninfea Bianca e Salvia offre una fragranza fresca e rilassante, con la delicatezza floreale della ninfea bianca e le note aromatiche della salvia, crea un'atmosfera serena e purificante. In cera di soia vegetale.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/ninfeabiancaesalvia.jpg"
         },{
             "nome": "Christmas Wish",
-            "descrizione": "cosmesi",
+            "descrizione": "Christmas Wish diffonde una fragranza calda e avvolgente, con note dolci di pan di zenzero, cannella e spezie, crea un'atmosfera natalizia accogliente e festosa.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/pandizenzero.jpg"
         },{
             "nome": "Profumatore Pepe Nero e Vetiver",
-            "descrizione": "cosmesi",
+            "descrizione": "Pepe Nero e Vetiver unisce l'intensità piccante del pepe nero alla profondità legnosa del vetiver, creando una fragranza robusta e raffinata, perfetta per ambienti energizzanti e sofisticati.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/pepenerovetiver.jpg"
         },{
             "nome": "Candela Pera Kaiser e Legno di Quercia",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela Pera Kaiser e Legno di Quercia combina la dolcezza fruttata della pera con le note calde e legnose della quercia, creando un'atmosfera avvolgente e sofisticata. In cera di soia vegetale.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/peraelegno.jpg"
         },{
             "nome": "Profumatore Foglie di Pomodoro e Menta",
-            "descrizione": "cosmesi",
+            "descrizione": "Foglie di Pomodoro e Menta offre una fragranza fresca e vivace, che unisce il profumo verde e aromatico delle foglie di pomodoro alla freschezza energizzante della menta, creando un'atmosfera rinvigorente e naturale. Disponibile il profumatore a batsoncini e la candela in cera di soia vegetale",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "14,00",
             "immagine": "dati/immaginiProdotti/pomodoroementa.jpg"
         },{
             "nome": "Candela Rosa di Maggio e Muschio ",
-            "descrizione": "cosmesi",
+            "descrizione": "La candela Rosa di Maggio e Muschio diffonde una fragranza delicata e avvolgente, con l'eleganza della rosa e la freschezza del muschio, creando un'atmosfera romantica e rilassante. In cera di soia vegetale",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/rosaemuschio.jpg"
         },{
             "nome": "Profumatore Sedano Selvatico e Fico",
-            "descrizione": "cosmesi",
+            "descrizione": "Sedano Selvatico e Fico offre una fragranza fresca e naturale, che unisce le note verdi del sedano selvatico alla dolcezza del fico,neutralizzando gli odori della cucina. Disponibile il profumatore a bastoncini e la candela in cera di soia vegetale",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "14,00",
