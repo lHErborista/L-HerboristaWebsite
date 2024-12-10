@@ -1,39 +1,39 @@
 {
-    "Tradizione erboristica":[
+    "Tradizione erboristica":[  
         {
-            "nome": "Carbone Vegetale Attivo",
-            "categoria": "integratori alimentari",
-            "microcategoria": "Digestione e benessere intestinale",
-            "immagine": "dati/immaginiProdotti/carbone.jpg",
-            "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto.Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
-        }
+            "nome": "Olio Essenziale di Lavanda",
+            "descrizione": "L'olio essenziale di lavanda puro è noto per le sue proprietà calmanti e rilassanti. Aiuta a ridurre lo stress, favorisce il sonno e lenisce la pelle, offrendo un effetto di benessere naturale e duraturo.",
+            "categoria": "Tradizione erboristica",
+            "microcategoria": "Oli essenziali",
+            "prezzo": "13",
+            "immagine": "dati/immaginiProdotti/lavanda.jpg"
+        }, 
     ],
     "Idee regalo ed oggettistica":[
         {
             "nome": "Lampade di sale",
-            "descrizione": "cosmesi",
+            "descrizione": "Le lampade di sale, fatte di sale himalayano, purificano l'aria e migliorano il benessere grazie alla loro capacità di emettere ioni negativi. Favoriscono il relax, migliorano il sonno e riducono stress e allergie. Da 2 kg",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Lampade di sale rosa Himalaya",
             "prezzo": "20",
             "immagine": "dati/immaginiProdotti/lampadadisale.jpg"
         },{
             "nome": "Incensi artigianali",
-            "descrizione": "cosmesi",
+            "descrizione": "Gli incensi artigianali Sagrada Madre sono realizzati a mano con ingredienti naturali di alta qualità. Offrono fragranze purificanti e rilassanti, ideali per meditazione, relax e creare atmosfere serene. 9 per confezione, bruciano per 45-50 minuti",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Incensi",
             "prezzo": "10",
             "immagine": "dati/immaginiProdotti/incensigrandi.jpg"
         },{
             "nome": "Incensi artigianali",
-            "descrizione": "cosmesi",
+            "descrizione": "Gli incensi artigianali Sagrada Madre sono realizzati a mano con ingredienti naturali di alta qualità. Offrono fragranze purificanti e rilassanti, ideali per meditazione, relax e creare atmosfere serene. 8 per confezione, bruciano in 60 minuti",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Incensi",
             "prezzo": "6.90",
             "immagine": "dati/immaginiProdotti/incensipiccoli.jpg"
         },{
             "nome": "Albero della Vita",
-            "descrizione": "cosmesi",
+            "descrizione": "La pietra giada verde, incastonata in una collana con l'albero della vita, simboleggia equilibrio, armonia e prosperità. La giada è conosciuta per le sue proprietà protettive, mentre l'albero della vita rappresenta crescita e connessione spirituale.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "20",
@@ -194,14 +194,14 @@
             "immagine": "dati/immaginiProdotti/profumatoreauto.jpg"
         },{
             "nome": "Albero della Vita",
-            "descrizione": "cosmesi",
+            "descrizione": "La pietra lapislazzuli, incastonata in una collana con l'albero della vita, simboleggia saggezza, verità e protezione. Il lapislazzuli favorisce l'intuizione, mentre l'albero della vita rappresenta la crescita e la connessione spirituale.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "20",
             "immagine": "dati/immaginiProdotti/alberolapislazzuli.jpg"
         },{
             "nome": "Albero della Vita",
-            "descrizione": "cosmesi",
+            "descrizione": "La pietra quarzo rosa, incastonata in una collana con l'albero della vita, simboleggia amore, armonia e guarigione emotiva. Il quarzo rosa promuove la serenità, mentre l'albero della vita rappresenta la crescita e l'equilibrio spirituale.",
             "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "20",
@@ -320,32 +320,32 @@
             "immagine": "dati/immaginiProdotti/sedanoefico.jpg"
         },{
             "nome": "Profumatore Tè Verde e Bergamotto",
-            "descrizione": "cosmesi",
+            "descrizione": "Crea un'atmosfera fresca e rivitalizzante, con note delicate di tè verde e bergamotto, ideali per rinfrescare e purificare gli spazi con un tocco di energia positiva, favorisce la concentrazione.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "16,00",
             "immagine": "dati/immaginiProdotti/teverdebergamotto.jpg"
         },{
             "nome": "Candela Tonka e Vaniglia del Madagascar",
-            "descrizione": "cosmesi",
+            "descrizione": "Una fragranza dolce e avvolgente, con note calde di vaniglia e tonka, che crea un'atmosfera rilassante e accogliente, ideale per momenti di tranquillità e benessere.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Candele",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/tonkaevaniglia.jpg"
         },{
             "nome": "Profumatore Tabacco Speziato e Ambra",
-            "descrizione": "cosmesi",
+            "descrizione": "Una fragranza avvolgente e calda, che unisce note di ambra, tabacco e spezie, che crea un'atmosfera raffinata e accogliente, perfetta per rilassarsi e purificare gli spazi.",
            "categoria": "Idee regalo ed oggettistica",
             "microcategoria": "Profuma ambienti",
             "prezzo": "25,00",
             "immagine": "dati/immaginiProdotti/tabacco.jpg"
         },{
-            "nome": "Profumatore Legni Orientali e Pepe Nero",
-            "descrizione": "cosmesi",
-           "categoria": "Idee regalo ed oggettistica",
-            "microcategoria": "Profuma ambienti",
-            "prezzo": "25,00",
-            "immagine": "dati/immaginiProdotti/legniepepe.jpg"
+            "nome": "Lampade di sale",
+            "descrizione": "Le lampade di sale, fatte di sale himalayano, purificano l'aria e migliorano il benessere grazie alla loro capacità di emettere ioni negativi. Favoriscono il relax, migliorano il sonno e riducono stress e allergie. Da 10kg",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Lampade di sale rosa Himalaya",
+            "prezzo": "60",
+            "immagine": "dati/immaginiProdotti/lampadadisale.jpg"
         }
     ],
     "Alimentazione naturale":[
