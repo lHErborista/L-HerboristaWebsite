@@ -280,7 +280,7 @@
             "nome": "Christmas Wish",
             "descrizione": "Christmas Wish diffonde una fragranza calda e avvolgente, con note dolci di pan di zenzero, cannella e spezie, crea un'atmosfera natalizia accogliente e festosa.",
            "categoria": "Idee regalo ed oggettistica",
-            "microcategoria": "Profuma ambienti",
+            "microcategoria": "Profuma ambienti", 
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/pandizenzero.jpg"
         },{
@@ -346,21 +346,44 @@
             "microcategoria": "Lampade di sale rosa Himalaya",
             "prezzo": "60",
             "immagine": "dati/immaginiProdotti/lampadadisale.jpg"
+        },{
+            "nome": "Christmas Wish",
+            "descrizione": "Christmas Wish diffonde una fragranza calda e avvolgente, con note dolci di pan di zenzero, cannella e spezie, crea un'atmosfera natalizia accogliente e festosa.",
+           "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale Natale", 
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/pandizenzero.jpg"
+        },{
+            "nome": "Candela Christmas Dream",
+            "descrizione": "La candela Christmas Dream diffonde una fragranza avvolgente di pan di zenzero, creando un'atmosfera calda e accogliente, perfetta per evocare la magia del Natale e momenti di puro comfort. In cera di soia vegetale",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale Natale",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/candeladream.jpg"
+        },{
+            "nome": "Candela Christmas Love",
+            "descrizione": "La candela Christmas Love regala un'atmosfera calda e avvolgente con le note dolci di fava tonka e cacao, creando una fragranza natalizia ricca e confortante, ideale per momenti di festa e intimità. In cera di soia vegetale",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale Natale",
+            "prezzo": "16,50",
+            "immagine": "dati/immaginiProdotti/candelalove.jpg"
         }
     ],
     "Alimentazione naturale":[
         {
-            "nome": "vitamida b",
-            "descrizione": "tisane",
-            "microcategoria": "Energia e stanchezza",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg"
+            "nome": "Farina per dolci e salati",
+            "descrizione": "Il Mix Flour Life è un preparato innovativo di farine vegetali a tasso ridotto di carboidrati che offre un'alternativa nutriente e versatile alle farine tradizionali.",
+            "microcategoria": "Chetogenica, cheto friendly e low-carb",
+            "categoria": "Alimentazione naturale",
+            "prezzo": "12,00",
+            "immagine": "dati/immaginiProdotti/mixflour.jpg"
         },{
-            "nome": "vitamida b",
-            "microcategoria": "Oli e burri alimentari",
-            "immagine": "dati/immaginiProdotti/vitamina.jpg",
-            "promo": "",
-            "prezzo": "18.99",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "nome": "NoccioLife crema spalmabile",
+            "microcategoria": "Creme spalmabili e confetture",
+            "categoria": "Alimentazione naturale",
+            "immagine": "dati/immaginiProdotti/nocciolife.jpg",
+            "prezzo": "14",
+            "descrizione": "Nocciolife, crema spalmabile alle nocciole. Prodotto artigianale a tasso ridotto di carboidrati."
         }
     ],
     "Integratori Naturali":[
@@ -467,14 +490,14 @@
     "Cosmetici e cura della persona":[
         {
             "nome": "Acqua Profumata",
-            "descrizione": "oggettistica",
+            "descrizione": "Fresche e leggere, ideali per rinfrescare la pelle e profumare i capelli. Con ingredienti naturali, offrono un effetto delicato, lasciando una sensazione di benessere e freschezza.",
             "microcategoria": "Profumi e acqua profumate",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "12.50",
             "immagine": "dati/immaginiProdotti/acquaprofumata2.jpg"
         },{
             "nome": "Acqua Profumata",
-            "descrizione": "oggettistica",
+            "descrizione": "Fresche e leggere, ideali per rinfrescare la pelle e profumare i capelli. Con ingredienti naturali, offrono un effetto delicato, lasciando una sensazione di benessere e freschezza.",
             "microcategoria": "Profumi e acqua profumate",
             "categortia" : "Cosmetici e cura della persona",
             "prezzo": "14.90",
