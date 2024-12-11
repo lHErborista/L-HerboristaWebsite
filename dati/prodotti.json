@@ -367,6 +367,14 @@
             "microcategoria": "Speciale Natale",
             "prezzo": "16,50",
             "immagine": "dati/immaginiProdotti/candelalove.jpg"
+        },{
+            "nome": "Cioccolatini al Pistacchio",
+            "descrizione": "I Cioccolatini al Pistacchio della Leone sono un goloso regalo che unisce la cremosità del cioccolato fondente alla bontà del pistacchio, creando un perfetto equilibrio di sapori. Con una presentazione elegante e festiva, sono il pensiero ideale per sorprendere e deliziare durante le festività natalizie.",
+            "microcategoria": "Speciale Natale",
+            "categoria":"Idee regalo ed oggettistica",
+            "immagine": "dati/immaginiProdotti/cioccolatinipistacchio.jpg",
+            "prezzoOriginale": "16",
+            "prezzoScontato": "12"
         }
     ],
     "Alimentazione naturale":[
@@ -615,7 +623,7 @@
                 "prezzoScontato": "8,80"
             },{
                 "nome": "Crema Crosta Lattea",
-                "descrizione": "oggettistica",
+                "descrizione": "Babylattea è una emulsione specificamente formulata per trattare delicatamente la crosta lattea nei neonati, offre sollievo da irritazioni e lenisce la pelle. Grazie alla sua composizione ricca di oli naturali e vitamina E, Babylattea non solo pulisce ma nutre e idrata il cuoio capelluto, preservando la sua morbidezza e salute.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/babylattea.jpg",
                 "sconto": "40",
@@ -623,7 +631,7 @@
                 "prezzoScontato": "12"
             },{
                 "nome": "Balsamindoccia",
-                "descrizione": "oggettistica",
+                "descrizione": "Balsamindoccia è un trattamento delicato e nutriente per la pelle, che unisce l'azione idratante di un balsamo alla freschezza di un gel doccia. La sua formula ricca e cremosa avvolge la pelle, lasciandola morbida, setosa e profumata, senza seccarla. Perfetto per un'esperienza di cura quotidiana, ideale per tutte le pelli, anche le più sensibili.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
                 "sconto": "40",
@@ -631,7 +639,7 @@
                 "prezzoScontato": "12"
             },{
                 "nome": "Balsamolio",
-                "descrizione": "oggettistica",
+                "descrizione": "Il Balsamolio è un trattamento ultra-nutriente che unisce le proprietà idratanti di un balsamo alla ricchezza di un olio. Grazie alla sua formula innovativa, avvolge la pelle in un abbraccio morbido e setoso, nutrendola in profondità senza ungere. Perfetto per pelli secche e disidratate, dona una sensazione di comfort e luminosità duratura.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
                 "sconto": "40",
@@ -647,21 +655,21 @@
                 "prezzoScontato": "18,90"
             },{
                 "nome": "Crema Viso Volumizzante",
-                "descrizione": "oggettistica",
+                "descrizione": "La Crema Volumizzante Viso leviga, rassoda e ridona pienezza alla pelle, migliorando visibilmente i contorni del viso per un aspetto più giovane e tonico.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/cremahelan.jpg",
                 "prezzoOriginale": "38,00",
                 "prezzoScontato": "28,00"
             },{
                 "nome": "Cioccolatini al Pistacchio",
-                "descrizione": "oggettistica",
+                "descrizione": "I Cioccolatini al Pistacchio della Leone sono un goloso regalo che unisce la cremosità del cioccolato fondente alla bontà del pistacchio, creando un perfetto equilibrio di sapori. Con una presentazione elegante e festiva, sono il pensiero ideale per sorprendere e deliziare durante le festività natalizie.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/cioccolatinipistacchio.jpg",
                 "prezzoOriginale": "16",
                 "prezzoScontato": "12"
             },{
                 "nome": "Crema Lenitiva per il seno",
-                "descrizione": "oggettistica",
+                "descrizione": "Crema Lenitiva per il Seno è studiata per alleviare il fastidio e la sensibilità della pelle durante la gravidanza e l'allattamento. Grazie alla sua formula delicata e nutriente, idrata, rassoda e lenisce, proteggendo la pelle da rossori e irritazioni.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/cremalenitivaseno.jpg",
                 "sconto": "40",
@@ -669,14 +677,14 @@
                 "prezzoScontato": "7,20"
             },{
                 "nome": "Crema Viso Antiage",
-                "descrizione": "oggettistica",
+                "descrizione": "La Crema Viso Antiage Bio è un trattamento intensivo che combatte i segni dell'invecchiamento, promuovendo una pelle più liscia, tonica e luminosa. Grazie alla sua formula biologica ricca di attivi naturali, idrata, rassoda e riduce visibilmente rughe e linee sottili. Ideale per pelli mature o che necessitano di una cura anti-età quotidiana.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/cremanatures.jpg",
                 "prezzoOriginale": "31",
                 "prezzoScontato": "20"
             },{
                 "nome": "Crema Viso per neonati",
-                "descrizione": "oggettistica",
+                "descrizione": "Crema Viso per Neonati è una delicata emulsione pensata per proteggere e nutrire la pelle sensibile dei più piccoli. Con ingredienti naturali, idrata e lenisce, prevenendo arrossamenti e irritazioni, lasciando la pelle morbida e protetta. Adatta anche per pelli delicate e reattive.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/cremaviso.jpg",
                 "sconto": "40",
@@ -684,7 +692,7 @@
                 "prezzoScontato": "12"
             },{
                 "nome": "Detergente intimo Mamma",
-                "descrizione": "oggettistica",
+                "descrizione": "Il Detergente Intimo Mamma è una formula delicata, studiata per rispettare il pH fisiologico della pelle durante la gravidanza e il post-partum. Con ingredienti naturali, lenisce, idrata e protegge la zona intima, offrendo freschezza e comfort quotidiano senza irritare. Ideale per pelli sensibili.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/detergenteintimo.jpg",
                 "sconto": "40",
@@ -708,7 +716,7 @@
                 "prezzoScontato": "12"
             },{
                 "nome": "Linea Profumata Fucsia",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza elegante, frizzante, fresca e femminile. Con rosa, fiori bianchi e frutti esotici. Ideale per chi ama un tocco di originalità e freschezza nella propria routine. Profumo (18,20€), Balsamo corpo (15,50€), Bagnodoccia (8€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/fucsia.jpg",
                 "sconto": "30",
@@ -740,12 +748,12 @@
                 "prezzoScontato": "18.90"
             },{
                 "nome": "Linea Profumata Moud",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza avvolgente e sofisticata, con note calde e orientali a sfumature legnose e ambrate. La sua composizione ricca e intensa evoca un senso di mistero e seduzione, con accenti di vaniglia, muschio e spezie che si fondono in un mix elegante e deciso. Disponibile solo il Dopobarba.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/moud.jpg",
                 "sconto": "30",
-                "prezzoOriginale": "24",
-                "prezzoScontato": "18,20"
+                "prezzoOriginale": "20",
+                "prezzoScontato": "14"
             },{
                 "nome": "Linea Profumata Muschio D'Acqua",
                 "descrizione": "Una fragranza fresca, frizzante e avvolgente, con estratti di Muschio e Ninfea, ha proprietà energizzanti e idratanti. Porfumo (18,90€), Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
@@ -901,6 +909,12 @@
                 "immagine": "dati/immaginiProdotti/zenzero.jpg",
                 "prezzoOriginale": "12,50",
                 "prezzoScontato": "8,80"
+            },{
+                "nome": "Crema Mani e Piedi",
+                "descrizione": "Per un'idratazione profonda e duratura, le creme mani e piedi proteggono la pelle secca e screpolata con formule ricche di nutrienti naturali. Morbidezza, elasticità e comfort per mani e piedi sempre sani e vellutati.",
+                "microcategoria": "Idee regalo ed oggettistica sconti",
+                "prezzo": "7.90",
+                "immagine": "dati/immaginiProdotti/cremamaniepiedi.jpg"
             }
     ]
 }
