@@ -548,14 +548,7 @@
             "microcategoria": "Allergie e sistema immunitario",
             "descrizione" : "Scudovit è un integratore alimentare  che stimola il sistema immunitario. Con estratti vegetali per proteggere il tuo benessere ogni giorno!",
             "prezzo": "20"
-        },{
-            "nome": "Scudovit",
-            "immagine": "dati/immaginiProdotti/scudovit.jpg",
-            "categoria": "Integratori Naturali",
-            "microcategoria": "Vitamine e Sali Minerali",
-            "descrizione" : "Scudovit è un integratore alimentare  che stimola il sistema immunitario. Con estratti vegetali per proteggere il tuo benessere ogni giorno!",
-            "prezzo": "20"
-        }  
+        }
     ],
     "Cosmetici e cura della persona":[
         {
@@ -669,7 +662,7 @@
             "microcategoria": "Bagnodoccia",
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "14.50",
-            "immagine": "dati/immaginiProdotti/biofamily2.jpg"
+            "immagine": "dati/immaginiProdotti/biofamily.jpg"
         }, {
             "nome": "Sapone mani e viso",
             "descrizione": "Il sapone delicato mani e viso avvolge la pelle in una carezza morbida e profumata, pulendo senza aggredire. Con ingredienti naturali e una formula delicata, è perfetto per idratare e proteggere la pelle durante i mesi più freddi, lasciandola fresca e vellutata.",
