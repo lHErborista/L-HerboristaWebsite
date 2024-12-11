@@ -373,8 +373,28 @@
             "microcategoria": "Speciale Natale",
             "categoria":"Idee regalo ed oggettistica",
             "immagine": "dati/immaginiProdotti/cioccolatinipistacchio.jpg",
-            "prezzoOriginale": "16",
-            "prezzoScontato": "12"
+            "prezzo": "12"
+        },{
+            "nome": "Papillon e Gemelli in sughero",
+            "descrizione": "Accessori in sughero: eleganti, leggeri ed ecologici, perfetti per uno stile unico e sostenibile!.",
+            "microcategoria": "Tisaniere,tazze,thermos e accessori",
+            "categoria":"Idee regalo ed oggettistica",
+            "immagine": "dati/immaginiProdotti/papillonsughero.jpg",
+            "prezzo": "30"
+        },{
+            "nome": "Thermos",
+            "descrizione": "Il Thermos mantiene le tue bevande calde o fredde per ore, grazie alla sua doppia parete isolante. Pratico, elegante e resistente, è l'alleato perfetto per gustare tè, caffè o infusi in ogni momento della giornata.",
+            "microcategoria": "Tisaniere,tazze,thermos e accessori",
+            "categoria": "Idee regalo ed oggettistica",
+            "immagine": "dati/immaginiProdotti/thermosrosa.jpg",
+            "prezzo": "20"
+        },{
+            "nome": "Thermos",
+            "descrizione": "Il Thermos mantiene le tue bevande calde o fredde per ore, grazie alla sua doppia parete isolante. Pratico, elegante e resistente, è l'alleato perfetto per gustare tè, caffè o infusi in ogni momento della giornata.",
+            "microcategoria": "Tisaniere,tazze,thermos e accessori",
+            "categoria": "Idee regalo ed oggettistica",
+            "immagine": "dati/immaginiProdotti/thermosverde.jpg",
+            "prezzo": "20"
         }
     ],
     "Alimentazione naturale":[
@@ -397,103 +417,145 @@
     "Integratori Naturali":[
         {
             "nome": "Carbone Vegetale Attivo",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/carbone.jpg",
             "prezzo": "15.00",
             "descrizione": "Il carbone vegetale, o carbone attivo, è un integratore alimentare noto per le sue proprietà adsorbenti, che gli consentono di legarsi a tossine, gas intestinali e altre sostanze nocive, favorendo la loro eliminazione dall'organismo. Viene comunemente utilizzato per alleviare disturbi gastrointestinali come gonfiore, flatulenza e diarrea."
         },{
             "nome": "Cumino Composto",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/cumino.jpg",
             "prezzo": "20.00",
             "descrizione": "Il cumino composto è un integratore naturale combinato con altre erbe o nutrienti. Uutilizzato per favorire la digestione, ridurre il gonfiore addominale e migliorare la motilità intestinale. Il cumino ha proprietà carminative e antiossidanti, e può essere utile anche per supportare il metabolismo e la funzione epatica."
         },{
             "nome": "Eudigest",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/eudigest.jpg",
             "prezzo": "10.00",
             "descrizione": "Eudigest è un integratore che combina estratti vegetali come finocchio, menta piperita e camomilla, noti per le loro proprietà digestive, carminative e antispasmodiche. È indicato per favorire la digestione, ridurre gonfiore e flatulenza, e alleviare disturbi gastrointestinali leggeri. Grazie alla sua formulazione naturale, aiuta a migliorare il benessere intestinale e a supportare il sistema digestivo in modo delicato ed efficace."
         },{
             "nome": "Ferplus",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Vitamine e Sali minerali",
             "immagine": "dati/immaginiProdotti/ferplus.jpg",
             "prezzo": "22.00",
             "descrizione": "Ferplus è un integratore a base di ferro, vitamina C e altre sostanze utili per contrastare la carenza di ferro. Favorisce la normale formazione dei globuli rossi, supporta il sistema immunitario e aiuta a combattere la stanchezza e l'affaticamento. La vitamina C e il rilascio prolungato migliora l'assorbimento del ferro, rendendo l'integratore più efficace."
         },{
             "nome": "Ficus Carica",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/ficus.jpg",
             "prezzo": "15.00",
             "descrizione": "Ficus Carica è un integratore a base di estratto di fico, utile per favorire il benessere digestivo e contrastare la stitichezza. Grazie alle sue proprietà lassative e emollienti, stimola il transito intestinale e aiuta a mantenere regolare la funzione intestinale."
         },{
             "nome": "Juglans Composto",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/jurglans.jpg",
             "prezzo": "25.00",
             "descrizione": "Juglans Composto è un integratore a base di estratti di noce (Juglans regia) e altre piante, utile per supportare la salute dell'intestino e favorire la depurazione dell'organismo. È particolarmente indicato per il contrasto di parassiti intestinali e per migliorare la funzionalità digestiva."
         },{
             "nome": "Magnesio Completo",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Vitamine e Sali minerali",
             "immagine": "dati/immaginiProdotti/magnesio.jpg",
             "prezzo": "21.90",
             "descrizione": "Magnesio Completo è un integratore che unisce magnesio, vitamina B6 e altri minerali per supportare il benessere muscolare e il sistema nervoso. Aiuta a contrastare la stanchezza, migliorare la funzione muscolare e ridurre i crampi, favorendo anche il rilassamento e la normale funzione psicologica. Disponibile in compresse e polvere"
         },{
             "nome": "Olio di Germe di Grano",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Cura dei capelli e unghie",
             "immagine": "dati/immaginiProdotti/olio.jpg",
             "prezzo": "17.00",
             "descrizione": "Olio Germe di Grano è un integratore ricco di vitamina E, acidi grassi essenziali e antiossidanti, utile per supportare la salute della pelle, contrastare i segni dell'invecchiamento e migliorare il benessere cardiovascolare. Inoltre, favorisce la rigenerazione cellulare e la protezione dai danni ossidativi."
         },{
             "nome": "Pilosella",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Detox e drenaggio",
             "immagine": "dati/immaginiProdotti/pilosella.jpg",
             "prezzo": "20.00",
             "descrizione": "Pilosella è un integratore a base di estratto di pilosella, una pianta con proprietà diuretiche e depurative. Aiuta a favorire l'eliminazione dei liquidi in eccesso, sostenendo il drenaggio e la salute delle vie urinarie, ed è utile per contrastare ritenzione idrica e gonfiore."
         },{
             "nome": "Ribes Nigrum",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Allergie e sistema immunitario",
             "immagine": "dati/immaginiProdotti/ribes.jpg",
             "prezzo": "15.00",
             "descrizione": "Ribes Nigrum è un integratore a base di estratto di ribes nero, noto per le sue proprietà antinfiammatorie, antiossidanti e di supporto al sistema immunitario. È utile per alleviare i disturbi legati alle allergie stagionali e per favorire la salute delle articolazioni."
         },{
             "nome": "Rosmarino",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/rosmarino.jpg",
             "prezzo": "15.00",
             "descrizione": "Rosmarino è un integratore a base di estratto di rosmarino, noto per le sue proprietà antiossidanti, digestive e stimolanti. Aiuta a migliorare la circolazione sanguigna, favorisce la digestione e supporta la memoria e la concentrazione, contribuendo anche al benessere del fegato e del sistema respiratorio."
         },{
             "nome": "SnelSì",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Detox e drenaggio",
             "immagine": "dati/immaginiProdotti/snel.jpg",
             "prezzo": "24.90",
             "descrizione": "Snelsi è un integratore a base di piante come fucus, garcinia e tè verde, utile per favorire il controllo del peso corporeo. Aiuta a stimolare il metabolismo, a migliorare il drenaggio dei liquidi e a ridurre la sensazione di gonfiore, supportando un'azione snellente e depurativa."
         },{
             "nome": "Sns Ted",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Vitamine e Sali minerali",
             "immagine": "dati/immaginiProdotti/sns.jpg",
             "prezzo": "21.90",
             "descrizione": "SNS Ted è un integratore che fornisce un'accurata combinazione di sali minerali essenziali, utili per reintegrare quelli persi a causa di stress, attività fisica intensa o squilibri elettrolitici. Favorisce l'equilibrio idrosalino, supporta la funzione muscolare e contribuisce al benessere generale, migliorando l'idratazione e la vitalità."
         },{
             "nome": "Spaccapietra",
-            "categoria": "integratori alimentari",
+            "categoria": "Integratori Naturali",
             "microcategoria": "Detox e drenaggio",
             "immagine": "dati/immaginiProdotti/spaccapietra.jpg",
             "prezzo": "15.00",
             "descrizione": "Spaccapietra è un integratore a base di estratto di Phyllanthus niruri, una pianta nota per le sue proprietà diuretiche e depurative. È utile per favorire l'eliminazione dei calcoli renali, supportare la salute delle vie urinarie e contribuire al drenaggio dei liquidi in eccesso."
-        }
+        }, {
+            "nome": "Mucolid Bronc-Nac 600",
+            "immagine": "dati/immaginiProdotti/mucolid.jpg",
+            "categoria": "Integratori Naturali",
+            "microcategoria": "Vie respiratorie",
+            "descrizione" : "Mucolid Bronc NAC 600 è un integratore naturale con N-acetilcisteina, piante ed estratti balsamici, utile per fluidificare il muco e favorire il benessere delle vie respiratorie.",
+            "prezzo": "15"
+        }, {
+            "nome": "Propoli Analcolica",
+            "immagine": "dati/immaginiProdotti/propoli.jpg",
+            "categoria": "Integratori Naturali",
+            "microcategoria": "Vie respiratorie",
+            "descrizione" : "Propoli analcolica è un integratore naturale, delicato e adatto a tutta la famiglia. Ideale per il benessere della gola e delle vie respiratorie, senza alcool",
+            "prezzo": "12"
+        },{
+            "nome": "Vitamina C Retard",
+            "immagine": "dati/immaginiProdotti/vitaminac.jpg",
+            "categoria": "Integratori Naturali",
+             "microcategoria": "Vitamine e Sali Minerali",
+            "descrizione" : "Vitamina C Retard è un integratore naturale che dona energia prolungata e difese attive tutto il giorno, con rilascio graduale per un benessere continuo!",
+            "prezzo": "9.90"
+        },{
+            "nome": "Vitamina D3 Vegan",
+            "immagine": "dati/immaginiProdotti/vitaminaD3.jpg",
+            "categoria": "Integratori Naturali",
+            "microcategoria": "Vitamine e Sali Minerali",
+            "descrizione" : "Vitamina D3 Vegana è un integratore naturale per il supporto delle ossa, dei muscoli e del sistema immunitario, 100% vegetale",
+            "prezzo": "10.50"
+        },{
+            "nome": "Scudovit",
+            "immagine": "dati/immaginiProdotti/scudovit.jpg",
+            "categoria": "Integratori Naturali",
+            "microcategoria": "Allergie e sistema immunitario",
+            "descrizione" : "Scudovit è un integratore alimentare  che stimola il sistema immunitario. Con estratti vegetali per proteggere il tuo benessere ogni giorno!",
+            "prezzo": "20"
+        },{
+            "nome": "Scudovit",
+            "immagine": "dati/immaginiProdotti/scudovit.jpg",
+            "categoria": "Integratori Naturali",
+            "microcategoria": "Vitamine e Sali Minerali",
+            "descrizione" : "Scudovit è un integratore alimentare  che stimola il sistema immunitario. Con estratti vegetali per proteggere il tuo benessere ogni giorno!",
+            "prezzo": "20"
+        }  
     ],
     "Cosmetici e cura della persona":[
         {
@@ -587,6 +649,118 @@
            "categortia" : "Cosmetici e cura della persona",
            "prezzo": "18",
             "immagine": "dati/immaginiProdotti/pompelmo.jpg"
+        },{
+            "nome": "Crema Corpo Solida",
+            "descrizione": "Crema corpo solida per un'idratazione intensa e sostenibile, con ingredienti naturali e zero sprechi. Equivale a 500gr di prodotto. Crema Elasticizzante, Crema Emolliete, Crema Rivitalizzante",
+            "microcategoria": "Cosmetica solida",
+            "categortia" : "Cosmetici e cura della persona",
+            "prezzo": "20",
+            "immagine": "dati/immaginiProdotti/solido.jpg"
+        },{
+            "nome": "Hydra-Detox Soft Mousse",
+            "descrizione": "Detergente delicato che purifica, idrata e rivitalizza la pelle con una texture soffice e avvolgente",
+            "microcategoria": "Detersione viso",
+            "categortia" : "Cosmetici e cura della persona",
+            "prezzo": "19",
+            "immagine": "dati/immaginiProdotti/softmousse.jpg"
+        },{
+            "nome": "Bagnodoccia Delicato BioFamily",
+            "descrizione": "Il Bagnodoccia Delicato BioFamily è un detergente delicato e naturale, ideale per la pelle di tutta la famiglia. La sua formula bio, arricchita con ingredienti vegetali, pulisce con dolcezza senza seccare, rispettando il pH fisiologico della pelle. Perfetto per un'igiene quotidiana delicata e rispettosa.",
+            "microcategoria": "Bagnodoccia",
+           "categortia" : "Cosmetici e cura della persona",
+           "prezzo": "14.50",
+            "immagine": "dati/immaginiProdotti/biofamily2.jpg"
+        }, {
+            "nome": "Sapone mani e viso",
+            "descrizione": "Il sapone delicato mani e viso avvolge la pelle in una carezza morbida e profumata, pulendo senza aggredire. Con ingredienti naturali e una formula delicata, è perfetto per idratare e proteggere la pelle durante i mesi più freddi, lasciandola fresca e vellutata.",
+            "microcategoria": "Detersione viso",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/abarelli.jpg",
+            "prezzo": "9.99"
+        },{
+            "nome": "Crema Crosta Lattea",
+            "descrizione": "Babylattea è una emulsione specificamente formulata per trattare delicatamente la crosta lattea nei neonati, offre sollievo da irritazioni e lenisce la pelle. Grazie alla sua composizione ricca di oli naturali e vitamina E, Babylattea non solo pulisce ma nutre e idrata il cuoio capelluto, preservando la sua morbidezza e salute.",
+            "categoria": "Cosmetici e cura della pelle",
+            "microcategoria": "prodotti per bambini",
+            "immagine": "dati/immaginiProdotti/babylattea.jpg",
+            "prezzo":"12"
+        },{
+            "nome": "Balsamindoccia",
+            "descrizione": "Balsamindoccia è un trattamento delicato e nutriente per la pelle, che unisce l'azione idratante di un balsamo alla freschezza di un gel doccia. La sua formula ricca e cremosa avvolge la pelle, lasciandola morbida, setosa e profumata, senza seccarla. Perfetto per un'esperienza di cura quotidiana, ideale per tutte le pelli, anche le più sensibili.",
+            "categoria": "Cosmetici e cura della pelle",
+            "microcategoria": "Prodotti per bambini",
+            "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
+            "prezzo": "12"
+        },{
+            "nome": "Balsamolio",
+            "descrizione": "Il Balsamolio è un trattamento ultra-nutriente che unisce le proprietà idratanti di un balsamo alla ricchezza di un olio. Grazie alla sua formula innovativa, avvolge la pelle in un abbraccio morbido e setoso, nutrendola in profondità senza ungere. Perfetto per pelli secche e disidratate, dona una sensazione di comfort e luminosità duratura.",
+            "categoria": "Cosmetici e cura della pelle",
+            "microcategoria": "Prodotti per bambini",
+            "immagine": "dati/immaginiProdotti/balsamolio.jpg",
+            "prezzo": "12"
+        },{
+            "nome": "Crema Viso Volumizzante",
+            "descrizione": "La Crema Volumizzante Viso leviga, rassoda e ridona pienezza alla pelle, migliorando visibilmente i contorni del viso per un aspetto più giovane e tonico.",
+            "microcategoria": "Creme viso",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/cremahelan.jpg",
+            "prezzo": "28,00"
+        },{
+            "nome": "Crema Viso Antiage",
+            "descrizione": "La Crema Viso Antiage Bio è un trattamento intensivo che combatte i segni dell'invecchiamento, promuovendo una pelle più liscia, tonica e luminosa. Grazie alla sua formula biologica ricca di attivi naturali, idrata, rassoda e riduce visibilmente rughe e linee sottili. Ideale per pelli mature o che necessitano di una cura anti-età quotidiana.",
+            "microcategoria": "Creme viso",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/cremanatures.jpg",
+            "prezzo": "20"
+        },{
+            "nome": "Crema Viso per neonati",
+            "descrizione": "Crema Viso per Neonati è una delicata emulsione pensata per proteggere e nutrire la pelle sensibile dei più piccoli. Con ingredienti naturali, idrata e lenisce, prevenendo arrossamenti e irritazioni, lasciando la pelle morbida e protetta. Adatta anche per pelli delicate e reattive.",
+            "microcategoria": "Prodotti per bambini",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/cremaviso.jpg",
+           "prezzo": "12"
+        },{
+            "nome": "Detergente intimo Mamma",
+            "descrizione": "Il Detergente Intimo Mamma è una formula delicata, studiata per rispettare il pH fisiologico della pelle durante la gravidanza e il post-partum. Con ingredienti naturali, lenisce, idrata e protegge la zona intima, offrendo freschezza e comfort quotidiano senza irritare. Ideale per pelli sensibili.",
+            "microcategoria": "Igiene intima",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/detergenteintimo.jpg",
+            "prezzo": "7,20"
+        },{
+            "nome": "Olio Emolliente Protettivo",
+            "descrizione": "L'Olio Emolliente Protettivo è un trattamento delicato pensato per la pelle sensibile dei più piccoli. Grazie alla sua formula naturale, arricchita con oli vegetali, nutre e protegge la pelle, mantenendola morbida e idratata, senza provocare irritazioni. Ideale per prevenire la secchezza e per lenire arrossamenti o irritazioni, offrendo un'azione emolliente e protettiva quotidiana.",
+           "microcategoria": "Prodotti per bambini",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/olioemolliente.jpg",
+            "prezzo": "6"
+        },{
+            "nome": "Sapone Intimo Naturale",
+            "descrizione": "Il Sapone Intimo di Alkemilla è un detergente delicato, formulato per rispettare il pH fisiologico della zona intima. Arricchito con ingredienti naturali e biologici, lenisce e idrata la pelle, proteggendola dalle irritazioni. Perfetto per un'igiene intima quotidiana e per pelli sensibili.",
+           "microcategoria": "Igiene intima",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/saponeintimo.jpg",
+            "prezzo": "6,30"
+        },{
+            "nome": "Scrub al Vino",
+            "descrizione": "Lo Scrub al Vino Detossinante è un trattamento esfoliante che rinnova la pelle, eliminando le cellule morte. Arricchito con estratti di vino e antiossidanti naturali, stimola la microcircolazione e detossina la pelle, lasciandola morbida, liscia e visibilmente più luminosa. Ideale per una pelle fresca e rigenerata.",
+           "microcategoria": "Scrub corpo",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/scrubvino.jpg",
+            "prezzo": "20"
+        },{
+            "nome": "Struccante delicato per Occhi",
+            "descrizione": "Lo Struccante delicato per occhi, specifico per rimuovere trucco e impurità dalla zona occhi,è a base di estratti vegetali. Rimuove efficacemente il trucco senza irritare, lasciando la pelle morbida e idratata. Perfetto per pelli delicate e per chi cerca un prodotto delicato ma efficace.",
+            "microcategoria": "Struccanti viso e occhi",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/struccantealkemilla.jpg",
+            "prezzo": "10"
+        },{
+            "nome": "Crema Purificante",
+            "descrizione": "La Crema Purificante è un trattamento leggero e delicato, ideale per pelli miste o impure. Grazie agli estratti vegetali purificanti, regola l'eccesso di sebo, dona freschezza e opacizza la pelle, lasciandola morbida e levigata. Perfetta per un'azione purificante quotidiana.",
+            "microcategoria": "Creme viso",
+            "categoria": "Cosmetici e cura della persona",
+            "immagine": "dati/immaginiProdotti/vegupcremapurificante.jpg",
+            "prezzo": "25"
         }
     ],
     "Prodotti in sconto":[
@@ -641,7 +815,7 @@
                 "nome": "Balsamolio",
                 "descrizione": "Il Balsamolio è un trattamento ultra-nutriente che unisce le proprietà idratanti di un balsamo alla ricchezza di un olio. Grazie alla sua formula innovativa, avvolge la pelle in un abbraccio morbido e setoso, nutrendola in profondità senza ungere. Perfetto per pelli secche e disidratate, dona una sensazione di comfort e luminosità duratura.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
-                "immagine": "dati/immaginiProdotti/balsamindoccia.jpg",
+                "immagine": "dati/immaginiProdotti/balsamolio.jpg",
                 "sconto": "40",
                 "prezzoOriginale": "20",
                 "prezzoScontato": "12"
@@ -876,7 +1050,7 @@
                 "prezzoScontato": "18,90"
             },{
                 "nome": "Tinte Biokap",
-                "descrizione": "oggettistica",
+                "descrizione": "Le tinte Biokap Naturali offrono una colorazione intensa e duratura, realizzata con ingredienti naturali e biologici. Senza ammoniaca, perossido o parabeni, rispettano la salute dei capelli, lasciandoli morbidi e brillanti. Ideali per un colorito naturale e delicato.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/tintebiokap.jpg",
                 "prezzoOriginale": "13",
@@ -890,7 +1064,7 @@
                 "prezzoScontato": "8.80"
             },{
                 "nome": "Crema Purificante",
-                "descrizione": "oggettistica",
+                "descrizione": "La Crema Purificante è un trattamento leggero e delicato, ideale per pelli miste o impure. Grazie agli estratti vegetali purificanti, regola l'eccesso di sebo, dona freschezza e opacizza la pelle, lasciandola morbida e levigata. Perfetta per un'azione purificante quotidiana.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/vegupcremapurificante.jpg",
                 "prezzoOriginale": "52",
