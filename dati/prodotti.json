@@ -393,98 +393,98 @@
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/carbone.jpg",
             "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto.Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Il carbone vegetale, o carbone attivo, è un integratore alimentare noto per le sue proprietà adsorbenti, che gli consentono di legarsi a tossine, gas intestinali e altre sostanze nocive, favorendo la loro eliminazione dall'organismo. Viene comunemente utilizzato per alleviare disturbi gastrointestinali come gonfiore, flatulenza e diarrea."
         },{
             "nome": "Cumino Composto",
             "categoria": "integratori alimentari",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/cumino.jpg",
             "prezzo": "20.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Il cumino composto è un integratore naturale combinato con altre erbe o nutrienti. Uutilizzato per favorire la digestione, ridurre il gonfiore addominale e migliorare la motilità intestinale. Il cumino ha proprietà carminative e antiossidanti, e può essere utile anche per supportare il metabolismo e la funzione epatica."
         },{
             "nome": "Eudigest",
             "categoria": "integratori alimentari",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/eudigest.jpg",
             "prezzo": "10.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Eudigest è un integratore che combina estratti vegetali come finocchio, menta piperita e camomilla, noti per le loro proprietà digestive, carminative e antispasmodiche. È indicato per favorire la digestione, ridurre gonfiore e flatulenza, e alleviare disturbi gastrointestinali leggeri. Grazie alla sua formulazione naturale, aiuta a migliorare il benessere intestinale e a supportare il sistema digestivo in modo delicato ed efficace."
         },{
             "nome": "Ferplus",
             "categoria": "integratori alimentari",
             "microcategoria": "Vitamine e Sali minerali",
             "immagine": "dati/immaginiProdotti/ferplus.jpg",
-            "prezzo": "21.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "prezzo": "22.00",
+            "descrizione": "Ferplus è un integratore a base di ferro, vitamina C e altre sostanze utili per contrastare la carenza di ferro. Favorisce la normale formazione dei globuli rossi, supporta il sistema immunitario e aiuta a combattere la stanchezza e l'affaticamento. La vitamina C e il rilascio prolungato migliora l'assorbimento del ferro, rendendo l'integratore più efficace."
         },{
             "nome": "Ficus Carica",
             "categoria": "integratori alimentari",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/ficus.jpg",
             "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Ficus Carica è un integratore a base di estratto di fico, utile per favorire il benessere digestivo e contrastare la stitichezza. Grazie alle sue proprietà lassative e emollienti, stimola il transito intestinale e aiuta a mantenere regolare la funzione intestinale."
         },{
             "nome": "Juglans Composto",
             "categoria": "integratori alimentari",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/jurglans.jpg",
             "prezzo": "25.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Juglans Composto è un integratore a base di estratti di noce (Juglans regia) e altre piante, utile per supportare la salute dell'intestino e favorire la depurazione dell'organismo. È particolarmente indicato per il contrasto di parassiti intestinali e per migliorare la funzionalità digestiva."
         },{
-            "nome": "Magnesio",
+            "nome": "Magnesio Completo",
             "categoria": "integratori alimentari",
             "microcategoria": "Vitamine e Sali minerali",
             "immagine": "dati/immaginiProdotti/magnesio.jpg",
             "prezzo": "21.90",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Magnesio Completo è un integratore che unisce magnesio, vitamina B6 e altri minerali per supportare il benessere muscolare e il sistema nervoso. Aiuta a contrastare la stanchezza, migliorare la funzione muscolare e ridurre i crampi, favorendo anche il rilassamento e la normale funzione psicologica. Disponibile in compresse e polvere"
         },{
             "nome": "Olio di Germe di Grano",
             "categoria": "integratori alimentari",
             "microcategoria": "Cura dei capelli e unghie",
             "immagine": "dati/immaginiProdotti/olio.jpg",
             "prezzo": "17.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Olio Germe di Grano è un integratore ricco di vitamina E, acidi grassi essenziali e antiossidanti, utile per supportare la salute della pelle, contrastare i segni dell'invecchiamento e migliorare il benessere cardiovascolare. Inoltre, favorisce la rigenerazione cellulare e la protezione dai danni ossidativi."
         },{
             "nome": "Pilosella",
             "categoria": "integratori alimentari",
             "microcategoria": "Detox e drenaggio",
             "immagine": "dati/immaginiProdotti/pilosella.jpg",
             "prezzo": "20.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Pilosella è un integratore a base di estratto di pilosella, una pianta con proprietà diuretiche e depurative. Aiuta a favorire l'eliminazione dei liquidi in eccesso, sostenendo il drenaggio e la salute delle vie urinarie, ed è utile per contrastare ritenzione idrica e gonfiore."
         },{
             "nome": "Ribes Nigrum",
             "categoria": "integratori alimentari",
             "microcategoria": "Allergie e sistema immunitario",
             "immagine": "dati/immaginiProdotti/ribes.jpg",
             "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Ribes Nigrum è un integratore a base di estratto di ribes nero, noto per le sue proprietà antinfiammatorie, antiossidanti e di supporto al sistema immunitario. È utile per alleviare i disturbi legati alle allergie stagionali e per favorire la salute delle articolazioni."
         },{
             "nome": "Rosmarino",
             "categoria": "integratori alimentari",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/rosmarino.jpg",
             "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Rosmarino è un integratore a base di estratto di rosmarino, noto per le sue proprietà antiossidanti, digestive e stimolanti. Aiuta a migliorare la circolazione sanguigna, favorisce la digestione e supporta la memoria e la concentrazione, contribuendo anche al benessere del fegato e del sistema respiratorio."
         },{
             "nome": "SnelSì",
             "categoria": "integratori alimentari",
             "microcategoria": "Detox e drenaggio",
             "immagine": "dati/immaginiProdotti/snel.jpg",
             "prezzo": "24.90",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Snelsi è un integratore a base di piante come fucus, garcinia e tè verde, utile per favorire il controllo del peso corporeo. Aiuta a stimolare il metabolismo, a migliorare il drenaggio dei liquidi e a ridurre la sensazione di gonfiore, supportando un'azione snellente e depurativa."
         },{
             "nome": "Sns Ted",
             "categoria": "integratori alimentari",
             "microcategoria": "Vitamine e Sali minerali",
             "immagine": "dati/immaginiProdotti/sns.jpg",
             "prezzo": "21.90",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "SNS Ted è un integratore che fornisce un'accurata combinazione di sali minerali essenziali, utili per reintegrare quelli persi a causa di stress, attività fisica intensa o squilibri elettrolitici. Favorisce l'equilibrio idrosalino, supporta la funzione muscolare e contribuisce al benessere generale, migliorando l'idratazione e la vitalità."
         },{
             "nome": "Spaccapietra",
             "categoria": "integratori alimentari",
             "microcategoria": "Detox e drenaggio",
             "immagine": "dati/immaginiProdotti/spaccapietra.jpg",
             "prezzo": "15.00",
-            "descrizione": "Una semplice e intiuitiva descrizione di dimensioni molto contenuto che vanno a descrivere l'utilizzo e le funzioni principali del prodotto."
+            "descrizione": "Spaccapietra è un integratore a base di estratto di Phyllanthus niruri, una pianta nota per le sue proprietà diuretiche e depurative. È utile per favorire l'eliminazione dei calcoli renali, supportare la salute delle vie urinarie e contribuire al drenaggio dei liquidi in eccesso."
         }
     ],
     "Cosmetici e cura della persona":[
@@ -504,14 +504,14 @@
             "immagine": "dati/immaginiProdotti/acquaprofumata.jpg"
         },{
             "nome": "Crema Mani e Piedi",
-            "descrizione": "oggettistica",
+            "descrizione": "Per un'idratazione profonda e duratura, le creme mani e piedi proteggono la pelle secca e screpolata con formule ricche di nutrienti naturali. Morbidezza, elasticità e comfort per mani e piedi sempre sani e vellutati.",
             "microcategoria": "Crema corpo",
             "categortia" : "Cosmetici e cura della persona",
             "prezzo": "7.90",
             "immagine": "dati/immaginiProdotti/cremamaniepiedi.jpg"
         },{
             "nome": "Porta saponette in sughero",
-            "descrizione": "oggettistica",
+            "descrizione": "I porta saponette in sughero combinano praticità e sostenibilità, offrendo una base naturale che permette al sapone di asciugarsi rapidamente. Leggeri, resistenti e dal design eco-friendly, sono un'aggiunta elegante e funzionale a qualsiasi bagno.",
             "microcategoria": "Cosmetica solida",
             "categortia" : "Cosmetici e cura della persona",
             "prezzo": "13",
@@ -584,14 +584,14 @@
     "Prodotti in sconto":[
             {
                 "nome": "Sapone mani e viso",
-                "descrizione": "oggettistica test test test test test test test test test test oggettistica test test test test test test test test test test",
+                "descrizione": "Il sapone delicato mani e viso avvolge la pelle in una carezza morbida e profumata, pulendo senza aggredire. Con ingredienti naturali e una formula delicata, è perfetto per idratare e proteggere la pelle durante i mesi più freddi, lasciandola fresca e vellutata.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/abarelli.jpg",
                 "prezzoOriginale": "12.50",
                 "prezzoScontato": "9.99"
             },{
                 "nome": "Linea Profumata Zucchero d'Ambra",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza golosa, intensa e profonda, con Ambra e nettare di zucchero Bio, ha proprietà antiossidanti e rigeneranti. Porfumo (18,90€), Crema Corpo 250ml (17€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/ambra.jpg",
                 "sconto": "30",
@@ -599,20 +599,20 @@
                 "prezzoScontato": "18.90"
             },{
                 "nome": "Linea Profumata Agrumèe",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza fresca e avvolgente, a base di Agrumi per richiamare gli odori tipici dell'Italia, ha proprietà tonificanti. Crema Corpo (15,50€), Bagnodoccia (8€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/agrumèe.jpg",
                 "sconto": "30",
                 "prezzoOriginale": "19,50",
-                "prezzoScontato": "15"
+                "prezzoScontato": "15,50"
             },{
                 "nome": "Linea Profumata Bouquet Fragola",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza femminile, fruttata e vellutata, con Fragola Bio e Fiori di Pesco, ha proprietà nutrienti e illuminanti. Disponibile solo il bagnodoccia",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/boquet.jpg",
                 "sconto": "30",
-                "prezzoOriginale": "27",
-                "prezzoScontato": "18.90"
+                "prezzoOriginale": "12,50",
+                "prezzoScontato": "8,80"
             },{
                 "nome": "Crema Crosta Lattea",
                 "descrizione": "oggettistica",
@@ -639,7 +639,7 @@
                 "prezzoScontato": "12"
             },{
                 "nome": "Linea Profumata Chinotto Rosa",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza rigenerante, briosa e sensuale, con Chinotto e Acqua di Rosa Bio, ha proprietà antiossidanti e addolcenti. Porfumo (18,90€), Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/chinotto.jpg",
                 "sconto": "30",
@@ -692,7 +692,7 @@
                 "prezzoScontato": "7,20"
             },{
                 "nome": "Linea Profumata Fiori Notturni",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza misteriosa, seducente e leggiadra, con Lavanda e Fiori della sera Bio, ha proprietà rilassanti e distensive. Disponibile solo il bagnodoccia.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/fiorinotturni.jpg",
                 "sconto": "30",
@@ -700,7 +700,7 @@
                 "prezzoScontato": "8,90"
             },{
                 "nome": "Linea Profumata Foglie d'Ebano",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza seducente, raffinata e intrigante, con Legni pregiati ed Estratto di Bergamotto Bio, ha proprietà tonificanti e leviganti. Disponibile solo la Crema Corpo.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/fogliedebano.jpg",
                 "sconto": "30",
@@ -716,7 +716,7 @@
                 "prezzoScontato": "18,20"
             },{
                 "nome": "Linea Profumata Legni",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza speziata, intensa e unisex, con Legni di Guaiaco e Vetiver, ha proprietà lenitive e rigeneranti. Porfumo (18,90€), Crema Corpo 150ml (12€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/legni.jpg",
                 "sconto": "30",
@@ -724,7 +724,7 @@
                 "prezzoScontato": "18,90"
             },{
                 "nome": "Linea Profumata Linfa d'Acero",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza avvolgente, inebriante e sensuale, con Acero e Zucchero di Canna, ha proprietà rigeneranti e tonificanti. Porfumo (18,90€), Crema Corpo 150ml (12€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/linfadacero.jpg",
                 "sconto": "30",
@@ -732,7 +732,7 @@
                 "prezzoScontato": "18,90"
             },{
                 "nome": "Linea Profumata Fiori di Mandorlo",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza invitante, addolcente e avvolgente, con Latte di Mandorla e Acqua di Fresia, ha proprietà idratanti e lenitive. Porfumo (18,90€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/mandorlo.jpg",
                 "sconto": "30",
@@ -748,7 +748,7 @@
                 "prezzoScontato": "18,20"
             },{
                 "nome": "Linea Profumata Muschio D'Acqua",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza fresca, frizzante e avvolgente, con estratti di Muschio e Ninfea, ha proprietà energizzanti e idratanti. Porfumo (18,90€), Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/muschio.jpg",
                 "sconto": "30",
@@ -756,7 +756,7 @@
                 "prezzoScontato": "18.90"
             },{
                 "nome": "Linea Profumata Narciso Nobile",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza fiorita, delicata e inebriante, con Narciso e Mughetto Bio, ha proprietà idratanti e nutrienti. Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/narciso.jpg",
                 "sconto": "30",
@@ -772,7 +772,7 @@
                 "prezzoScontato": "6"
             },{
                 "nome": "Linea Profumata Papavero d'Oriente",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza gioisa, speziata e sensuale, con Papavero e Ciliegia Bio, ha proprietà idratanti e protettive. Porfumo (18,90€), Crema Corpo 100ml (9,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/papavero.jpg",
                 "sconto": "30",
@@ -780,7 +780,7 @@
                 "prezzoScontato": "18.90"
             },{
                 "nome": "Linea Profumata Pepe Fondente",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza vibrante, calda e vivace, con Pepe nero Bio, Cioccolato, Vaniglia e Rum, ha proprietà tonificanti e antiossidanti.Disponibile solo il bagnodoccia.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/pepe.jpg",
                 "sconto": "30",
@@ -788,7 +788,7 @@
                 "prezzoScontato": "8.80"
             },{
                 "nome": "Linea Profumata Pomelia",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza giovane, rinfrescante e sognante, con Frangipani e Lampone, ha proprietà emollienti e idratanti. Porfumo (18,90€), Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/pomelia.jpg",
                 "sconto": "30",
@@ -817,7 +817,7 @@
                 "prezzoScontato": "21,70"
             },{
                 "nome": "Linea Profumata Salvia Mediterranea",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza selvaggia, speziata e maschile, con Pompelmo e Salvia Bio, ha proprietà idratanti e calmanti. Disponibile solo il dopobarba",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/salvia.jpg",
                 "prezzoOriginale": "15",
@@ -860,7 +860,7 @@
                 "prezzoScontato": "20"
             },{
                 "nome": "Linea Profumata Rosso The",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza raffinata e armoniosa, con Zenzero ed estratti di The Rosso Bio, ha proprietà detossinanti e tonificanti. Porfumo (18,90€), Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/therosso.jpg",
                 "sconto": "30",
@@ -875,7 +875,7 @@
                 "prezzoScontato": "8"
             },{
                 "nome": "Linea Profumata Vaniglia Bianca",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza avvolgente, dolce e delicata, con Vaniglia e Fiori di Loto, ha proprietà tonificanti e addolcenti. Disponibile solo il Bagnodoccia.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/vaniglia.jpg",
                 "prezzoOriginale": "12.50",
@@ -889,14 +889,14 @@
                 "prezzoScontato": "25"
             },{
                 "nome": "Linea Profumata Zagara Frizzante",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza fresca, solare e fruttata, con Mandarino e Fiori d'Arancio Bio, ha proprietà idratanti e illuminanti. Colonia (26,50€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/zagara.jpg",
                 "prezzoOriginale": "38",
                 "prezzoScontato": "26,50"
             },{
                 "nome": "Linea Profumata Fiori di Zenzero",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza vibrante, sorprendente e fresca, con Zenzero Bio e Orchidea, ha proprietà nutrienti e addolcenti. Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/zenzero.jpg",
                 "prezzoOriginale": "12,50",
