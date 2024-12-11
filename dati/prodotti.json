@@ -772,7 +772,7 @@
                 "prezzoScontato": "8.80"
             },{
                 "nome": "Olio Emolliente Protettivo",
-                "descrizione": "oggettistica",
+                "descrizione": "L'Olio Emolliente Protettivo è un trattamento delicato pensato per la pelle sensibile dei più piccoli. Grazie alla sua formula naturale, arricchita con oli vegetali, nutre e protegge la pelle, mantenendola morbida e idratata, senza provocare irritazioni. Ideale per prevenire la secchezza e per lenire arrossamenti o irritazioni, offrendo un'azione emolliente e protettiva quotidiana.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/olioemolliente.jpg",
                 "sconto": "40",
@@ -804,21 +804,21 @@
                 "prezzoScontato": "18.90"
             },{
                 "nome": "Profumatore Riviera",
-                "descrizione": "oggettistica",
+                "descrizione": "Riviera è una fragranza che si apre con la freschezza fruttata della Pera Nashi e la delicatezza dell'Iris. Nel cuore, il profumo si arricchisce di note floreali avvolgenti di Gelsomino e Fiori d'Arancio, mentre la base si riscalda con la dolcezza della Vaniglia, delle Praline e un accenno di Patchouli, creando un equilibrio tra freschezza, dolcezza e sensualità. Un profumo elegante, sofisticato e persistente.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/profumatorebastonciniriviera.jpg",
                 "prezzoOriginale": "16",
                 "prezzoScontato": "12"
             },{
                 "nome": "Profumatore Salento",
-                "descrizione": "oggettistica",
+                "descrizione": "Salento è una fragranza fresca e raffinata che richiama l'atmosfera mediterranea. Con note di agrumi e gelsomino, evoca il calore e la vivacità della tradizione salentina, donando un tocco di freschezza e luminosità agli ambienti. Perfetto per creare un'atmosfera accogliente e profumata, ricca di energia positiva.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/profumatorebastoncinisalento.jpg",
                 "prezzoOriginale": "16",
                 "prezzoScontato": "12"
             },{
                 "nome": "Linea Profumata Rum & Vetiver",
-                "descrizione": "oggettistica",
+                "descrizione": "Una fragranza intensa e avvolgente, che unisce la calda dolcezza del rum alla freschezza terrosa e legnosa del vetiver. Le note profonde e speziate creano un profumo deciso e sofisticato, ideale per chi cerca una fragranza unica e dal carattere forte.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/rumevetiver.jpg",
                 "prezzoOriginale": "28",
@@ -832,7 +832,7 @@
                 "prezzoScontato": "10,50"
             },{
                 "nome": "Sapone Intimo Naturale",
-                "descrizione": "oggettistica",
+                "descrizione": "Il Sapone Intimo di Alkemilla è un detergente delicato, formulato per rispettare il pH fisiologico della zona intima. Arricchito con ingredienti naturali e biologici, lenisce e idrata la pelle, proteggendola dalle irritazioni. Perfetto per un'igiene intima quotidiana e per pelli sensibili.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/saponeintimo.jpg",
                 "sconto":"30",
@@ -840,28 +840,28 @@
                 "prezzoScontato": "6,30"
             },{
                 "nome": "Scrub al Vino",
-                "descrizione": "oggettistica",
+                "descrizione": "Lo Scrub al Vino Detossinante è un trattamento esfoliante che rinnova la pelle, eliminando le cellule morte. Arricchito con estratti di vino e antiossidanti naturali, stimola la microcircolazione e detossina la pelle, lasciandola morbida, liscia e visibilmente più luminosa. Ideale per una pelle fresca e rigenerata.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/scrubvino.jpg",
                 "prezzoOriginale": "28",
                 "prezzoScontato": "20"
             },{
                 "nome": "Struccante delicato per Occhi",
-                "descrizione": "oggettistica",
+                "descrizione": "Lo Struccante delicato per occhi, specifico per rimuovere trucco e impurità dalla zona occhi,è a base di estratti vegetali. Rimuove efficacemente il trucco senza irritare, lasciando la pelle morbida e idratata. Perfetto per pelli delicate e per chi cerca un prodotto delicato ma efficace.",
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/struccantealkemilla.jpg",
                 "prezzoOriginale": "15,50",
                 "prezzoScontato": "10"
             },{
                 "nome": "Thermos",
-                "descrizione": "oggettistica",
+                "descrizione": "Il Thermos mantiene le tue bevande calde o fredde per ore, grazie alla sua doppia parete isolante. Pratico, elegante e resistente, è l'alleato perfetto per gustare tè, caffè o infusi in ogni momento della giornata.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/thermosrosa.jpg",
                 "prezzoOriginale": "25,90",
                 "prezzoScontato": "20"
             },{
                 "nome": "Thermos",
-                "descrizione": "oggettistica",
+                "descrizione": "Il Thermos mantiene le tue bevande calde o fredde per ore, grazie alla sua doppia parete isolante. Pratico, elegante e resistente, è l'alleato perfetto per gustare tè, caffè o infusi in ogni momento della giornata.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/thermosverde.jpg",
                 "prezzoOriginale": "25,90",
