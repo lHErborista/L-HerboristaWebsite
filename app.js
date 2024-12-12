@@ -171,9 +171,6 @@ function  renderProdottiScontati(){
 
         const productDiv = document.createElement("div");
         productDiv.classList.add("item-scontato");
-    
-
-
 
         productDiv.innerHTML = `
             
@@ -267,95 +264,24 @@ if (screenWidth <= 480){
 
 let datiProdotti = {};
 let currentPage = 1;
-let currentCategory = 'Tradizione erboristica';
+let currentCategory = '';
 const categoriaAttiva = document.getElementById('categoria-attiva');
 
 
 
 // render products for category
-function rendereCategoria() {
-    ProdottiContainer.innerHTML = "";  
-
-    const prodotti = datiProdotti[currentCategory] || [];
-    const startIndex = (currentPage - 1) * productsPerPage;
-    const endIndex = Math.min(startIndex + productsPerPage, prodotti.length);
-
-    for (let i = startIndex; i < endIndex; i++) {
-        const productDiv = document.createElement("div");
-        productDiv.classList.add("products");
-        
-        if(String(currentCategory) == "Prodotti in sconto"){ 
-       
-        
-            productDiv.innerHTML = `
-            <div class="prodotti-backdrop"></div>
-            <p class="sconto-prodotto">Sconto del ${prodotti[i]['sconto']}%</p>
-            <img src="${prodotti[i]['immagine']}" alt="">
-            <div class="products-description outlet-version">
-                <h3>${prodotti[i]['nome']}</h3> 
-
-                <p class="categoria-prodotto">${prodotti[i]['categoria']}</p>
-                <p class="prodotto-descrizione">${prodotti[i]['descrizione']}</p>
-
-                <div class="prezzo-container-div">
-
-                    <div class="prezzo-container">  
-                        <p class="prezzo-originale">prezzo: <span class="sbarrato">${prodotti[i]['prezzoOriginale']}€</span></p>
-                        <p class="prezzo-scontato"> ${prodotti[i]['prezzoScontato']}€</p>
-                    </div>
-
-                    <button class="prodotto-btn" data-whatsapp-number="393914393426" 
-                            data-prefill-message="Salve, vorrei ordinare il prodotto: ${prodotti[i]['nome']}">
-                        ordina
-                    </button>
-                </div>
-            </div>
-        `;
-        }else{
-            productDiv.innerHTML = `
-            <div class="prodotti-backdrop"></div>
-            
-            <img src="${prodotti[i]['immagine']}" alt="">
-            <div class="products-description">
-                <h3>${prodotti[i]['nome']}</h3>  
-                <p class="categoria-prodotto">${prodotti[i]['categoria']}</p>
-                <p class="prodotto-descrizione">${prodotti[i]['descrizione']}</p>
-    
-                <div class="prezzo-container-div">
-                    <p class="prezzo">prezzo: <span class="prezzo-detail">${prodotti[i]['prezzo']}€</span></p>
-                    <button class="prodotto-btn" data-whatsapp-number="393914393426" 
-                            data-prefill-message="Salve, vorrei ordinare il prodotto: ${prodotti[i]['nome']}">
-                        ordina
-                    </button>
-                </div>
-            </div>
-        `;
-        }
-        ProdottiContainer.appendChild(productDiv);
-    }
-    
-    document.querySelectorAll('.prodotto-btn').forEach(button => {
-        button.addEventListener('click', function(event) {
-            event.preventDefault(); 
-            event.stopPropagation(); 
-    
-            const whatsappNumber = this.getAttribute('data-whatsapp-number');
-            const message = this.getAttribute('data-prefill-message');
-            
-            const encodedMessage = encodeURIComponent(message);
-            
-            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-            
-            window.location.href = whatsappLink;
-        });
-    });
-    
-    setupPagination(); 
-}
 function setupPagination() {
     paginationContainer.innerHTML = "";  
 
-    const prodotti = datiProdotti[currentCategory] || [];
+    let prodotti = [];
+    if (currentCategory === '') {
+        // Usa tutti i prodotti
+        prodotti = Object.values(datiProdotti).flat();
+    } else {
+        // Usa solo i prodotti della categoria corrente
+        prodotti = datiProdotti[currentCategory] || [];
+    }
+
     const totalPages = Math.ceil(prodotti.length / productsPerPage);
     
     const maxPagesToShow = 5;  
@@ -398,6 +324,93 @@ function setupPagination() {
         createPageButton(totalPages);
     }
 }
+
+function rendereCategoria() {
+    ProdottiContainer.innerHTML = "";  
+
+    let prodotti = [];
+    if (currentCategory === '') {
+        // Unisci tutti i prodotti da tutte le categorie
+        prodotti = Object.values(datiProdotti).flat();
+        categoriaAttiva.textContent = '> Tutti i prodotti';
+    } else {
+        // Filtra solo i prodotti della categoria corrente
+        prodotti = datiProdotti[currentCategory] || [];
+    }
+
+    const startIndex = (currentPage - 1) * productsPerPage;
+    const endIndex = Math.min(startIndex + productsPerPage, prodotti.length);
+
+    for (let i = startIndex; i < endIndex; i++) {
+        const prodotto = prodotti[i];
+        const productDiv = document.createElement("div");
+        productDiv.classList.add("products");
+
+        // Verifica se il prodotto è in sconto
+        if (prodotto['sconto'] && prodotto['sconto'] > 0) { 
+            productDiv.innerHTML = `
+            <div class="prodotti-backdrop"></div>
+            <p class="sconto-prodotto">Sconto del ${prodotto['sconto']}%</p>
+            <img src="${prodotto['immagine']}" alt="">
+            <div class="products-description outlet-version">
+                <h3>${prodotto['nome']}</h3> 
+                <p class="categoria-prodotto">${prodotto['categoria']}</p>
+                <p class="prodotto-descrizione">${prodotto['descrizione']}</p>
+                <div class="prezzo-container-div">
+                    <div class="prezzo-container">  
+                        <p class="prezzo-originale">prezzo: <span class="sbarrato">${prodotto['prezzoOriginale']}€</span></p>
+                        <p class="prezzo-scontato"> ${prodotto['prezzoScontato']}€</p>
+                    </div>
+                    <button class="prodotto-btn" data-whatsapp-number="393914393426" 
+                            data-prefill-message="Salve, vorrei ordinare il prodotto: ${prodotto['nome']}">
+                        ordina
+                    </button>
+                </div>
+            </div>
+        `;
+        } else {
+            // Struttura standard per i prodotti non scontati
+            productDiv.innerHTML = `
+            <div class="prodotti-backdrop"></div>
+            <img src="${prodotto['immagine']}" alt="">
+            <div class="products-description">
+                <h3>${prodotto['nome']}</h3>  
+                <p class="categoria-prodotto">${prodotto['categoria']}</p>
+                <p class="prodotto-descrizione">${prodotto['descrizione']}</p>
+                <div class="prezzo-container-div">
+                    <p class="prezzo">prezzo: <span class="prezzo-detail">${prodotto['prezzo']}€</span></p>
+                    <button class="prodotto-btn" data-whatsapp-number="393914393426" 
+                            data-prefill-message="Salve, vorrei ordinare il prodotto: ${prodotto['nome']}">
+                        ordina
+                    </button>
+                </div>
+            </div>
+        `;
+        }
+
+        ProdottiContainer.appendChild(productDiv);
+    }
+
+    // Event listener per i pulsanti "ordina"
+    document.querySelectorAll('.prodotto-btn').forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            event.stopPropagation(); 
+    
+            const whatsappNumber = this.getAttribute('data-whatsapp-number');
+            const message = this.getAttribute('data-prefill-message');
+            
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+            window.location.href = whatsappLink;
+        });
+    });
+
+    // Setup della paginazione
+    setupPagination(); 
+}
+
+
 function createPageButton(page) {
     const button = document.createElement("button");
     button.textContent = page;
