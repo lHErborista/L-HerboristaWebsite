@@ -430,19 +430,19 @@
             "prezzo": "20.00",
             "descrizione": "Il cumino composto è un integratore naturale combinato con altre erbe o nutrienti. Uutilizzato per favorire la digestione, ridurre il gonfiore addominale e migliorare la motilità intestinale. Il cumino ha proprietà carminative e antiossidanti, e può essere utile anche per supportare il metabolismo e la funzione epatica."
         },{
-            "nome": "Eudigest",
+            "nome": "Eudigest No Gas",
             "categoria": "Integratori Naturali",
             "microcategoria": "Digestione e benessere intestinale",
             "immagine": "dati/immaginiProdotti/eudigest.jpg",
             "prezzo": "10.00",
-            "descrizione": "Eudigest è un integratore che combina estratti vegetali come finocchio, menta piperita e camomilla, noti per le loro proprietà digestive, carminative e antispasmodiche. È indicato per favorire la digestione, ridurre gonfiore e flatulenza, e alleviare disturbi gastrointestinali leggeri. Grazie alla sua formulazione naturale, aiuta a migliorare il benessere intestinale e a supportare il sistema digestivo in modo delicato ed efficace."
+            "descrizione": "Eudigest è un integratore che combina estratti vegetali come finocchio, menta piperita e camomilla, noti per le loro proprietà digestive, carminative e antispasmodiche. È indicato per favorire la digestione, ridurre gonfiore e flatulenza, e alleviare disturbi gastrointestinali leggeri. Grazie alla sua formulazione naturale, aiuta a migliorare il benessere intestinale e a supportare il sistema digestivo in modo delicato ed efficace. Contiene: Carbone Vegetale, Finocchio Frutti e.s., Carvi frutti, Zenzero."
         },{
             "nome": "Ferplus",
             "categoria": "Integratori Naturali",
             "microcategoria": "Vitamine e Sali minerali",
             "immagine": "dati/immaginiProdotti/ferplus.jpg",
             "prezzo": "22.00",
-            "descrizione": "Ferplus è un integratore a base di ferro, vitamina C e altre sostanze utili per contrastare la carenza di ferro. Favorisce la normale formazione dei globuli rossi, supporta il sistema immunitario e aiuta a combattere la stanchezza e l'affaticamento. La vitamina C e il rilascio prolungato migliora l'assorbimento del ferro, rendendo l'integratore più efficace."
+            "descrizione": "Ferplus è un integratore a base di ferro, vitamina C e altre sostanze utili per contrastare la carenza di ferro. Favorisce la normale formazione dei globuli rossi, supporta il sistema immunitario e aiuta a combattere la stanchezza e l'affaticamento. La vitamina C e il rilascio prolungato migliora l'assorbimento del ferro, rendendo l'integratore più efficace. Contiene: Ferro, Vitamina B12, Vitamina C, Acido Folico, Beta-carotene."
         },{
             "nome": "Ficus Carica",
             "categoria": "Integratori Naturali",
@@ -505,7 +505,7 @@
             "microcategoria": "Vitamine e Sali minerali",
             "immagine": "dati/immaginiProdotti/sns.jpg",
             "prezzo": "21.90",
-            "descrizione": "SNS Ted è un integratore che fornisce un'accurata combinazione di sali minerali essenziali, utili per reintegrare quelli persi a causa di stress, attività fisica intensa o squilibri elettrolitici. Favorisce l'equilibrio idrosalino, supporta la funzione muscolare e contribuisce al benessere generale, migliorando l'idratazione e la vitalità."
+            "descrizione": "SNS Ted è un integratore che fornisce un'accurata combinazione di sali minerali essenziali, utili per reintegrare quelli persi a causa di stress, attività fisica intensa o squilibri elettrolitici. Favorisce l'equilibrio idrosalino, supporta la funzione muscolare e contribuisce al benessere generale, migliorando l'idratazione e la vitalità. Contiene: Magnesio e Potassio"
         },{
             "nome": "Spaccapietra",
             "categoria": "Integratori Naturali",
@@ -518,7 +518,7 @@
             "immagine": "dati/immaginiProdotti/mucolid.jpg",
             "categoria": "Integratori Naturali",
             "microcategoria": "Vie respiratorie",
-            "descrizione" : "Mucolid Bronc NAC 600 è un integratore naturale con N-acetilcisteina, piante ed estratti balsamici, utile per fluidificare il muco e favorire il benessere delle vie respiratorie.",
+            "descrizione" : "Mucolid Bronc NAC 600 è un integratore naturale con N-acetilcisteina, piante ed estratti balsamici, utile per fluidificare il muco e favorire il benessere delle vie respiratorie. Contiene: N-acetilcisteina, Cisto e.s.,polifenoli app., Edera e.s., Pino Mugo o.e.",
             "prezzo": "15"
         }, {
             "nome": "Propoli Analcolica",
@@ -532,7 +532,7 @@
             "immagine": "dati/immaginiProdotti/vitaminac.jpg",
             "categoria": "Integratori Naturali",
              "microcategoria": "Vitamine e Sali Minerali",
-            "descrizione" : "Vitamina C Retard è un integratore naturale che dona energia prolungata e difese attive tutto il giorno, con rilascio graduale per un benessere continuo!",
+            "descrizione" : "Vitamina C Retard è un integratore naturale che dona energia prolungata e difese attive tutto il giorno, con rilascio graduale per un benessere continuo! Contiene: Vitamina C e Rosa Canina",
             "prezzo": "9.90"
         },{
             "nome": "Vitamina D3 Vegan",
@@ -546,7 +546,7 @@
             "immagine": "dati/immaginiProdotti/scudovit.jpg",
             "categoria": "Integratori Naturali",
             "microcategoria": "Allergie e sistema immunitario",
-            "descrizione" : "Scudovit è un integratore alimentare  che stimola il sistema immunitario. Con estratti vegetali per proteggere il tuo benessere ogni giorno!",
+            "descrizione" : "Scudovit è un integratore alimentare  che stimola il sistema immunitario. Con estratti vegetali per proteggere il tuo benessere ogni giorno! Contiene: Zinco, Vitamina C, Vitamina D3 e Vitamina K2.",
             "prezzo": "20"
         }
     ],
@@ -763,6 +763,7 @@
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/abarelli.jpg",
                 "prezzoOriginale": "12.50",
+                "sconto": "20",
                 "prezzoScontato": "9.99"
             },{
                 "nome": "Linea Profumata Zucchero d'Ambra",
@@ -826,14 +827,16 @@
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/cremahelan.jpg",
                 "prezzoOriginale": "38,00",
-                "prezzoScontato": "28,00"
+                "prezzoScontato": "28,00",
+                "sconto": "25"
             },{
                 "nome": "Cioccolatini al Pistacchio",
                 "descrizione": "I Cioccolatini al Pistacchio della Leone sono un goloso regalo che unisce la cremosità del cioccolato fondente alla bontà del pistacchio, creando un perfetto equilibrio di sapori. Con una presentazione elegante e festiva, sono il pensiero ideale per sorprendere e deliziare durante le festività natalizie.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/cioccolatinipistacchio.jpg",
                 "prezzoOriginale": "16",
-                "prezzoScontato": "12"
+                "prezzoScontato": "12",
+                "sconto":"25"
             },{
                 "nome": "Crema Lenitiva per il seno",
                 "descrizione": "Crema Lenitiva per il Seno è studiata per alleviare il fastidio e la sensibilità della pelle durante la gravidanza e l'allattamento. Grazie alla sua formula delicata e nutriente, idrata, rassoda e lenisce, proteggendo la pelle da rossori e irritazioni.",
@@ -848,7 +851,8 @@
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/cremanatures.jpg",
                 "prezzoOriginale": "31",
-                "prezzoScontato": "20"
+                "prezzoScontato": "20",
+                "sconto": "35"
             },{
                 "nome": "Crema Viso per neonati",
                 "descrizione": "Crema Viso per Neonati è una delicata emulsione pensata per proteggere e nutrire la pelle sensibile dei più piccoli. Con ingredienti naturali, idrata e lenisce, prevenendo arrossamenti e irritazioni, lasciando la pelle morbida e protetta. Adatta anche per pelli delicate e reattive.",
@@ -975,28 +979,32 @@
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/profumatorebastonciniriviera.jpg",
                 "prezzoOriginale": "16",
-                "prezzoScontato": "12"
+                "prezzoScontato": "12",
+                "sconto": "25"
             },{
                 "nome": "Profumatore Salento",
                 "descrizione": "Salento è una fragranza fresca e raffinata che richiama l'atmosfera mediterranea. Con note di agrumi e gelsomino, evoca il calore e la vivacità della tradizione salentina, donando un tocco di freschezza e luminosità agli ambienti. Perfetto per creare un'atmosfera accogliente e profumata, ricca di energia positiva.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/profumatorebastoncinisalento.jpg",
                 "prezzoOriginale": "16",
-                "prezzoScontato": "12"
+                "prezzoScontato": "12",
+                "sconto": "25"
             },{
                 "nome": "Linea Profumata Rum & Vetiver",
                 "descrizione": "Una fragranza intensa e avvolgente, che unisce la calda dolcezza del rum alla freschezza terrosa e legnosa del vetiver. Le note profonde e speziate creano un profumo deciso e sofisticato, ideale per chi cerca una fragranza unica e dal carattere forte.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/rumevetiver.jpg",
                 "prezzoOriginale": "28",
-                "prezzoScontato": "21,70"
+                "prezzoScontato": "21,70",
+                "sconto": "30"
             },{
                 "nome": "Linea Profumata Salvia Mediterranea",
                 "descrizione": "Una fragranza selvaggia, speziata e maschile, con Pompelmo e Salvia Bio, ha proprietà idratanti e calmanti. Disponibile solo il dopobarba",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/salvia.jpg",
                 "prezzoOriginale": "15",
-                "prezzoScontato": "10,50"
+                "prezzoScontato": "10,50",
+                "sconto": "30"
             },{
                 "nome": "Sapone Intimo Naturale",
                 "descrizione": "Il Sapone Intimo di Alkemilla è un detergente delicato, formulato per rispettare il pH fisiologico della zona intima. Arricchito con ingredienti naturali e biologici, lenisce e idrata la pelle, proteggendola dalle irritazioni. Perfetto per un'igiene intima quotidiana e per pelli sensibili.",
@@ -1011,6 +1019,7 @@
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/scrubvino.jpg",
                 "prezzoOriginale": "28",
+                "sconto":"30",
                 "prezzoScontato": "20"
             },{
                 "nome": "Struccante delicato per Occhi",
@@ -1018,6 +1027,7 @@
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/struccantealkemilla.jpg",
                 "prezzoOriginale": "15,50",
+                "sconto":"35",
                 "prezzoScontato": "10"
             },{
                 "nome": "Thermos",
@@ -1025,14 +1035,16 @@
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/thermosrosa.jpg",
                 "prezzoOriginale": "25,90",
-                "prezzoScontato": "20"
+                "prezzoScontato": "20",
+                "sconto": "25"
             },{
                 "nome": "Thermos",
                 "descrizione": "Il Thermos mantiene le tue bevande calde o fredde per ore, grazie alla sua doppia parete isolante. Pratico, elegante e resistente, è l'alleato perfetto per gustare tè, caffè o infusi in ogni momento della giornata.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/thermosverde.jpg",
                 "prezzoOriginale": "25,90",
-                "prezzoScontato": "20"
+                "prezzoScontato": "20",
+                "sconto": "25"
             },{
                 "nome": "Linea Profumata Rosso The",
                 "descrizione": "Una fragranza raffinata e armoniosa, con Zenzero ed estratti di The Rosso Bio, ha proprietà detossinanti e tonificanti. Porfumo (18,90€), Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
@@ -1047,7 +1059,8 @@
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/tintebiokap.jpg",
                 "prezzoOriginale": "13",
-                "prezzoScontato": "8"
+                "prezzoScontato": "8",
+                "sconto": "40"
             },{
                 "nome": "Linea Profumata Vaniglia Bianca",
                 "descrizione": "Una fragranza avvolgente, dolce e delicata, con Vaniglia e Fiori di Loto, ha proprietà tonificanti e addolcenti. Disponibile solo il Bagnodoccia.",
@@ -1061,27 +1074,32 @@
                 "microcategoria": "Cosmetici e cura della pelle sconti",
                 "immagine": "dati/immaginiProdotti/vegupcremapurificante.jpg",
                 "prezzoOriginale": "52",
-                "prezzoScontato": "25"
+                "prezzoScontato": "25",
+                "sconto": "50"
             },{
                 "nome": "Linea Profumata Zagara Frizzante",
                 "descrizione": "Una fragranza fresca, solare e fruttata, con Mandarino e Fiori d'Arancio Bio, ha proprietà idratanti e illuminanti. Colonia (26,50€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/zagara.jpg",
                 "prezzoOriginale": "38",
-                "prezzoScontato": "26,50"
+                "prezzoScontato": "26,50",
+                "sconto": "30"
             },{
                 "nome": "Linea Profumata Fiori di Zenzero",
                 "descrizione": "Una fragranza vibrante, sorprendente e fresca, con Zenzero Bio e Orchidea, ha proprietà nutrienti e addolcenti. Crema Corpo 100ml (9,80€), Bagnodoccia (8,80€).",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
                 "immagine": "dati/immaginiProdotti/zenzero.jpg",
                 "prezzoOriginale": "12,50",
-                "prezzoScontato": "8,80"
+                "prezzoScontato": "8,80",
+                "sconto": "30"
             },{
                 "nome": "Crema Mani e Piedi",
                 "descrizione": "Per un'idratazione profonda e duratura, le creme mani e piedi proteggono la pelle secca e screpolata con formule ricche di nutrienti naturali. Morbidezza, elasticità e comfort per mani e piedi sempre sani e vellutati.",
                 "microcategoria": "Idee regalo ed oggettistica sconti",
-                "prezzo": "7.90",
-                "immagine": "dati/immaginiProdotti/cremamaniepiedi.jpg"
+                "prezzoScontato": "7.90",
+                "prezzoOriginale": "11",
+                "immagine": "dati/immaginiProdotti/cremamaniepiedi.jpg",
+                "sconto": "30"
             }
     ]
 }
