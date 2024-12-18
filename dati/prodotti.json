@@ -395,6 +395,146 @@
             "categoria": "Idee regalo ed oggettistica",
             "immagine": "dati/immaginiProdotti/thermosverde.jpg",
             "prezzo": "20"
+        },{
+            "nome": "Foulard Bamboo Alma Tadema",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Peonie fluttuanti sembrano mosse dal vento. Per un’atmosfera rarefatta ed elegante",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/almatadema(2).jpg"
+        },{
+            "nome": "Foulard Bamboo Alma Tadema",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Peonie fluttuanti sembrano mosse dal vento. Per un’atmosfera rarefatta ed elegante",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/almatadema.jpg"
+        },{
+            "nome": "Foulard Bamboo Balla",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Un nuovo e accattivante decoro geometrico che lascia spazio al colore e alla fantasia.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/balla.jpg"
+        },{
+            "nome": "Foulard Bamboo Basquiat",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Fantasia dal carattere deciso, metropolitano",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/basquiat.jpg"
+        },{
+            "nome": "Foulard Bamboo Boetti",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Opere geometriche dai tratti e toni molto decisi.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/boetti.jpg"
+        },{
+            "nome": "Foulard Bamboo Chagall",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Pattern moderno e vibrante, è l’ideale per dare quel twist di colore che non ti aspetti, sempre in linea con le tendenze!",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/chagall.jpg"
+        },{
+            "nome": "Foulard Bamboo Tinta Unita",
+            "descrizione": "Foulard realizzato in filato di bambù. Made in Italy.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/colori.jpg"
+        },{
+            "nome": "Foulard Bamboo De Chirico",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Fiori inafferrabili che convivono con la modernità e l’effimero",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/dechirico.jpg"
+        },{
+            "nome": "Foulard Bamboo Degas",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Lilium fluttuanti che ricordano la forma di un tutù.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/degas.jpg"
+        },{
+            "nome": "Foulard Bamboo Escher",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Progetto decorativo dalle molteplici chiavi di lettura. Organizzato e rappresentato attraverso schemi ben definiti, matematici.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/escher.jpg"
+        },{
+            "nome": "Foulard Bamboo Durer",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Un fiore particolare: la Protea che indica diversità, originalità e coraggio.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/durer.jpg"
+        },{
+            "nome": "Foulard Bamboo Klee",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Forme sospese e spigolose che nell’insieme offrono un senso di armonia ed eleganza.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/kleeblu.jpg"
+        },{
+            "nome": "Foulard Bamboo Klee",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Forme sospese e spigolose che nell’insieme offrono un senso di armonia ed eleganza.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/klee.jpg"
+        },{
+            "nome": "Foulard Bamboo Mirò",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Forte e deciso. Toni forti e decisi che danno vita ad una tavolozza calda e mutevole.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/mirò.jpg"
+        },{
+            "nome": "Foulard Bamboo Mucha",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Fresco e romantico, Mucha ti veste di tepore primaverile, tanto delicato quanto i fiori più belli.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/mucha.jpg"
+        },{
+            "nome": "Foulard Bamboo Mucha",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Fresco e romantico, Mucha ti veste di tepore primaverile, tanto delicato quanto i fiori più belli.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/mucha(2).jpg"
+        },{
+            "nome": "Foulard Bamboo Picasso",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Decoro iconico dai tratti decisi. Un opera decorativa fatta ad arte.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "28",
+            "immagine": "dati/immaginiProdotti/picasso.jpg"
+        },{
+            "nome": "Foulard Bamboo Lupin",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Tutto diventa molto semplice e facile quando il trucco viene spiegato. Per bambini",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "23",
+            "immagine": "dati/immaginiProdotti/lupin.jpg"
+        },{
+            "nome": "Foulard Bamboo Peter Pan",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. Nel momento stesso in cui dubitate di poter volare, cessate anche di essere in grado di farlo. Per bambini",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "23",
+            "immagine": "dati/immaginiProdotti/peterpan.jpg"
+        },{
+            "nome": "Foulard Bamboo Harlock",
+            "descrizione": "Foulard realizzato in filato di bambù. Nato dall’idea di coniugare Arte e Natura, Made in Italy. I sogni non svaniscono, finché le persone non li abbandonano. Per bambini",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Foulard Bamboo",
+            "prezzo": "23",
+            "immagine": "dati/immaginiProdotti/teschi.jpg"
         }
     ],
     "Alimentazione naturale":[
