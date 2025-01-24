@@ -619,6 +619,69 @@
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "6.90",
             "immagine": "dati/immaginiProdotti/ariaargento.jpg"
+        },{
+            "nome": "Orecchini con pendente Valentina",
+            "descrizione": "Cerchietto medio con farfalle. Giocoso, romantico, femminile. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "18.90",
+            "immagine": "dati/immaginiProdotti/valentinaargento.jpg"
+        },{
+            "nome": "Orecchini a lobo Silvia",
+            "descrizione": "Stelle tridimensionali. Femminili, festivi. Orecchini speculari a chiusura con farfalla. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "14.90",
+            "immagine": "dati/immaginiProdotti/silviaoro.jpg"
+        },{
+            "nome": "Orecchini a lobo Rossella",
+            "descrizione": "Stella luminosa. Femminile, sfaccettata. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "12.90",
+            "immagine": "dati/immaginiProdotti/rossellaoro.jpg"
+        },{
+            "nome": "Orecchini a cerchio Marta",
+            "descrizione": "Cerchietto medio con pietre. Delicato, versatile, senza tempo. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "16.90",
+            "immagine": "dati/immaginiProdotti/martaoro.jpg"
+        },{
+            "nome": "Orecchini a lobo Marilena",
+            "descrizione": "Stella Luminosa. Festivo, Elegante. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "14.90",
+            "immagine": "dati/immaginiProdotti/marilenaargento.jpg"
+        },{
+            "nome": "Orecchini a cerchio Isabella Oro",
+            "descrizione": "Cerchietto largo con pietre. Classico, elegante, seducente. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "19.90",
+            "immagine": "dati/immaginiProdotti/isabellaoro.jpg"
+        },{
+            "nome": "Orecchini a cerchio Isabella Argento",
+            "descrizione": "Cerchietto largo con pietre. Classico, elegante, seducente. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "19.90",
+            "immagine": "dati/immaginiProdotti/isabellaargento.jpg"
+        },{
+            "nome": "Orecchini a cerchio Imma Argento",
+            "descrizione": "Cerchietto a V con pietre carré. Essenziale, luminoso, contemporaneo. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "18.90",
+            "immagine": "dati/immaginiProdotti/immaargento.jpg"
+        },{
+            "nome": "Orecchini pendenti Annalisa",
+            "descrizione": "Baguette semi-pendente. Classico, luminoso, raffinato. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "16.90",
+            "immagine": "dati/immaginiProdotti/annalisaargento.jpg"
         }
     ],
     "Alimentazione naturale":[
