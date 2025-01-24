@@ -535,6 +535,90 @@
             "microcategoria": "Foulard Bamboo",
             "prezzo": "23",
             "immagine": "dati/immaginiProdotti/teschi.jpg"
+        },{
+            "nome": "Orecchini Vittoria oro",
+            "descrizione": "Cerchietto di piccole dimensioni con pendente. Luminoso, raffinato, versatile. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "17.90",
+            "immagine": "dati/immaginiProdotti/vittoriaoro.jpg"
+        },{
+            "nome": "Orecchini Vittoria Argento",
+            "descrizione": "Cerchietto di piccole dimensioni con pendente. Luminoso, raffinato, versatile. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "17.90",
+            "immagine": "dati/immaginiProdotti/vittoriaargento.jpg"
+        },{
+            "nome": "Orecchino Singolo Stella oro",
+            "descrizione": "Cerchietto di piccole dimensioni con pendente. Giocoso, versatile, unico. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "6.90",
+            "immagine": "dati/immaginiProdotti/Stellaoro.jpg"
+        },{
+            "nome": "Orecchino Singolo Stella argento",
+            "descrizione": "Cerchietto di piccole dimensioni con pendente. Giocoso, versatile, unico. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "6.90",
+            "immagine": "dati/immaginiProdotti/Stellaargento.jpg"
+        },{
+            "nome": "Orecchino Singolo Miriam oro",
+            "descrizione": "Cerchietto di medie dimensioni in acciaio con pendente con zircone in ottone. Sofisticato, versatile, classico. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "6.90",
+            "immagine": "dati/immaginiProdotti/miriamoro.jpg"
+        },{
+            "nome": "Orecchino Singolo Miriam Argento",
+            "descrizione": "Cerchietto di medie dimensioni in acciaio con pendente con zircone in ottone. Sofisticato, versatile, classico. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "6.90",
+            "immagine": "dati/immaginiProdotti/miriamargento.jpg"
+        },{
+            "nome": "Orecchini a lobo con pendente Elsa oro",
+            "descrizione": "Orecchino a lobo in ottone con zirconi e pendente. Audace, asimmetrico, moderno. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "14.90",
+            "immagine": "dati/immaginiProdotti/elsaoro.jpg"
+        },{
+            "nome": "Orecchini a lobo con pendente Elsa argento",
+            "descrizione": "Orecchino a lobo in ottone con zirconi e pendente. Audace, asimmetrico, moderno. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "14.90",
+            "immagine": "dati/immaginiProdotti/elsaargento.jpg"
+        },{
+            "nome": "Orecchini pendenti Diana Argento",
+            "descrizione": "Orecchino in acciaio di medie dimensioni con zirconi e perla pendente. Raffinato, elegante, formale. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "18.90",
+            "immagine": "dati/immaginiProdotti/dianaargento.jpg"
+        },{
+            "nome": "Orecchini a lobo Dafne Argento",
+            "descrizione": "Orecchino a lobo in ottone con zirconi e perla. Versatile, discreto, elegante. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "11.90",
+            "immagine": "dati/immaginiProdotti/dafneargento.jpg"
+        },{
+            "nome": "Orecchino Singolo Aria",
+            "descrizione": "Cerchietto di medie dimensioni in acciaio con pendente con zircone in ottone. Glamour, semplice, sofisticato. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "6.90",
+            "immagine": "dati/immaginiProdotti/ariaoro.jpg"
+        },{
+            "nome": "Orecchino Singolo Aria",
+            "descrizione": "Cerchietto di medie dimensioni in acciaio con pendente con zircone in ottone. Glamour, semplice, sofisticato. Testati al nickel cadmio e piombo.",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Pietre, cristalli e gioielli",
+            "prezzo": "6.90",
+            "immagine": "dati/immaginiProdotti/ariaargento.jpg"
         }
     ],
     "Alimentazione naturale":[
