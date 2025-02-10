@@ -780,6 +780,55 @@
             "microcategoria": "Pietre, cristalli e gioielli",
             "prezzo": "9.90",
             "immagine": "dati/immaginiProdotti/gioia.jpg"
+        },{
+            "nome": "Tazza Love con peluche",
+            "descrizione": "Regala un abbraccio di dolcezza a San Valentino con questa tazza unica, accompagnata da un morbido peluche orso. Un pensiero tenero e originale per la persona che ami!",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale San Valentino",
+            "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/tazzaorsosvalentino.jpg"
+        },{
+            "nome": "Tazzina Loved con cioccolatini Leone",
+            "descrizione": "Fai felice il cuore di chi ami con questa piccola tazza accompagnata da deliziosi cioccolatini. Il regalo perfetto per un San Valentino dolce e speciale!",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale San Valentino",
+            "prezzo": "10",
+            "immagine": "dati/immaginiProdotti/tazzapiccola.jpg"
+        },{
+            "nome": "Orologio I Love you con tisana",
+            "descrizione": "Un regalo perfetto per San Valentino: un romantico orologio abbinato ad una dolce tisana. Un tocco di gioia e relax per chi ami!",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale San Valentino",
+            "prezzo": "20",
+            "immagine": "dati/immaginiProdotti/orologiosvalentino.jpg"
+        },{
+            "nome": "Mestolo a forma di cuore",
+            "descrizione": "Un mestolo a forma di cuore: aggiungi un tocco d'amore alla cucina di chi ami!",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale San Valentino",
+            "prezzo": "9.90",
+            "immagine": "dati/immaginiProdotti/mestolocuoresvalentino.jpg"
+        },{
+            "nome": "Lampada di sale a forma di cuore",
+            "descrizione": "Illumina il cuore di chi ami con una lampada di sale a forma di cuore. Un regalo romantico e rilassante per un San Valentino indimenticabile!",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale San Valentino",
+            "prezzo": "16.90",
+            "immagine": "dati/immaginiProdotti/lampadacuoresvalentino.jpg"
+        },{
+            "nome": "Bambini con cioccolatini",
+            "descrizione": "Un dolce pensiero per San Valentino: bambini di pan di zenzero decorati con cioccolatini. Un regalo goloso e originale per grandi e piccini!",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale San Valentino",
+            "prezzo": "18",
+            "immagine": "dati/immaginiProdotti/bambinisvalentino.jpg"
+        },{
+            "nome": "Candela Joie de la Vie",
+            "descrizione": "Accendi l'amore con la candela 'Joie de la Vie' per San Valentino. Un tocco di luce e fragranza per un'atmosfera romantica e raffinata!",
+            "categoria": "Idee regalo ed oggettistica",
+            "microcategoria": "Speciale San Valentino",
+            "prezzo": "14",
+            "immagine": "dati/immaginiProdotti/candelasvalentino.jpg"
         }
     ],
     "Alimentazione naturale":[
